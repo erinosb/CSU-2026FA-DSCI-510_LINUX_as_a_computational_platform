@@ -38,12 +38,13 @@ Lucky you! Your Mac runs on a Linux-like operating system. All you need to get r
 
  ### Windows PC users
 
-Please install Linux on your Windows operating system.
+Please **install Linux on your Windows operating system**.
 
-  1.  Please read Install the Linux Subsystem on Windows to install the system. Opt for UBUNTU distribution (not LTS) if/when you have a choice.
-    - When complete, you'll be asked for a username and password specific to your Ubuntu installation. These don't need to be the same as your Windows 11 credentials. With this step complete, you'll find yourself at the Ubuntu bash command line.
+  1.  Please read [Install the Linux Subsystem on Windows](https://learn.microsoft.com/en-us/windows/wsl/install) to install the system. 
+    - Opt for **UBUNTU distribution** (not LTS) if/when you have a choice.
+    - When complete, you'll be asked for a **username** and **password** specific to your Ubuntu installation. These don't need to be the same as your Windows 11 credentials. With this step complete, you'll find yourself at the Ubuntu bash command line.
     - Tips for installation: 
-      - Don't forget your username and password for Ubuntu! Write it down. You'll need it for the class!!!
+      - **DON'T FORGET YOUR USERNAME AND PASSWORD for Ubuntu! Write it down. You'll need it for the class!!!**
       - Having trouble getting the Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux line to execute? Make sure you are in a PowerShell with Administrator privileges (aka, an elevated powershell). To open one, search PowerShell in the windowsStart search bar, then RIGHT click on powershell, then select “Run as Administrator”
 
   2.  Alternatively, you can go into your "Start Menu", search Ubuntu, you will see it pop up under the "Store" section, you can then click on the "right side arrow" and you will see "Get" pop up. You can click "Get" to download and install the software.
@@ -54,5 +55,6 @@ If you have a laptop that is running a Linux distro natively, you are all set to
 
 ## Gah, none of this is working for me!
 
-First - don't panic. It's ok. If you can't find a good laptop or you can't access a terminal, just e-mail me. I will help you troubleshoot the issue. I will also be in class early on the first day and will be available there to help you get everything up and running! Not a problem!
+First - don't panic. It's ok. If you can't find a good laptop or you can't access a terminal, just e-mail me (Erin). I will help you troubleshoot the issue. I will also be in class early on the first day and will be available there to help you get everything up and running! Not a problem!
+
 Thanks, I’m looking forward to working with all of you!
