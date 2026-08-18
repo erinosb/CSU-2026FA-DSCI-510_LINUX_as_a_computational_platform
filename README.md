@@ -21,6 +21,8 @@ Please see the [Computer Requirements](Computer_Requirements.md) for important i
 
 Linux/Unix is the primary platform for computational science. The goal of this course is to train scientists in its use with particular emphasis on the needs of bioinformatics users. The course covers basic Linux commands and utilities, running and managing computational jobs, and handling and manipulating large biological datasets.
 
+## Course Objectives
+
 <ins>By the end of the course, students will:
 
 - Be comfortable with the Linux command line and command-line programs, including the ability to move, create, or edit files and directories
@@ -28,20 +30,11 @@ Linux/Unix is the primary platform for computational science. The goal of this c
 - Write and execute small bash script programs
 - Be aware of High Performance Computing resources and how they are used. 
 
-# Time and Place
+## Schedule
 
-**Come to class:** The lectures will be very interactive with individualized help only available in the classroom, so in-person attendance is encouraged. <ins>Class starts on Tuesday, August 25th, 2026 and ends on Thursday September 17th, 2026. 
-
-**Lectures:** Tuesdays and Thursdays, 10:00 - 11:50 am in AZ building, room E210
-
-**Class Recordings:** Lectures recorded and posted to canvas after class. Due to a lengthy zoom-to-canvas conversion, videos will not be available until late afternoon or the following day. Please note, this process is not perfect and subject to some failure. Please respect the privacy policy (below) regarding these recordings. Please note - coming to class is the best way to learn!
-
-
-# Schedule
-
-| Date  | Week | Description | Reading | Assignments |
+| Date  | Module | Description | Reading | Assignments |
 |-------|------|-------------|---------|-------------|
-| August 25 | 1 | Course introduction, The terminal, Navigating the file system | Chapters 1, 2 | Assignment 1 **(due September 2)**|
+| August 25 | [week1](01_modules/Week1) | Course introduction, The terminal, Navigating the file system | Chapters 1, 2 | Assignment 1 **(due September 2)**|
 | August 27 | 1 | Paths, Options, Working with files 1 (more, less, head, tail, wc), Wildcards, Getting help | Chapter 2 (navigation), Chapter 3 (ls, less), Chapter 4 (wildcards) | Assignment 2 **(due September 2)** |
 | Bonus Content | 1 | TBD | | |
 | September 1 | 2 | Making & removing, Copying & moving, File transfer, File formats | Chapters 4-5 (mkdir, cp, mv), Chapter 6 (redirection), Chapter 16, Chapter 18 (gzip) | Assignment 3 **(due September 9)** |
@@ -55,15 +48,23 @@ Linux/Unix is the primary platform for computational science. The goal of this c
 | Bonus Content | 4 | TBD | [more about single vs double square brackets](https://www.baeldung.com/linux/bash-single-vs-double-brackets#:~:text=The%20single%20bracket%20is%20a,brackets%20is%20generally%20more%20convenient.), [checking arguments reference](https://www.networkworld.com/article/972112/verifying-bash-script-arguments.html#:~:text=Checking%20the%20number%20of%20arguments%20provided&text=The%20%3D%3D%20(equals)%2C%20lt,the%20person%20running%20the%20script) | |
 | **Final Exam** | **5** | **FAQ on Exam project, Tips & Tricks 1** | **Examples of past projects**  | **Exam Project (due September 23)** |
 
-# Attendance
+## Time and Place
+
+**Come to class:** The lectures will be very interactive with individualized help only available in the classroom, so in-person attendance is encouraged. <ins>Class starts on Tuesday, August 25th, 2026 and ends on Thursday September 17th, 2026. 
+
+**Lectures:** Tuesdays and Thursdays, 10:00 - 11:50 am in AZ building, room E210
+
+**Class Recordings:** Lectures recorded and posted to canvas after class. Due to a lengthy zoom-to-canvas conversion, videos will not be available until late afternoon or the following day. Please note, this process is not perfect and subject to some failure. Please respect the privacy policy (below) regarding these recordings. Please note - coming to class is the best way to learn!
+
+## Attendance
 
 Class attendance is not mandatory, but please let me know if you will be attending multiple classes remotely or making them up at a later time. I just want to make sure I know who is still engaged.
 
-# Office Hours
+## Office Hours
 
 Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. My office hours for this class will be during **Code Club**, so on **Fridays from 10 am - 11 am in AZ E210**. Please come, and don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice.
 
-# Prerequisites
+## Prerequisites
 
 Students do not need to have any prior experience in computing, programming, or coding.
 
@@ -71,13 +72,13 @@ Graduate standing is encouraged but not required. An interest in using LINUX/UNI
 
 **BEFORE** the first day of class, ensure you have purchased, uploaded, or installed all the required hardware and software. See [Computer Requirements](Computer_Requirements.md).
 
-# Textbook
+## Textbook
 
 [The Linux Command Line, 5th ed](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Resources/The-Linux-Command-Line-Book-5th-Edition.pdf) by William Shotts. 
 
 The book is available as a **free, downloadable pdf** from the book website (also attached above) or as a paperback widely sold by booksellers.
 
-# Instructor
+## Instructor
 
 Erin Osborne Nishimura, PhD	(she/her)
 
@@ -91,7 +92,7 @@ erinnish@colostate.edu or canvas e-mail
 
 Please e-mail me with any questions through regular e-mail or canvas e-mail. Course content-related questions that are e-mailed to instructors may be posted (anonymously) on Canvas Discussions for a faster response and to broadcast insight to the group. Personal or individual concerns will not be disclosed in that way.
 
-# Grading
+## Grading
 
 Your grade for this course will be based on assignments, participation, and a final exam. The percentages are as follows:
 
@@ -109,21 +110,25 @@ The calculation of the final letter grade will be made as follows:
 - D: 60 - 69.9%
 - F: below 60%
 
-# Assignments
+## Assignments
 
 - Assignments make up 35.5 % of your course grade.
 - There will be **6 assignments**. Assignments must be turned in on Canvas by 11:59 pm on the due date. 
 - If you need to turn in an assignment LATE, please talk to me and request additional time before the due date. You may turn in an assignment up to **48 hours late** but only with **PRIOR** approval!
 
-# Student Disability Accommodations
+## Student Disability Accommodations
 
 SDC accommodations: I recognize that the Student Disability Center is behind in issuing accommodation letters. If you have a situation that requires SDC accommodations, please e-mail me directly and we can make arrangements. You can do this even before your official paperwork is processed in the SDC. This class has a lot of flexibility for all students with or without letters.
 
-# Privacy/Posting Policy
+## Other Accommodations
+
+I feel strongly that this class should work 
+
+## Privacy/Posting Policy
 
 The instructor **does not** permit the distribution of course material. This means you are not permitted to post course content, course videos, or representations of the class online. We are offering recordings for students to assist them in learning. Please be respectful of people's privacy with these recordings and content.
 
-# Expectations
+## Expectations
 
 You are expected to be familiar with the [Student Code of Conduct](https://resolutioncenter.colostate.edu/conduct/code/). This course will adhere to the [CSU Academic Integrity Policy](https://resolutioncenter.colostate.edu/conduct/academic-integrity/). At a minimum, violations will result in a grading penalty in this course, a report to the Office of Conflict Resolution and Student Conduct Services, and communication with your professor and/or graduate program director.
 
@@ -131,7 +136,7 @@ Colorado State University has clear [Principles of Community](https://inclusivee
 
 Please know that use of GradeBuddy, Chegg, Course Hero, or other web services that market themselves as tutoring or study guides are not permitted in this course. Many instances of their use are a violation of the Student Integrity Policy. Please note that Plagiarism will not be tolerated. Learn more through [Academic Misconduct Resources](https://tilt.colostate.edu/integrity/studentresources/).
 
-# AI Statement
+## AI Statement
 
 *Things may change in future classes. Other professors will have different statements.*
 
@@ -165,6 +170,6 @@ You can always e-mail me to ask. Also, if you would like to disclose your usage 
 
 Also - please contact me if you are feeling overwhelmed or getting behind in the class. I'd rather give you the opportunity to learn the content than put you in a situation where you feel you need to speed through without learning using AI tools.
 
-# Health and Safety
+## Health and Safety
 
 Don't feel pressured to come to class if you are ill. Staying home when you are sick prevents the spread of disease. If this happens, you can use the simulcast and recorded options. 
