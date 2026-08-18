@@ -1,5 +1,10 @@
 # COMPUTER REQUIREMENTS
 
+<p align="center">
+<img width="410" alt="terminal" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/laptopIcon.png">
+</p>
+
+
 _Note - this document was sent via e-mail to all students at the beginning of August_
 
 ## 1. Select a computer to use in the class
