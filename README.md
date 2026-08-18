@@ -23,16 +23,22 @@ Linux/Unix is the primary platform for computational science. The goal of this c
 
 ## Contents
 
-  - [Course Objectives](#course-objectives)
-  - [Schedule](#schedule)
-  - [Time & Place](#time-and-place)
-  - [Attendance](#attendance)
-  - [Code Club](#code-club)
-  - [Prerequisites](#prerequisites)
-  - [Textbook](#textbook)
-  - [Instructor](#instructor)
-
-  - 
+-[Course Objectives](#course-objectives)
+-[Schedule](#schedule)
+-[Time & Place](#time-and-place)
+-[Attendance](#attendance)
+-[Code Club](#code-club)
+-[Prerequisites](#prerequisites)
+-[Textbook](#textbook)
+-[Instructor](#instructor) 
+-[Grading](#grading)
+-[Assignments](#assignments)
+-[Student Disability Accommodations](#student-disability-accommodations)
+-[Other Accommodations](#other-accommodations)
+-[Privacy Policy](#privacyposting-policy)
+-[Expectations](#expectations)
+-[AI Statement](#ai-statement)
+-[Health & Safety](#health-and-safety)
 
 ## Course Objectives
 
