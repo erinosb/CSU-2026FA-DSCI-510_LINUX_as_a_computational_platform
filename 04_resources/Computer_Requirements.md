@@ -1,5 +1,7 @@
 # COMPUTER REQUIREMENTS
 
+_Note - this document was sent via e-mail to all students at the beginning of August_
+
 ## 1. Select a computer to use in the class
 
 You will need to have either 1) a Mac laptop, 2) a Windows PC laptop running Windows 11 (at minimum) with the Linux subsystem installed, or 3) a Linux laptop. If you don't have a MAC, Windows PC, or Linux laptop, please obtain one! There are laptops available for rental through the Morgan Library, through each college, and through some departments. Your graduate program, department, or lab may have laptops to borrow.
@@ -24,15 +26,15 @@ Here are the options for accessing a terminal on different systems. Again, pleas
 
 Lucky you! Your Mac runs on a Linux-like operating system. All you need to get running is to familiarize yourself with the Terminal application.
 
- - Go to Finder
- - Go to Applications
- - Go to Utilities
- - Click on Terminal to open the application
- - For faster access, you can drag and drop Terminal into your Dock.
- - To bump your Mac into power user mode, please install Xcode. To obtain Xcode …
-    - Go to App Store
-    - Search for Xcode
-    - Download and install Xcode. This will take a while to download and install. It may be a good idea to do this overnight.
+ 1. Go to **Finder**
+ 2. Go to **Applications**
+ 3. Go to **Utilities**
+ 4. Click on **Terminal** to open the application
+ 5. For faster access, you can drag and drop **Terminal** into your Dock.
+ 6. To bump your Mac into power user mode, **please install Xcode**. To obtain Xcode …
+    - Go to **App Store**
+    - Search for **Xcode**
+    - **Download and install Xcode**. This will take a while to download and install. It may be a good idea to do this overnight.
 
  ### Windows PC users
 
