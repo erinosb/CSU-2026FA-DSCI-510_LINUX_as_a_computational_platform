@@ -11,7 +11,7 @@ Linux/Unix is the primary platform for computational science. The goal of this c
 
 Please read the [Syllabus](#syllabus) below for classroom information and content that will be covered throughout the class. 
 
-Please see the [Modules](01_Modules) directory for specific content being covered.
+Please see the [Modules](01_modules) directory for specific content being covered.
 
 Please see the [Computer Requirements](Computer_Requirements.md) for important information prior to class. 
 
