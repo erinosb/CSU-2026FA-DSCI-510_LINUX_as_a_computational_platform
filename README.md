@@ -141,9 +141,9 @@ SDC accommodations: I recognize that the Student Disability Center is behind in 
 
 ## Other Accommodations
 
-This class is aimed at graduate students beyond their first year of coursework. As such, I realize students are engaged with research and exams. This class is designed to be sufficiently flexible to acommodate a reasonable number of absences and other time committments. However, please be aware that you also have other options, such as auditing the class. 
+This class is aimed at graduate students beyond their first year of coursework. As such, I realize students are engaged with research and exams. This class is designed to be sufficiently flexible to accommodate a reasonable number of absences and other time commitments. However, please be aware that you also have other options, such as auditing the class.
 
-To audit the class, you do 1) come to class as you like, 2) do the activites a your like, 3) participate as you like. Auditors do NOT enroll, receive credit, receive a final grade, turn in assignments, receive feedback on assignments. Please communicate with me quickly if this is an attractive option for you as the withdraw date for this class is the first week.
+To audit the class, you do 1) come to class as you like, 2) do the activities as you like, 3) participate as you like. Auditors do NOT enroll, receive credit, receive a final grade, turn in assignments, or receive feedback on assignments. Please let me know quickly if this is an attractive option for you, as the withdrawal date for this class is the first week.
 
 ## Privacy/Posting Policy
 
