@@ -1,7 +1,7 @@
 # COMPUTER REQUIREMENTS
 
 <p align="center">
-<img width="410" alt="terminal" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/laptopIcon.png">
+<img width="310" alt="terminal" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/laptopIcon.png">
 </p>
 
 
