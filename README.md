@@ -23,14 +23,14 @@ Please see the [Computer Requirements](Computer_Requirements.md) for important i
 | August 25 | [week1](01_modules/Week1) | Course introduction, The terminal, Navigating the file system | Chapters 1, 2 | Assignment 1 **(due September 1)**|
 | August 27 | [week1](01_modules/Week1) | Paths, Options, Working with files 1 (more, less, head, tail, wc), Wildcards, Getting help | Chapter 2 (navigation), Chapter 3 (ls, less), Chapter 4 (wildcards) | Assignment 2 **(due September 1)** |
 | Bonus Content | 1 | TBD | | |
-| September 1 | 2 | Making & removing, Copying & moving, File transfer, File formats | Chapters 4-5 (mkdir, cp, mv), Chapter 6 (redirection), Chapter 16, Chapter 18 (gzip) | Assignment 3 **(due September 8)** |
-| September 3 | 2 | Redirection, Working with files 2 (cat, grep, cut), Practice grep & cut, Pipes, More Pipes | Chapter 19 (grep), Chapter 20 (sort, uniq, cut), Chapter 5 (alias), Chapter 9 | Assignment 4 **(due September 8)** |
+| September 1 | [week2](01_modules/Week2) | Making & removing, Copying & moving, File transfer, File formats | Chapters 4-5 (mkdir, cp, mv), Chapter 6 (redirection), Chapter 16, Chapter 18 (gzip) | Assignment 3 **(due September 8)** |
+| September 3 | [week2](01_modules/Week2) | Redirection, Working with files 2 (cat, grep, cut), Practice grep & cut, Pipes, More Pipes | Chapter 19 (grep), Chapter 20 (sort, uniq, cut), Chapter 5 (alias), Chapter 9 | Assignment 4 **(due September 8)** |
 | Bonus Content | 2 | TBD | | |
-| September 8 | 3 | Connecting to remote computers, Working with files 3 (sed, tr), Scripting 1, Scripting 2 (review, echo, commenting out), Variables (capturing output & math) | Chapter 20 (sed), Chapter 24, Chapter 25, Chapter 32, Chapter 34, [Ryan's Tutorials - bash intro](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php) | Assignment 5 **(due September 15)** |
-| September 10 | 3 | Array variables, Special variables & IO, String operations, Environmental variables | Chapter 34, Chapter 11, [Ryan's Tutorials - variables](https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php) | Assignment 6 **(due September 15)** |
+| September 8 | 3 | Working with files |  | Assignment 5 **(due September 15)** |
+| September 10 | 3 | Scripting 1 |  | Assignment 6 **(due September 15)** |
 | Bonus Content | 3 | TBD |  | |
-| September 15 | 4 | Scripting 3 (control flow), Conditionals (if, else), Loops (while, for) | [Ryan's Tutorials - loops](https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php), [Ryan's Tutorials - if](https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php), Chapter 9, Chapter 24 |  |
-| September 17 | 4 | Control flow practice, Intro to Alpine, Custom commands, Running jobs on Alpine, Next steps on Alpine | [Alpine Quick Start Guide](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) |     |
+| September 15 | 4 | Scripting 2 |  |  |
+| September 17 | 4 | Scripting 3 |  |     |
 | Bonus Content | 4 | TBD | | |
 | **Final Exam** | **5** | **FAQ on Exam project, Tips & Tricks 1** | **Examples of past projects**  | **Exam Project (due September 22)** |
 
@@ -94,11 +94,17 @@ Students do not need to have any prior experience in computing, programming, or 
 
 Graduate standing is encouraged but not required. An interest in using LINUX/UNIX in your research work is encouraged. We will focus on using LINUX/UNIX to support research primarily in the life sciences. However, the content is broadly applicable to many fields.
 
-**BEFORE** the first day of class, ensure you have purchased, uploaded, or installed all the required hardware and software. See [Computer Requirements](Computer_Requirements.md).
+**BEFORE** the first day of class, ensure you have purchased, uploaded, or installed all the required hardware and software. See [Computer Requirements](04_resources/Computer_Requirements.md).
 
 ## Textbook
 
-[The Linux Command Line, 5th ed](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Resources/The-Linux-Command-Line-Book-5th-Edition.pdf) by William Shotts. 
+The textbook is optional. Due to the variable nature of LINUX instruments, not all the examples that work in the textbook will work on your computer. 
+
+The textbook is **The Linux Command Line** by William Shotts. Though this book is available for purchase (Currently 7th ediction), the 7th edition is available for free here: [The Linux Command Line](https://sourceforge.net/projects/linuxcommand/files/TLCL/25.12/TLCL-25.12A.pdf/download)
+
+I have also included a copy of the .pdf under our resources area within this github repository:
+
+  - [The Linux Command Line, 7th edition](04_resources/TLCL-25.12A.pdf)
 
 The book is available as a **free, downloadable pdf** from the book website (also attached above) or as a paperback widely sold by booksellers.
 
