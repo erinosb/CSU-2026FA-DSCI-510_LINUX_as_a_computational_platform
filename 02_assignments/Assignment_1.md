@@ -65,7 +65,9 @@ B. What is the proper command required to list the contents of this directory?
 
 ## Question 5
 
-Open [Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html) in a new tab. Explore this Linux game. 
+Let's play a game!
+
+Open [Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html) in a new tab. Explore this Linux game. Follow the instructions and play the game. 
 
 <img src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/terminus.gif" width="300" />
 
