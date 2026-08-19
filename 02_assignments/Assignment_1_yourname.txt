@@ -1,0 +1,31 @@
+DSCI510 
+Assignment #1
+Name: <yourNameHere>
+Date: <dateHere>
+#####################
+
+QUESTION 1
+
+<answerHere>
+
+QUESTION 2
+
+<answerHere>
+
+QUESTION 3
+
+<answerHere>
+
+QUESTION 4
+
+A. <answerHere>
+
+B. <answerHere>
+
+QUESTION 5
+
+<answerHere>
+
+BONUS Question
+
+<answer here>

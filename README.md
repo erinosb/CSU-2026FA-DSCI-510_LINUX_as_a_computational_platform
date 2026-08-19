@@ -13,7 +13,7 @@ Please read the [Syllabus](#syllabus) below for classroom information and conten
 
 Please see the [Modules](01_modules) directory for specific content being covered.
 
-Please see the [Computer Requirements](Computer_Requirements.md) for important information prior to class. 
+Please see the [Computer Requirements](04_resources/Computer_Requirements.md) for important information prior to class. 
 
 ----
 # Schedule
