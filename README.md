@@ -16,40 +16,7 @@ Please see the [Modules](01_modules) directory for specific content being covere
 Please see the [Computer Requirements](Computer_Requirements.md) for important information prior to class. 
 
 ----
-
-# Syllabus
-
-Linux/Unix is the primary platform for computational science. The goal of this course is to train scientists in its use with particular emphasis on the needs of bioinformatics users. The course covers basic Linux commands and utilities, running and managing computational jobs, and handling and manipulating large biological datasets.
-
-## Contents
-
-- [Course Objectives](#course-objectives)
-- [Schedule](#schedule)
-- [Time & Place](#time-and-place)
-- [Attendance](#attendance)
-- [Code Club](#code-club)
-- [Prerequisites](#prerequisites)
-- [Textbook](#textbook)
-- [Instructor](#instructor) 
-- [Grading](#grading)
-- [Assignments](#assignments)
-- [Student Disability Accommodations](#student-disability-accommodations)
-- [Other Accommodations](#other-accommodations)
-- [Privacy Policy](#privacyposting-policy)
-- [Expectations](#expectations)
-- [AI Statement](#ai-statement)
-- [Health & Safety](#health-and-safety)
-
-## Course Objectives
-
-<ins>By the end of the course, students will:
-
-- Be comfortable with the Linux command line and command-line programs, including the ability to move, create, or edit files and directories
-- Know how to search, manipulate, and process large datasets
-- Write and execute small bash script programs
-- Be aware of High Performance Computing resources and how they are used. 
-
-## Schedule
+# Schedule
 
 | Date  | Module | Description | Reading | Assignments |
 |-------|------|-------------|---------|-------------|
@@ -66,6 +33,41 @@ Linux/Unix is the primary platform for computational science. The goal of this c
 | September 17 | 4 | Control flow practice, Intro to Alpine, Custom commands, Running jobs on Alpine, Next steps on Alpine | [Alpine Quick Start Guide](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) |     |
 | Bonus Content | 4 | TBD | | |
 | **Final Exam** | **5** | **FAQ on Exam project, Tips & Tricks 1** | **Examples of past projects**  | **Exam Project (due September 22)** |
+
+
+----
+
+# Syllabus
+
+Linux/Unix is the primary platform for computational science. The goal of this course is to train scientists in its use with particular emphasis on the needs of bioinformatics users. The course covers basic Linux commands and utilities, running and managing computational jobs, and handling and manipulating large biological datasets.
+
+## Contents
+
+- [Course Objectives](#course-objectives)
+- [Time & Place](#time-and-place)
+- [Attendance](#attendance)
+- [Code Club](#code-club)
+- [Prerequisites](#prerequisites)
+- [Textbook](#textbook)
+- [Instructor](#instructor) 
+- [Grading](#grading)
+- [Assignments](#assignments)
+- [Student Disability Accommodations](#student-disability-accommodations)
+- [Other Accommodations](#other-accommodations)
+- [Privacy Policy](#privacyposting-policy)
+- [Expectations](#expectations)
+- [Health & Safety](#health-and-safety)
+- [AI Statement](#ai-statement)
+
+## Course Objectives
+
+<ins>By the end of the course, students will:
+
+- Be comfortable with the Linux command line and command-line programs, including the ability to move, create, or edit files and directories
+- Know how to search, manipulate, and process large datasets
+- Write and execute small bash script programs
+- Be aware of High Performance Computing resources and how they are used. 
+
 
 ## Time and Place
 
@@ -157,6 +159,12 @@ Colorado State University has clear [Principles of Community](https://inclusivee
 
 Please know that use of GradeBuddy, Chegg, Course Hero, or other web services that market themselves as tutoring or study guides are not permitted in this course. Many instances of their use are a violation of the Student Integrity Policy. Please note that Plagiarism will not be tolerated. Learn more through [Academic Misconduct Resources](https://tilt.colostate.edu/integrity/studentresources/).
 
+
+## Health and Safety
+
+Don't feel pressured to come to class if you are ill. Staying home when you are sick prevents the spread of disease. If this happens, you can use the recorded options. 
+
+
 ## AI Statement
 
 *Things may change in future classes. Other professors will have different statements.*
@@ -171,26 +179,34 @@ AI has advantages and disadvantages in this learning process.
 
 **Beneficial usage and suggestions:**
 
-- Conversational: A prompt like “Teach me how to use a for loop in bash scripting” can organize information succinctly without ads.
-  - Warning: information is not always accurate
-- Grammar & Light editing: Using AI to decode tricky English turns-of-phase or assist with grammar and clarity. Please use caution as AI tools have a tendency to change the meaning of your words, not just the wording.
+Beneficial usage and suggestions:
+  - **Conversational:** A prompt like “Teach me how to use a for loop in bash scripting” can organize information succinctly without ads.
+    - Warning: information is not always accurate
+  - **Grammar & Light editing:** Using AI to decode tricky English turns-of-phase or assist with grammar and clarity. Please use caution as AI tools have a tendency to change the meaning of your words, not just the wording.
+  - **Coaching:** You can use AI to coach you through hard sections once you have tried to work them out on your own. You can use AI to explain why something isn’t working. These coaching, learning, and refinement tasks are ok.
+  - **Extension:** You can use AI to write sections of your exam project that are beyond the scope of this course. Just document these sections. 
 
-**I strongly discourage the following usage:**
 
-- Generative - Using ChatGPT to write your code for assignments, the final project, or in general is risky (can be wrong) and negatively impacts learning.
+** Disallowed usage:** 
+
+  - Generative usage is NOT allowed – Do not use AI to de novo write your code for assignments or the final project, as this can negatively impact learning. 
+  - Using AI on the quizzes is not allowed.
 
 **Unsure about what is ok and not ok?**
 
-You can always e-mail me to ask. Also, if you would like to disclose your usage of ChatGPT in any assignment or in the Exam Project, I encourage you to do so. You can include a statement like…
+You can always e-mail me to ask. Also, if you would like to disclose your usage of AI in any assignment or in the Exam Project, I encourage you to do so. You can include a statement like…
+  - I did not use AI for this assignment.
+  - AI helped with grammar and readability, but the original writing was my own.
+  - AI helped with idea generation, but I wrote the assignment myself.
+  - A small amount of my work (just a couple of sentences) was written by AI.
+  - AI wrote a significant portion of this work, but I edited it.
 
-- I did not use Generative AI for this assignment.
-- Generative AI helped with grammar and readability, but the original writing was my own.
-- Generative AI helped with idea generation, but I wrote the assignment myself.
-- A small amount of my work (just a couple of sentences) was written by Generative AI.
-- Generative AI significantly wrote my work, but I edited it.
+**AI is a part of coding and it is evolving**
 
-Also - please contact me if you are feeling overwhelmed or getting behind in the class. I'd rather give you the opportunity to learn the content than put you in a situation where you feel you need to speed through without learning using AI tools.
+I also acknowledge that AI has become a large part of the coding experience and your usage of it will evolve over time. The restrictions here are meant to foster learning within the scope of this class, and are not meant as general best practices to follow after the class concludes. 
 
-## Health and Safety
 
-Don't feel pressured to come to class if you are ill. Staying home when you are sick prevents the spread of disease. If this happens, you can use the recorded options. 
+**Reach out if you need more time** 
+
+Please contact me if you are feeling overwhelmed or getting behind in the class. I'd rather give you the opportunity to learn the content than put you in a situation where you feel you need to speed through without learning using AI tools.
+
