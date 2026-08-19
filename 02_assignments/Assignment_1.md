@@ -2,11 +2,14 @@
 
 - Due **Tuesday, September 1, 2026, 10:00 am** 
 - **DO NOT write out the questions. Do not write long descriptions. Only write your succinct answers.**
-- **Here is a template to turn in:** [Assignment_1_yourname.txt](02_assignments)
+- **Template example:** 
+  - Navigate to [02_assignments](https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/tree/main/02_assignments)
+  - Find the template for this assignment called Assignment_1_yourname.txt
   - Copy and paste the template into a .txt file within a text editor such as BBEdit, Notepad++, or some other application. Do not use Word. Do not use TextEdit (MAC).
   - Remove <yourNameHere> and replace with your actual name
   - Remove <answerHere> and replace with your actual answer
   - Yes, remove the “<” and “>” characters, too
+  - Modify the filename to contain your name.
 - **Turn in your answers as the .txt file on Canvas by uploading your file.**
 - Assignments account for 35 % of your final grade. 
 
