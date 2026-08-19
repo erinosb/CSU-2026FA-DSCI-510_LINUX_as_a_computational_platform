@@ -2,7 +2,7 @@
 
 - Due **Tuesday, September 1, 2026, 10:00 am** 
 - **DO NOT write out the questions. Do not write long descriptions. Only write your succinct answers.**
-- **Here is a template to turn in:** [Assignment_1_yourname.txt](02_assignments/Assignment_1_yourname.txt)
+- **Here is a template to turn in:** [Assignment_1_yourname.txt](02_assignments)
   - Copy and paste the template into a .txt file within a text editor such as BBEdit, Notepad++, or some other application. Do not use Word. Do not use TextEdit (MAC).
   - Remove <yourNameHere> and replace with your actual name
   - Remove <answerHere> and replace with your actual answer
@@ -62,4 +62,6 @@ B. What is the proper command required to list the contents of this directory?
 
 ## Question 5
 
-Open [Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html) in a new tab. Explore this Linux game. To answer this question, name one command you learned from this game and the character who taught it to you.
+Open [Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html) in a new tab. Explore this Linux game. 
+
+What is the advice the MIT WaryEyeOfGradStudent gives you? Copy and paste it.
