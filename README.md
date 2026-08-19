@@ -58,6 +58,9 @@ Linux/Unix is the primary platform for computational science. The goal of this c
 - [Expectations](#expectations)
 - [Health & Safety](#health-and-safety)
 - [AI Statement](#ai-statement)
+- [Additional Documents](#additional-documents)
+  - [Erin's Teaching Statement](04_resources/Nishimura_TeachingStatement_260819.pdf)
+  - [Campus Resources](04_resources/Resources_Nishimura_260819.pdf)
 
 ## Course Objectives
 
@@ -186,8 +189,7 @@ Beneficial usage and suggestions:
   - **Coaching:** You can use AI to coach you through hard sections once you have tried to work them out on your own. You can use AI to explain why something isn’t working. These coaching, learning, and refinement tasks are ok.
   - **Extension:** You can use AI to write sections of your exam project that are beyond the scope of this course. Just document these sections. 
 
-
-** Disallowed usage:** 
+**Disallowed usage:** 
 
   - Generative usage is NOT allowed – Do not use AI to de novo write your code for assignments or the final project, as this can negatively impact learning. 
   - Using AI on the quizzes is not allowed.
@@ -210,3 +212,7 @@ I also acknowledge that AI has become a large part of the coding experience and 
 
 Please contact me if you are feeling overwhelmed or getting behind in the class. I'd rather give you the opportunity to learn the content than put you in a situation where you feel you need to speed through without learning using AI tools.
 
+## Additional Documents
+
+  - [Erin's Teaching Statement](04_resources/Nishimura_TeachingStatement_260819.pdf)
+  - [Campus Resources](04_resources/Resources_Nishimura_260819.pdf)
