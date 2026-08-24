@@ -55,12 +55,12 @@
 # Welcome to class!
 
 ### Introduction: 
-- Jessica Hill, PhD - Instructor
+- Erin Osborne Nishimura, PhD - Associate Professor of Biochemistry; Affiliated with the Cell & Molecular Biolgy Program
 
 ### Introduction to the class: 
-- Please read through the [Syllabus](../../Syllabus.md) to learn more about the class.
+- Please read through the [Syllabus](../../README.md/#syllabus) to learn more about the class.
 - This class is the first in a 3-part series. The other 2 classess are Python (Dr. Tai Montgomery) & RNA-seq data analysis (me again). The RNA-seq class focuses on building pipelines using Linux and R.
-- Requirements: [Computer_Requirements](../../Computer_Requirements.md)
+- Requirements: [Computer_Requirements](../../04_resources/Computer_Requirements.md)
 
 ### Introduction to you: 
 - Please take this breif [survey](https://forms.gle/yrKsr5GP6J7nrPsX7) to tell me and everyone else a little bit about yourself. 
