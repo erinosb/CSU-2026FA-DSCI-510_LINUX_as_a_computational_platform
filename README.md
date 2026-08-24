@@ -86,7 +86,7 @@ Class attendance is not mandatory, but please let me know if you will be attendi
 
 ## Code Club
 
-Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. My office hours for this class will be during **Code Club**, so on **Fridays from 10 am - 11 am in AZ E210**. Please come, and don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice.
+Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. My office hours for this class will be during **Code Club**, so on **Fridays from 9 am - 10 am in AZ E210**. Please come, and don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice.
 
 ## Prerequisites
 
