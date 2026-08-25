@@ -123,6 +123,8 @@ Linus Torvalds at home. Photo: Instagram/LinkedIn
 
 </details>
 
+----
+
 ### Partner Exercise #1
 
 - Turn to a partner
