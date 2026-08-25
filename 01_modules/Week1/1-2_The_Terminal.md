@@ -18,18 +18,6 @@ By typing into the terminal, we can interact with the **shell**. The shell is a 
 
 The LINUX operating system is larger than the kernel. Some additional programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
 
-> [!Note]
-> **Terminal** - A method of interfacing with the shell through text entry. In the past, terminals were their own computers attached to the mainframe. Today a terminal is its own application/program called a terminal emulator.
-
-> [!Note]
-> **Operating System** - A computer's core software that manages hardware and jobs. Examples are the Windows, MacOS, AndroidOS, and Linux operating systems.
-
-> [!Note]
->  **Shell** - In LINUX, this is a program that takes text entries from the terminal and passes them to the operating system
-
-> [!Note]
-> **Kernel** - In LINUX, this is the core part of the Operating System
-
 ----
 
 ## Launching the terminal
@@ -66,5 +54,25 @@ $ ls
 $ date
 $ cal
 ```
+
+---
+
+## Key Vocab in this section
+
+
+> [!Note]
+> **Terminal** - A method of interfacing with the shell through text entry. In the past, terminals were their own computers attached to the mainframe. Today a terminal is its own application/program called a terminal emulator.
+
+> [!Note]
+> **Operating System** - A computer's core software that manages hardware and jobs. Examples are the Windows, MacOS, AndroidOS, and Linux operating systems.
+
+> [!Note]
+>  **Shell** - In LINUX, this is a program that takes text entries from the terminal and passes them to the operating system
+
+> [!Note]
+> **Kernel** - In LINUX, this is the core part of the Operating System
+
+> [!Note]
+> **The prompt** - A special character that indicates that the shell is ready for input
 
 Continue on to [Navigating_the_file_system](1-3_Navigating_the_file_system.md)

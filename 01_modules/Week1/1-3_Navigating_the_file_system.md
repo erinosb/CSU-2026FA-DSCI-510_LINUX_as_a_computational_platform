@@ -40,7 +40,7 @@ When I type this out on my MAC computer, I get something that looks like this:
 
 ```
 $ pwd 
-/Users/jessicahill
+/Users/erin
 ```
 
 If you are on a LINUX machine or a Windows, you will probably see something more like this …
@@ -223,6 +223,14 @@ $ cd "OneDrive - Colostate"
 
 ## Vocabulary
 
+  - Comment
+  - Command
+  - Directory
+  - Path
+  - Argument
+  - Current Working Directory
+  - Parent Directory
+  - Root
 
 
 Continue on to [Paths](1-4_Paths.md)

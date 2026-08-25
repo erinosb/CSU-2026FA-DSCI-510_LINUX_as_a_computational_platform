@@ -20,7 +20,7 @@
   - File
   - Path
   - Parent directory
-  - Working directory
+  - Current Working directory
   - Sub-directory
   - Home directory
   - Arguments
@@ -28,6 +28,7 @@
   - Root
   - Absolute path
   - Relative path
+
 
 - **Things you should know how to do after this class**
   - Know how to launch the terminal
