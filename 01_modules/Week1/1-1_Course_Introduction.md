@@ -87,13 +87,13 @@
 Ken Thompson (sitting) and Dennis Ritchie (standing) at the PDP-11 computer on which they wrote the UNIX operating system. Photo: Creative Commons license from the [Unix Wikipedia Page](https://en.wikipedia.org/wiki/Unix)
 
 <p align="center">
-<img width="600" alt="ken_thompson_and_dennis_ritchie_at_pdp-11" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/ken_thompson_and_dennis_ritchie_at_pdp-11.jpg">
+<img width="75%" alt="ken_thompson_and_dennis_ritchie_at_pdp-11" src="../../05_images/ken_thompson_and_dennis_ritchie_at_pdp-11.jpg">
 </p>
 
 Linus Torvalds at home. Photo: Instagram/LinkedIn 
 
 <p align="center">
-<img width="450" alt="linux-torvalds-shows-off-his-home-working-desk" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/Linus_Torvalds_walkingDesk.jpeg">
+<img width="65%" alt="linux-torvalds-shows-off-his-home-working-desk" src="../../05_images/Linus_Torvalds_walkingDesk.jpeg">
 </p>
 
 
@@ -102,7 +102,7 @@ Linus Torvalds at home. Photo: Instagram/LinkedIn
 ### Linux Family Tree:
 
 <p align="center">
-<img width="600" alt="linux family tree" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/OS_kernel_timeline.jpg">
+<img width="80%" alt="linux family tree" src="../../05_images/OS_kernel_timeline.jpg">
 </p>
 
 - The Linux Distros in this picture are those off the Fedora, Gentoo, Debian, and Arch Linux Branches.
@@ -126,7 +126,8 @@ Linus Torvalds at home. Photo: Instagram/LinkedIn
 
 ----
 
-### Partner Exercise #1
+:hammer_and_wrench: **Partner Exercise #1**
+
 
 - Turn to a partner
 - Introduce yourself to your partner
