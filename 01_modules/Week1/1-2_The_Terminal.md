@@ -1,7 +1,7 @@
 # The Terminal
 
 <p align="center">
-<img width="80%" alt="scheme" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/evolution_computers.png">
+  <img src="../../05_images/evolution_computers.png" width="80%" alt="Punch cards, typing, clicking, and touching are ways of interacting with computers">
 </p>
 
 Today, most of the applications or programs we run on our computers are Graphical User Interface (GUI, pronounced “gooey”) applications. These are typically a window that pops up with a work space, menus, and icons. We can visually see things, “move” them, and click on things. Even the “Finder” (MAC) or “Explorer” (Windows) are GUI applications.
@@ -14,6 +14,10 @@ By typing into the terminal, we can interact with the **shell**. The shell is a 
 
 <p align="center">
 <img width="40%" alt="scheme" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/scheme.png">
+</p>
+
+<p align="center">
+  <img src="../../05_images/scheme.png" width="40%" alt="Terminal, shell, kernel diagram">
 </p>
 
 > [!Note]
@@ -31,7 +35,9 @@ By typing into the terminal, we can interact with the **shell**. The shell is a 
 
 **!!! Cool trivia**: The operating system we will interface with in this class is larger than just the core kernel. It involves many other tasks and programs. Most of these auxiliary programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. However, that is quite a mouthful and doesn't quite zing like just plain “Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
 
-### Launching the terminal
+----
+
+## Launching the terminal
 
 **!!! Exercise**: launch your terminal
 
