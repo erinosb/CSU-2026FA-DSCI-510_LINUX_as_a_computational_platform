@@ -1,5 +1,5 @@
 <p align="center">
-<img width="75%" alt="icons" src="../../05_images/header1.jpeg">
+<img width="75%" alt="icons" src="../../05_images/headers_Slide1A.png">
 </p>
 
 # Course Introduction
