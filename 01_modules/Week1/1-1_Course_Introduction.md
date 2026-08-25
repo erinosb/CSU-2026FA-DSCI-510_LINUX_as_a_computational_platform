@@ -63,7 +63,7 @@
 - Requirements: [Computer_Requirements](../../04_resources/Computer_Requirements.md)
 
 ### Introduction to you: 
-- Please take this breif [survey](https://forms.gle/yrKsr5GP6J7nrPsX7) to tell me and everyone else a little bit about yourself. 
+- Please take this brief [survey](https://docs.google.com/forms/d/e/1FAIpQLSflA-pPE4u4Y9qtR4ji-V-e2lFWWsp30f7TdJvtUS42qw42Zw/viewform?usp=sharing&ouid=103336156446663309202) to tell me and everyone else a little bit about yourself. 
 
 # Introduction to Linux
 
