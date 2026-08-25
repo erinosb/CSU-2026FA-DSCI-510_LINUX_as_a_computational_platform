@@ -55,19 +55,18 @@
 
 - Assignments 1 & 2 → submit on Canvas, **DUE September 1st before class**
 - This course is just the start 
-  - 
-
-## Test your understanding - take this quiz!
-
-
+  - [Morgan Library Coding & Cookies Series](https://libguides.colostate.edu/coding-cookies)
+  - [Boulder Training (online and in person)](https://www.colorado.edu/rc/events)
 
 ## Moving around: absolute paths v. relative paths
 
 The types of paths we've used for navigating up to this point are called **relative paths**. This means that they only make sense from the perspective of the current working directory. In contrast, we can use `cd` to take us to **absolute paths** that would make sense anywhere on the computer system. **Absolute paths** always begin with the root directory, `/`. When we execute `pwd`, the shell spits out our current working directory as an absolute path because it start with a `/` such as `/Users/jessicahill/`.
 
-**!!! Vocabulary**: 
-- **Absolute path:** The exact, full address of a file or directory starting from the root `/`. The absolute path always starts with a forward slash. An example of navigating using an absolute path would be `cd /home/martha/dogstuff`
-- **Relative path:** The location of a file or directory that only makes sense in the context of a given working directory. Examples of navigating using a relative path would be `cd subdirectory` or `cd ..`
+>[!NOTE]
+> **Absolute path:** The exact, full address of a file or directory starting from the root `/`. The absolute path always starts with a forward slash. An example of navigating using an absolute path would be `cd /home/martha/dogstuff`
+
+>[!NOTE]
+>  **Relative path:** The location of a file or directory that only makes sense in the context of a given working directory. Examples of navigating using a relative path would be `cd subdirectory` or `cd ..`
 
 **!!! Example**: Changing directory using an **absolute path:**
 
@@ -81,9 +80,9 @@ dropbox  documents  pictures  music
 $ cd music
 ```
 
-**!!! Exercise**: Open your Finder/Explorer and navigate to some directory on your computer where you keep a piece of data you've recently gathered. Look at the path bar to get a sense of where this directory is located. Now, using the terminal, try to change into this directory using an absolute path as the argument for a cd command. Use **TAB** to autocomplete to save time and improve accuracy.
+:hammer_and_wrench: **!!! Independent Exercise**: Open your Finder/Explorer and navigate to some directory on your computer where you keep a piece of data you've recently gathered. Look at the path bar to get a sense of where this directory is located. Now, using the terminal, try to change into this directory using an absolute path as the argument for a cd command. Use **TAB** to autocomplete to save time and improve accuracy.
 
-**!!! Quick tip**: When moving up or down a directory structure using relative paths, you don't need to jump down each directory one at a time. You can double up your jumps using a `/` between directories. For example, if you are in `/Users/Name/` and you want to be in `/Users/Name/Documents/Labwork/`, try:
+:hammer_and_wrench: **!!! Quick tip**: When moving up or down a directory structure using relative paths, you don't need to jump down each directory one at a time. You can double up your jumps using a `/` between directories. For example, if you are in `/Users/Name/` and you want to be in `/Users/Name/Documents/Labwork/`, try:
 
 ```
 $ pwd
@@ -102,7 +101,8 @@ $ pwd
 /Users/Name/Documents/Labwork/
 ```
 
-**!!! Quick tip**: We have used `ls` to list the contents of our current working directory. If no argument is specified `ls` defaults to listing the contents of the current working directory. We can also specify the name of the directory whose contents we want to list as an argument … even if we are not in that directory! We can use either an absolute or relative path for this …
+>[!TIP]
+> We have used `ls` to list the contents of our current working directory. If no argument is specified `ls` defaults to listing the contents of the current working directory. We can also specify the name of the directory whose contents we want to list as an argument … even if we are not in that directory! We can use either an absolute or relative path for this …
 
 ```
 $ ls 
@@ -113,7 +113,7 @@ $ ls /home/users/sandra/sheetmusic
 eight_polonaises.pdf hungarian_dance_no5.pdf six_variations.pdf 
 ```
 
-### Shortcuts
+## Handy Tips - SHORTCUTS
 
 **TAB** - autocomplete
 
