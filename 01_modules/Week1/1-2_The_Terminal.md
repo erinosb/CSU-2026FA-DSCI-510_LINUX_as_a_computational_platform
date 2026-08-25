@@ -29,13 +29,13 @@ By typing into the terminal, we can interact with the **shell**. The shell is a 
 > **Kernel** - In LINUX, this is the core part of the Operating System
 
 
-:monocle_face: ** Fun Fact**: The operating system we will interface with in this class is larger than just the core kernel. It involves many other tasks and programs. Most of these auxiliary programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. However, that is quite a mouthful and doesn't quite zing like just plain “Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
+The LINUX operating system is larger than the kernel. Some additional programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
 
 ----
 
 ## Launching the terminal
 
-**!!! Exercise**: launch your terminal
+:hammer_and_wrench: **Group Exercise**: launch your terminal
 
 For more details, see [Computer_Requirements](../../Computer_Requirements.md).
 
