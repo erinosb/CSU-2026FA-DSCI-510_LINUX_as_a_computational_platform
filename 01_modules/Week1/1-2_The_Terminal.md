@@ -16,6 +16,8 @@ By typing into the terminal, we can interact with the **shell**. The shell is a 
 <img width="40%" alt="scheme" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/scheme.png">
 </p>
 
+The LINUX operating system is larger than the kernel. Some additional programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
+
 > [!Note]
 > **Terminal** - A method of interfacing with the shell through text entry. In the past, terminals were their own computers attached to the mainframe. Today a terminal is its own application/program called a terminal emulator.
 
@@ -28,9 +30,6 @@ By typing into the terminal, we can interact with the **shell**. The shell is a 
 > [!Note]
 > **Kernel** - In LINUX, this is the core part of the Operating System
 
-
-The LINUX operating system is larger than the kernel. Some additional programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
-
 ----
 
 ## Launching the terminal
@@ -41,17 +40,23 @@ For more details, see [Computer_Requirements](../../Computer_Requirements.md).
 
 ### Getting started on the terminal
 
-When you first open your terminal, you should get some introductory information about the computer you are on, sometimes some information about when you last logged in, and the prompt. looks like this
+When you first open your terminal, you should get some introductory information about the computer you are on, sometimes some information about when you last logged in, and **the prompt**. The prompt looks like this
 
 ```
 $
 ```
 
+or this...
+
+```
+%
+```
+
 If you see this, great! The prompt is telling us that the shell is ready for input. We can type things in and see how the shell responds.
 
-**!!! Exercise**: Type in some gibberish into the prompt.
+:hammer_and_wrench: **Group Exercise**: Type in some gibberish into the prompt.
 
-**!!! Exercise**: Type in these commands into the prompt and see what happens:
+:hammer_and_wrench: **Group Exercise**: Type in these commands into the prompt and see what happens:
 
 ```
 $ whoami
