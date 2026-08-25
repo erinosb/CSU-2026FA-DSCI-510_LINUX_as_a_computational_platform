@@ -5,7 +5,7 @@ Up to this point, we have used commands with and without arguments. In addition 
 Here are a few options for the command ls courtesy of [The Linux Command Line](https://linuxcommand.org/tlcl.php):
 
 <p align="center">
-<img width="410" alt="options" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/options.png">
+<img width="60%" alt="options" src="/05_images/options.png">
 </p>
 
 Options are added after the command itself but before any arguments.
@@ -42,22 +42,23 @@ $ ls -ahl
 - It is a hidden metadata file that stores custom attributes and settings for its containing folder, such as the position of icons, the size and position of the folder window, and the chosen view mode (icon, list, etc.). The macOS Finder creates and maintains these files, and while they are normally hidden, they can become visible on Windows or Linux systems, making them a potential privacy risk if shared.
 - You can leave them or delete them, ignore them, doesnt matter. 
 
-### Exercise: Exploring Options
+## Exercise: Exploring Options
 
-**!!! Exercise**: Let's obtain a dataset to allow us to explore `ls` and its options:
+:hammer_and_wrench: **Group Exercise**: Let's obtain a dataset to allow us to explore `ls` and its options:
 
-Download the following file by clicking on it. When prompted, save it to your a directory you can navigate to by both your Finder/Explorer AND by the terminal: [chromsizes2.tgz](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/chromsizes2.tgz)
+ - Download the `chrom_project.tgz` file from: [03_data](/03_data/)
+ - When prompted, save it to your a directory you can navigate to by both your Finder/Explorer AND by the terminal: 
 
 Note: this may be a good time to make a directory specifically for this class.
 
 Use the Finder/Explorer, navigate to the location where you downloaded the file.
 
-Double click on the `chromsizes2.tgz` file to decompress it.
+Double click on the `` file to decompress it.
 
 **!!! Quick tip**: If double-clicking on the “tarball” doesn't open it, try copying-and-pasting the file someplace you can access through your terminal. Then, navigate to the file through the terminal, then execute this command line to decompress it.
 
 ```
-$ tar -zxvf chromsizes2.tgz
+$ tar -zxvf 
 ```
 
 If you need to, move the resulting expanded directory and its contents to a location you can easily manipulate in the terminal.
