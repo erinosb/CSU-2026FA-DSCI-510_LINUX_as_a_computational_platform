@@ -1,6 +1,6 @@
 # Navigating the file system
 
-### Who, What, When, Where commands
+## Who, What, When, Where commands
 
 In your previous exercise you did the following:
 
@@ -24,13 +24,17 @@ $ date  # WHEN? What is the date and time?
 $ cal # WHEN? cute little calendar of this month
 ```
 
-**!!! Quick tip**: Everything written after a “#” sign is a **comment** or annotation. The shell will not read things written after “#”.
+> [!TIP]
+> Everything written after a “#” sign is a **comment** or annotation. The shell will not read things written after “#”.
 
-**!!! Quick tip**: A **directory** is just the Linux-y term for “folder”. Just as there are slight terminology differences between MAC and Windows, so too are there differences in Linux.
+> [!TIP]
+> A **directory** is just the Linux-y term for “folder”. Just as there are slight terminology differences between MAC and Windows, so too are there differences in Linux.
 
-### Independent Exercise - Dissecting the path
+----
 
-Let's take a closer look at what spits out when you type the command `$pwd`
+## Dissecting the path
+
+:hammer_and_wrench: **Group Exercise** Let's take a closer look at what spits out when you type the command `$pwd`
 
 When I type this out on my MAC computer, I get something that looks like this:
 
@@ -43,11 +47,11 @@ If you are on a LINUX machine or a Windows, you will probably see something more
 
 ```
 $ pwd 
-/home/jessicahill
+/Users/erin
 
 #or 
 
-C:\Users\jesshill
+C:\Users\erin
 ```
 
 This notation is called a **path** and it describes the location, or the address, of my working directory within the file structure of a computer system.
@@ -66,25 +70,28 @@ These are the items I have inside the working directory. This directory correspo
 
 The home folder on UBUNTU for Windows is in a really weird, hidden place.
 
-### Independent exercises for Mac users
+## Explore the Path - MAC Users
 
-**!!! Exercise**: Open your "Finder" and navigate to the same directory you're in on the terminal. Double check that the contents are the same. Check that the path is similar.
+:hammer_and_wrench: **Independent Exercise** Open your "Finder" and navigate to the same directory you're in on the terminal. Double check that the contents are the same. Check that the path is similar.
 
-**!!! Mac tip**: If you don't see your path in the Finder window, pull down the **View** menu and select **Show Path Bar**.
+> [!TIP]
+> Mac users, if you don't see your path in the Finder window, pull down the **View** menu and select **Show Path Bar**.
 
 The directory you find yourself in when you first open up your terminal is called you **home** directory. This is a special place where the shell starts up by default.
 
-### Independent exercises for Windows users
+---
 
-**!!! Exercise**: Try to find where your home directory is located on your computer. This is pretty challenging, but here we go …
+## Explore the path - Windows users
 
-- In your home directory, create a file called `250826_test.txt` like so …
+:hammer_and_wrench: **Independent Exercise** Try to find where your home directory is located on your computer. This is pretty challenging, but here we go …
+
+- In your home directory, create a file called `260825_test.txt` like so …
 
 ```
-$ touch 250826_test.txt
+$ touch 260825_test.txt
 ```
 
-- Switch over to your **File Explorer** and **search** for the file `250826_test.txt` on “this PC”.
+- Switch over to your **File Explorer** and **search** for the file `260825_test.txt` on “this PC”.
 - Once your File Explorer has located your test file, navigate to that place.
   - Open a NEW File Explorer.
   - Go to “View”
@@ -93,11 +100,13 @@ $ touch 250826_test.txt
   - Then click on “This PC” or “C:” and follow the train of folders down and down until you locate the directory where your test file was stored. This is your home directory.
 - Create a shortcut to this home directory on your desktop so you always know where to find it.
 
-### As a group: Moving around - Up to the root
+---
+
+## Moving around - Up to the root
 
 We will learn how to move into different directories and at the same time learn more about paths. To move to a new directory we use the command `cd` for Change Directory.
 
-**!!! Exercise**: Try the `cd` command like so:
+:hammer_and_wrench:  **Group Exercise**: Try the `cd` command like so:
 
 ```
 $ cd
@@ -113,9 +122,11 @@ $ cd <directoryname>
 
 A cool quirk of Linux is that a period, “.”, is shorthand for the **current working directory**. And two periods, “..”, is shorthand for the directory a level up from my current directory. The directory one-level-up is called the **parent directory**.
 
-### Independent Exercise: Moving around 
+---
 
-**!!! Exercise**: Write down the path of your curent working directory somewhere so you can remember it. Execute the following to step-wise navigate up through each directory. Continue this until you get to the top.
+## Independent Exercise: Moving around 
+
+:hammer_and_wrench:  **Independent Exercise**: Write down the path of your curent working directory somewhere so you can remember it. Execute the following to step-wise navigate up through each directory. Continue this until you get to the top.
 
 ```
 $ pwd
@@ -158,9 +169,11 @@ $ cd subdirectoryname3
 
 Eventually, take this back down to your home directory.
 
-### Independent Exercise: Navigating Up and Down
+---
 
-Now, try that same exercise one more time on your own.
+## Independent Exercise: Navigating Up and Down
+
+:hammer_and_wrench:  **Independent Exercise**: Now, try that same exercise one more time on your own.
 
 Navigate from your home directory to the root directory using `$ cd ..`
 
@@ -168,9 +181,11 @@ Once at the root, navigate back through each sub-directory until you arrive back
 
 Do you have any questions?
 
-**!!! Self-Assessment**: Reflect on the following - are you using ls and pwd between each cd step? Try to do this. It'll help you orient your current location.
+:bulb: **Self-Assessment**: Reflect on the following - are you using ls and pwd between each cd step? Try to do this. It'll help you orient your current location.
 
-### Summing it up in pictures
+---
+
+## Summing it up in pictures
 
 <p align="center">
 <img width="410" alt="navigation" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/navigation.png">
@@ -178,7 +193,7 @@ Do you have any questions?
 
 ---
 
-**!!! Quick tip**: 
+## Handy Tips
 
 - **tab to autocomplete:** When you're typing out the name of a directory or sub-directory, instead of typing out the whole thing, start typing it a few characters and then autocomplete by typing TAB. If the characters you've typed so far limit you down to one option, the name will autocomplete. If it narrows it down into a few options, press TAB again and those options will be listed.
 
