@@ -1,0 +1,37 @@
+Feature	IWGSC CS RefSeq v2.1
+Genes and pseudogenes help	155,467
+  protein-coding	103,793
+  non-coding	32,609
+  Transcribed pseudogenes	448
+  Non-transcribed pseudogenes	18,617
+  genes with variants	29,213
+  Immunoglobulin/T-cell receptor gene segments	0
+  other	0
+mRNAs	142,414
+  fully-supported	134,243
+  with > 5% ab initio help	4,661
+  partial	2,664
+  with filled gap(s) help	1,897
+  known RefSeq (NM_) help	262
+  model RefSeq (XM_)	142,152
+non-coding RNAs help	82,045
+  fully-supported	68,682
+  with > 5% ab initio help	0
+  partial	41
+  with filled gap(s) help	27
+  known RefSeq (NR_) help	9
+  model RefSeq (XR_) help	78,527
+pseudo transcripts help	448
+  fully-supported	406
+  with > 5% ab initio help	0
+  partial	0
+  with filled gap(s) help	2
+  known RefSeq (NR_) help	1
+  model RefSeq (XR_) help	447
+CDSs	142,450
+  fully-supported	134,243
+  with > 5% ab initio help	5,159
+  partial	2,041
+  with major correction(s) help	296
+  known RefSeq (NP_) help	262
+  model RefSeq (XP_) help	142,188

@@ -1,0 +1,37 @@
+Feature	SLM_r2.1
+Genes and pseudogenes help	41,476
+  protein-coding	28,611
+  non-coding	11,404
+  Transcribed pseudogenes	38
+  Non-transcribed pseudogenes	1,418
+  genes with variants	7,613
+  Immunoglobulin/T-cell receptor gene segments	0
+  other	5
+mRNAs	44,265
+  fully-supported	38,321
+  with > 5% ab initio help	5,697
+  partial	52
+  with filled gap(s) help	0
+  known RefSeq (NM_) help	2,779
+  model RefSeq (XM_)	41,486
+non-coding RNAs help	16,433
+  fully-supported	9,145
+  with > 5% ab initio help	0
+  partial	1
+  with filled gap(s) help	0
+  known RefSeq (NR_) help	159
+  model RefSeq (XR_) help	15,371
+pseudo transcripts help	42
+  fully-supported	39
+  with > 5% ab initio help	0
+  partial	1
+  with filled gap(s) help	0
+  known RefSeq (NR_) help	10
+  model RefSeq (XR_) help	31
+CDSs	44,391
+  fully-supported	38,321
+  with > 5% ab initio help	5,726
+  partial	48
+  with major correction(s) help	174
+  known RefSeq (NP_) help	2,779
+  model RefSeq (XP_) help	41,612

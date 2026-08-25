@@ -1,0 +1,37 @@
+Feature	GRCm39
+Genes and pseudogenes 	50,763
+  protein-coding	22,198
+  non-coding	17,661
+  Transcribed pseudogenes	506
+  Non-transcribed pseudogenes	9,846
+  genes with variants	18,521
+  Immunoglobulin/T-cell receptor gene segments	490
+  other	62
+mRNAs	97,326
+  fully-supported	97,048
+  with > 5% ab initio 	113
+  partial	60
+  with filled gap(s) 	0
+  known RefSeq (NM_) 	48,786
+  model RefSeq (XM_)	48,540
+non-coding RNAs 	39,636
+  fully-supported	36,058
+  with > 5% ab initio 	0
+  partial	5
+  with filled gap(s) 	0
+  known RefSeq (NR_) 	9,746
+  model RefSeq (XR_) 	28,572
+pseudo transcripts 	579
+  fully-supported	571
+  with > 5% ab initio 	0
+  partial	0
+  with filled gap(s) 	0
+  known RefSeq (NR_) 	510
+  model RefSeq (XR_) 	69
+CDSs	97,829
+  fully-supported	97,048
+  with > 5% ab initio 	155
+  partial	56
+  with major correction(s) 	31
+  known RefSeq (NP_) 	48,799
+  model RefSeq (XP_) 	48,540

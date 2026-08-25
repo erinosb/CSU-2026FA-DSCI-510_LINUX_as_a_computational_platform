@@ -1,0 +1,13 @@
+Assembly Accession	Assembly-unit name	Chromosome name	GC Count	GC Percent	GenBank seq accession	Molecule type	RefSeq seq accession	Role	Seq length	UCSC style name	Unlocalized Count	Sequence name
+GCA_034140825.1	Primary Assembly	1	19193878	43.5	CP132235.1	Chromosome	NC_089035.1	assembled-molecule	43929697			1
+GCA_034140825.1	Primary Assembly	2	15773499	43.5	CP132236.1	Chromosome	NC_089036.1	assembled-molecule	36447916			2
+GCA_034140825.1	Primary Assembly	3	16338274	43.5	CP132237.1	Chromosome	NC_089037.1	assembled-molecule	37399924			3
+GCA_034140825.1	Primary Assembly	4	15956760	44	CP132238.1	Chromosome	NC_089038.1	assembled-molecule	36078568			4
+GCA_034140825.1	Primary Assembly	5	13363336	44	CP132239.1	Chromosome	NC_089039.1	assembled-molecule	30400764			5
+GCA_034140825.1	Primary Assembly	6	14011543	43.5	CP132240.1	Chromosome	NC_089040.1	assembled-molecule	32122276			6
+GCA_034140825.1	Primary Assembly	7	13013510	43.5	CP132241.1	Chromosome	NC_089041.1	assembled-molecule	29936421			7
+GCA_034140825.1	Primary Assembly	8	12398508	43.5	CP132242.1	Chromosome	NC_089042.1	assembled-molecule	28605474			8
+GCA_034140825.1	Primary Assembly	9	12671828	46	CP132243.1	Chromosome	NC_089043.1	assembled-molecule	27474823			9
+GCA_034140825.1	Primary Assembly	10	10418172	43.5	CP132244.1	Chromosome	NC_089044.1	assembled-molecule	23931887			10
+GCA_034140825.1	Primary Assembly	11	13340552	43	CP132245.1	Chromosome	NC_089045.1	assembled-molecule	31111469			11
+GCA_034140825.1	Primary Assembly	12	12149733	43	CP132246.1	Chromosome	NC_089046.1	assembled-molecule	28271460			12

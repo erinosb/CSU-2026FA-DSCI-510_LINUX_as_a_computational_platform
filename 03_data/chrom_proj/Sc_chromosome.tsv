@@ -1,0 +1,17 @@
+Assembly Accession	Assembly-unit name	Chromosome name	GC Count	GC Percent	GenBank seq accession	Molecule type	RefSeq seq accession	Role	Seq length	UCSC style name	Unlocalized Count	Sequence name
+GCA_000146045.2	Primary Assembly	I	90407	39.5	BK006935.2	Chromosome	NC_001133.9	assembled-molecule	230218	chrI		I
+GCA_000146045.2	Primary Assembly	II	311783	38.5	BK006936.2	Chromosome	NC_001134.8	assembled-molecule	813184	chrII		II
+GCA_000146045.2	Primary Assembly	III	122001	38.5	BK006937.2	Chromosome	NC_001135.5	assembled-molecule	316620	chrIII		III
+GCA_000146045.2	Primary Assembly	IV	580701	38	BK006938.2	Chromosome	NC_001136.10	assembled-molecule	1531933	chrIV		IV
+GCA_000146045.2	Primary Assembly	V	222139	38.5	BK006939.2	Chromosome	NC_001137.3	assembled-molecule	576874	chrV		V
+GCA_000146045.2	Primary Assembly	VI	104630	38.5	BK006940.2	Chromosome	NC_001138.5	assembled-molecule	270161	chrVI		VI
+GCA_000146045.2	Primary Assembly	VII	415227	38	BK006941.2	Chromosome	NC_001139.9	assembled-molecule	1090940	chrVII		VII
+GCA_000146045.2	Primary Assembly	VIII	216590	38.5	BK006934.2	Chromosome	NC_001140.6	assembled-molecule	562643	chrVIII		VIII
+GCA_000146045.2	Primary Assembly	IX	171126	39	BK006942.2	Chromosome	NC_001141.2	assembled-molecule	439888	chrIX		IX
+GCA_000146045.2	Primary Assembly	X	286169	38.5	BK006943.2	Chromosome	NC_001142.9	assembled-molecule	745751	chrX		X
+GCA_000146045.2	Primary Assembly	XI	253853	38	BK006944.2	Chromosome	NC_001143.9	assembled-molecule	666816	chrXI		XI
+GCA_000146045.2	Primary Assembly	XII	414843	38.5	BK006945.2	Chromosome	NC_001144.5	assembled-molecule	1078177	chrXII		XII
+GCA_000146045.2	Primary Assembly	XIII	353166	38	BK006946.2	Chromosome	NC_001145.3	assembled-molecule	924431	chrXIII		XIII
+GCA_000146045.2	Primary Assembly	XIV	303050	38.5	BK006947.3	Chromosome	NC_001146.8	assembled-molecule	784333	chrXIV		XIV
+GCA_000146045.2	Primary Assembly	XV	416439	38	BK006948.2	Chromosome	NC_001147.6	assembled-molecule	1091291	chrXV		XV
+GCA_000146045.2	Primary Assembly	XVI	360876	38	BK006949.2	Chromosome	NC_001148.4	assembled-molecule	948066	chrXVI		XVI

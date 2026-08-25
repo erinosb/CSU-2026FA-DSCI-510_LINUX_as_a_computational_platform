@@ -1,0 +1,26 @@
+Assembly Accession	Assembly-unit name	Chromosome name	GC Count	GC Percent	GenBank seq accession	Molecule type	RefSeq seq accession	Role	Seq length	UCSC style name	Unlocalized Count	Sequence name
+GCA_049306965.1	Primary Assembly	1	22914235	36.5	CM111179.1	Chromosome	NC_133176.1	assembled-molecule	63108402			chr1
+GCA_049306965.1	Primary Assembly	2	23467216	37	CM111180.1	Chromosome	NC_133177.1	assembled-molecule	63578853			chr2
+GCA_049306965.1	Primary Assembly	3	25686897	38	CM111181.1	Chromosome	NC_133178.1	assembled-molecule	67698726			chr3
+GCA_049306965.1	Primary Assembly	4	29174203	38	CM111182.1	Chromosome	NC_133179.1	assembled-molecule	76376419			chr4
+GCA_049306965.1	Primary Assembly	5	29622719	37.5	CM111183.1	Chromosome	NC_133180.1	assembled-molecule	78929807			chr5
+GCA_049306965.1	Primary Assembly	6	23082855	36.5	CM111184.1	Chromosome	NC_133181.1	assembled-molecule	63407686			chr6
+GCA_049306965.1	Primary Assembly	7	30126878	37.5	CM111185.1	Chromosome	NC_133182.1	assembled-molecule	80416488			chr7
+GCA_049306965.1	Primary Assembly	8	24336124	37.5	CM111186.1	Chromosome	NC_133183.1	assembled-molecule	64512798			chr8
+GCA_049306965.1	Primary Assembly	9	21462054	36.5	CM111187.1	Chromosome	NC_133184.1	assembled-molecule	59035420			chr9
+GCA_049306965.1	Primary Assembly	10	19292044	38	CM111188.1	Chromosome	NC_133185.1	assembled-molecule	50855184			chr10
+GCA_049306965.1	Primary Assembly	11	17382848	36	CM111189.1	Chromosome	NC_133186.1	assembled-molecule	47978265			chr11
+GCA_049306965.1	Primary Assembly	12	18728914	36	CM111190.1	Chromosome	NC_133187.1	assembled-molecule	51766578			chr12
+GCA_049306965.1	Primary Assembly	13	20893735	37	CM111191.1	Chromosome	NC_133188.1	assembled-molecule	56637657			chr13
+GCA_049306965.1	Primary Assembly	14	21967106	37.5	CM111192.1	Chromosome	NC_133189.1	assembled-molecule	58912081			chr14
+GCA_049306965.1	Primary Assembly	15	19395442	37.5	CM111193.1	Chromosome	NC_133190.1	assembled-molecule	52006389			chr15
+GCA_049306965.1	Primary Assembly	16	22309995	37.5	CM111194.1	Chromosome	NC_133191.1	assembled-molecule	59833720			chr16
+GCA_049306965.1	Primary Assembly	17	22511729	37.5	CM111195.1	Chromosome	NC_133192.1	assembled-molecule	59639751			chr17
+GCA_049306965.1	Primary Assembly	18	19810841	36.5	CM111196.1	Chromosome	NC_133193.1	assembled-molecule	54272776			chr18
+GCA_049306965.1	Primary Assembly	19	18793980	36.5	CM111197.1	Chromosome	NC_133194.1	assembled-molecule	51759963			chr19
+GCA_049306965.1	Primary Assembly	20	22027764	37	CM111198.1	Chromosome	NC_133195.1	assembled-molecule	59305174			chr20
+GCA_049306965.1	Primary Assembly	21	18727034	37.5	CM111199.1	Chromosome	NC_133196.1	assembled-molecule	50219970			chr21
+GCA_049306965.1	Primary Assembly	22	15495695	37.5	CM111200.1	Chromosome	NC_133197.1	assembled-molecule	41392508			chr22
+GCA_049306965.1	Primary Assembly	23	18857974	37.5	CM111201.1	Chromosome	NC_133198.1	assembled-molecule	50457056			chr23
+GCA_049306965.1	Primary Assembly	24	17332670	37.5	CM111202.1	Chromosome	NC_133199.1	assembled-molecule	46235565			chr24
+GCA_049306965.1	Primary Assembly	25	14742218	36.5	CM111203.1	Chromosome	NC_133200.1	assembled-molecule	40454730			chr25

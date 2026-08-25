@@ -1,0 +1,13 @@
+Assembly Accession	Assembly-unit name	Chromosome name	GC Count	GC Percent	GenBank seq accession	Molecule type	RefSeq seq accession	Role	Seq length	UCSC style name	Unlocalized Count	Sequence name
+GCA_036512215.2	Primary Assembly	1	32370904	34	AP028935.1	Chromosome	NC_090800.1	assembled-molecule	94708454			1
+GCA_036512215.2	Primary Assembly	2	27652084	38.5	AP028936.2	Chromosome	NC_090801.1	assembled-molecule	71710245			2
+GCA_036512215.2	Primary Assembly	3	23944534	35	AP028937.1	Chromosome	NC_090802.1	assembled-molecule	68736248			3
+GCA_036512215.2	Primary Assembly	4	23632509	34.5	AP028938.1	Chromosome	NC_090803.1	assembled-molecule	68494551			4
+GCA_036512215.2	Primary Assembly	5	23997410	34.5	AP028939.1	Chromosome	NC_090804.1	assembled-molecule	69564429			5
+GCA_036512215.2	Primary Assembly	6	18762618	36	AP028940.1	Chromosome	NC_090805.1	assembled-molecule	52172941			6
+GCA_036512215.2	Primary Assembly	7	24670761	34.5	AP028941.1	Chromosome	NC_090806.1	assembled-molecule	71053079			7
+GCA_036512215.2	Primary Assembly	8	24370071	35.5	AP028942.1	Chromosome	NC_090807.1	assembled-molecule	68473177			8
+GCA_036512215.2	Primary Assembly	9	24203707	34.5	AP028943.1	Chromosome	NC_090808.1	assembled-molecule	70139957			9
+GCA_036512215.2	Primary Assembly	10	22366774	34.5	AP028944.1	Chromosome	NC_090809.1	assembled-molecule	65184273			10
+GCA_036512215.2	Primary Assembly	11	22447147	36	AP028945.1	Chromosome	NC_090810.1	assembled-molecule	62371966			11
+GCA_036512215.2	Primary Assembly	12	24387371	35	AP028946.1	Chromosome	NC_090811.1	assembled-molecule	70164003			12

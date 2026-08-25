@@ -1,0 +1,8 @@
+Assembly Accession	Assembly-unit name	Chromosome name	GC Count	GC Percent	GenBank seq accession	Molecule type	RefSeq seq accession	Role	Seq length	UCSC style name	Unlocalized Count	Sequence name
+GCA_000001735.2	Primary Assembly	1	10856525	36	CP002684.1	Chromosome	NC_003070.9	assembled-molecule	30427671			1
+GCA_000001735.2	Primary Assembly	2	7063739	36	CP002685.1	Chromosome	NC_003071.7	assembled-molecule	19698289			2
+GCA_000001735.2	Primary Assembly	3	8521037	36.5	CP002686.1	Chromosome	NC_003074.8	assembled-molecule	23459830			3
+GCA_000001735.2	Primary Assembly	4	6727440	36	CP002687.1	Chromosome	NC_003075.7	assembled-molecule	18585056			4
+GCA_000001735.2	Primary Assembly	5	9691012	36	CP002688.1	Chromosome	NC_003076.8	assembled-molecule	26975502			5
+GCA_000001735.2	non-nuclear	MT	164749	45	BK010421.1	Mitochondrion	NC_037304.1	assembled-molecule	367808			MT
+GCA_000001735.2	non-nuclear	Pltd	56066	36.5	AP000423.1	Chloroplast	NC_000932.1	assembled-molecule	154478			Pltd

@@ -1,0 +1,42 @@
+Feature	GRCh38.p14	GRCh38.p14	GRCh38.p14	GRCh38.p14	T2T-CHM13v2.0
+		Primary Assembly	All Alt Loci	PATCHES	
+Genes and pseudogenes 	"59,792"	"59,172"	"2,522"	"2,882"	"58,506"
+  protein-coding	"20,076"	"19,890"	860	"1,089"	"20,070"
+  non-coding	"22,179"	"21,872"	732	865	"20,999"
+  Transcribed pseudogenes	"1,250"	"1,251"	105	156	"1,258"
+  Non-transcribed pseudogenes	"15,816"	"15,699"	655	737	"15,722"
+  genes with variants	"20,284"	"20,084"	727	848	"20,284"
+  Immunoglobulin/T-cell receptor gene segments	399	389	162	24	387
+  other	72	71	8	11	70
+  placed on multiple assembly-units 	"4,466"	na	675	na	na
+mRNAs	"136,794"	"131,239"	"5,610"	"4,682"	"130,471"
+  fully-supported	"133,588"	"128,543"	"5,329"	"4,453"	"125,696"
+  with > 5% ab initio 	"1,238"	"1,065"	92	81	"1,112"
+  partial	29	69	322	322	122
+  with filled gap(s) 	0	0	0	0	0
+  placed on multiple assembly-units 	"4,492"	na	844	na	na
+  known RefSeq (NM_) 	"69,783"	"69,639"	"2,203"	"2,678"	"69,598"
+  model RefSeq (XM_)	"67,011"	"61,600"	"3,407"	"2,004"	"60,873"
+non-coding RNAs 	"49,561"	"46,981"	"1,958"	"1,773"	"49,285"
+  fully-supported	"46,455"	"44,606"	"1,575"	"1,606"	"45,970"
+  with > 5% ab initio 	0	0	0	0	0
+  partial	5	5	87	65	46
+  with filled gap(s) 	0	0	0	0	0
+  placed on multiple assembly-units 	"1,114"	na	230	na	na
+  known RefSeq (NR_) 	"22,095"	"22,088"	665	674	"22,000"
+  model RefSeq (XR_) 	"25,468"	"23,500"	958	"1,010"	"25,808"
+pseudo transcripts 	"1,828"	"1,790"	131	211	"1,812"
+  fully-supported	"1,809"	"1,776"	128	209	"1,795"
+  with > 5% ab initio 	0	0	0	0	0
+  partial	0	0	12	16	11
+  with filled gap(s) 	0	0	0	0	0
+  placed on multiple assembly-units 	na	na	na	na	na
+  known RefSeq (NR_) 	"1,672"	"1,664"	126	186	"1,672"
+  model RefSeq (XR_) 	156	126	5	25	140
+CDSs	"137,384"	"131,629"	"5,770"	"4,682"	"130,858"
+  fully-supported	"133,588"	"128,543"	"5,329"	"4,453"	"125,696"
+  with > 5% ab initio 	"2,008"	"1,766"	138	104	"2,039"
+  partial	519	388	399	280	414
+  with major correction(s) 	33	84	41	126	236
+  known RefSeq (NP_) 	"69,783"	"69,639"	"2,199"	"2,655"	"69,597"
+  model RefSeq (XP_) 	"67,024"	"61,600"	"3,407"	"2,004"	"60,873"

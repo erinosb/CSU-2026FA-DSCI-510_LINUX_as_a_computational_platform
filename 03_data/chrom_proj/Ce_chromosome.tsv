@@ -1,0 +1,7 @@
+Assembly Accession	Assembly-unit name	Chromosome name	GC Count	GC Percent	GenBank seq accession	Molecule type	RefSeq seq accession	Role	Seq length	UCSC style name	Unlocalized Count	Sequence name
+GCA_000002985.3	Primary Assembly	I	5558428	36	BX284601.5	Chromosome	NC_003279.8	assembled-molecule	15072434			I
+GCA_000002985.3	Primary Assembly	II	5696842	36	BX284602.5	Chromosome	NC_003280.10	assembled-molecule	15279421			II
+GCA_000002985.3	Primary Assembly	III	5057380	35.5	BX284603.4	Chromosome	NC_003281.10	assembled-molecule	13783801			III
+GCA_000002985.3	Primary Assembly	IV	6220421	34.5	BX284604.4	Chromosome	NC_003282.8	assembled-molecule	17493829			IV
+GCA_000002985.3	Primary Assembly	V	7583289	35.5	BX284605.5	Chromosome	NC_003283.11	assembled-molecule	20924180			V
+GCA_000002985.3	Primary Assembly	X	6429014	35.5	BX284606.5	Chromosome	NC_003284.9	assembled-molecule	17718942			X

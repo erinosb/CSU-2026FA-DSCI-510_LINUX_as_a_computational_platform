@@ -1,0 +1,37 @@
+Feature	ASM3414082v1
+Genes and pseudogenes help	39,387
+  protein-coding	29,427
+  non-coding	8,050
+  Transcribed pseudogenes	118
+  Non-transcribed pseudogenes	1,789
+  genes with variants	8,232
+  Immunoglobulin/T-cell receptor gene segments	0
+  other	3
+mRNAs	42,771
+  fully-supported	40,414
+  with > 5% ab initio help	1,933
+  partial	68
+  with filled gap(s) help	0
+  known RefSeq (NM_) help	4,730
+  model RefSeq (XM_)	38,041
+non-coding RNAs help	13,501
+  fully-supported	10,349
+  with > 5% ab initio help	0
+  partial	0
+  with filled gap(s) help	0
+  known RefSeq (NR_) help	163
+  model RefSeq (XR_) help	12,619
+pseudo transcripts help	126
+  fully-supported	114
+  with > 5% ab initio help	0
+  partial	0
+  with filled gap(s) help	0
+  known RefSeq (NR_) help	26
+  model RefSeq (XR_) help	97
+CDSs	42,934
+  fully-supported	40,414
+  with > 5% ab initio help	1,984
+  partial	67
+  with major correction(s) help	307
+  known RefSeq (NP_) help	4,840
+  model RefSeq (XP_) help	38,094

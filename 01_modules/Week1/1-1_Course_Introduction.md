@@ -98,7 +98,7 @@ Linus Torvalds at home. Photo: Softpedia [Torvalds Shows Off Desk](https://news.
 Linux Family Tree:
 
 <p align="center">
-<img width="410" alt="tree" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/tree.png">
+<img width="410" alt="linux family tree" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/OS_kernel_timeline.jpg">
 </p>
 
 - The Linux Distros in this picture are those off the Fedora, Gentoo, Debian, and Arch Linux Branches.

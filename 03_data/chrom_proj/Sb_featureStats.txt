@@ -1,0 +1,27 @@
+Feature	Sorghum_bicolor_NCBIv3
+Genes and pseudogenes help	32,751
+  protein-coding	28,120
+  non-coding	3,384
+  pseudogenes	1,247
+  genes with variants	7,239
+mRNAs	39,132
+  fully-supported	35,600
+  with > 5% ab initio help	2,869
+  partial	118
+  with filled gap(s) help	1
+  known RefSeq (NM_) help	0
+  model RefSeq (XM_)	39,132
+Other RNAs help	9,523
+  fully-supported	9,020
+  with > 5% ab initio help	0
+  partial	0
+  with filled gap(s) help	0
+  known RefSeq (NR_) help	0
+  model RefSeq (XR_) help	9,020
+CDSs	39,132
+  fully-supported	35,600
+  with > 5% ab initio help	3,000
+  partial	118
+  with major correction(s) help	178
+  known RefSeq (NP_) help	0
+  model RefSeq (XP_) help	39,132

@@ -1,0 +1,36 @@
+Assembly Accession	Assembly-unit name	Chromosome name	GC Count	GC Percent	GenBank seq accession	Molecule type	RefSeq seq accession	Role	Seq length	UCSC style name	Unlocalized Count	Sequence name
+GCA_018327825.2	Primary Assembly	1	6565125	36	AP043567.1	Chromosome	NC_136093.1	assembled-molecule	18347025			1
+GCA_018327825.2	Primary Assembly	2	3683219	36	AP043568.1	Chromosome	NC_136094.1	assembled-molecule	10188569			2
+GCA_018327825.2	Primary Assembly	3	4378247	35.5	AP043569.1	Chromosome	NC_136095.1	assembled-molecule	12273785			3
+GCA_018327825.2	Primary Assembly	4	3034482	36	AP043570.1	Chromosome	NC_136096.1	assembled-molecule	8454821			4
+GCA_018327825.2	Primary Assembly	5	3014058	35.5	AP043571.1	Chromosome	NC_136097.1	assembled-molecule	8458009			5
+GCA_018327825.2	Primary Assembly	6	1926772	35.5	AP043572.1	Chromosome	NC_136098.1	assembled-molecule	5437517			6
+GCA_018327825.2	Primary Assembly	7	3671515	36	AP043573.1	Chromosome	NC_136099.1	assembled-molecule	10238876			7
+GCA_018327825.2	Primary Assembly	8	3190580	36	AP043574.1	Chromosome	NC_136100.1	assembled-molecule	8805405			8
+GCA_018327825.2	Primary Assembly	9	3238662	36	AP043575.1	Chromosome	NC_136101.1	assembled-molecule	8965682			9
+GCA_018327825.2	Primary Assembly	10	3669697	35.5	AP043576.1	Chromosome	NC_136102.1	assembled-molecule	10285203			10
+GCA_018327825.2	Primary Assembly	11	3401138	35.5	AP043577.1	Chromosome	NC_136103.1	assembled-molecule	9518626			11
+GCA_018327825.2	Primary Assembly	12	3566571	36	AP043578.1	Chromosome	NC_136104.1	assembled-molecule	9879317			12
+GCA_018327825.2	Primary Assembly	13	2346173	36	AP043579.1	Chromosome	NC_136105.1	assembled-molecule	6498295			13
+GCA_018327825.2	Primary Assembly	14	2511705	36	AP043580.1	Chromosome	NC_136106.1	assembled-molecule	6976749			14
+GCA_018327825.2	Primary Assembly	Un			AP043581.1	Chromosome	NW_027613608.1	unplaced-scaffold	1211073			AP043581.1
+GCA_018327825.2	Primary Assembly	Un			AP043582.1	Chromosome	NW_027613609.1	unplaced-scaffold	648578			AP043582.1
+GCA_018327825.2	Primary Assembly	Un			AP043583.1	Chromosome	NW_027613610.1	unplaced-scaffold	1076493			AP043583.1
+GCA_018327825.2	Primary Assembly	Un			AP043584.1	Chromosome	NW_027613611.1	unplaced-scaffold	66208			AP043584.1
+GCA_018327825.2	Primary Assembly	Un			AP043585.1	Chromosome	NW_027613612.1	unplaced-scaffold	592135			AP043585.1
+GCA_018327825.2	Primary Assembly	Un			AP043586.1	Chromosome	NW_027613613.1	unplaced-scaffold	508802			AP043586.1
+GCA_018327825.2	Primary Assembly	Un			AP043587.1	Chromosome	NW_027613614.1	unplaced-scaffold	393978			AP043587.1
+GCA_018327825.2	Primary Assembly	Un			AP043588.1	Chromosome	NW_027613615.1	unplaced-scaffold	148764			AP043588.1
+GCA_018327825.2	Primary Assembly	Un			AP043589.1	Chromosome	NW_027613616.1	unplaced-scaffold	217886			AP043589.1
+GCA_018327825.2	Primary Assembly	Un			AP043590.1	Chromosome	NW_027613617.1	unplaced-scaffold	245325			AP043590.1
+GCA_018327825.2	Primary Assembly	Un			AP043591.1	Chromosome	NW_027613618.1	unplaced-scaffold	215513			AP043591.1
+GCA_018327825.2	Primary Assembly	Un			AP043592.1	Chromosome	NW_027613619.1	unplaced-scaffold	115559			AP043592.1
+GCA_018327825.2	Primary Assembly	Un			AP043593.1	Chromosome	NW_027613620.1	unplaced-scaffold	20336			AP043593.1
+GCA_018327825.2	Primary Assembly	Un			AP043594.1	Chromosome	NW_027613621.1	unplaced-scaffold	141202			AP043594.1
+GCA_018327825.2	Primary Assembly	Un			AP043595.1	Chromosome	NW_027613622.1	unplaced-scaffold	29844			AP043595.1
+GCA_018327825.2	Primary Assembly	Un			AP043596.1	Chromosome	NW_027613623.1	unplaced-scaffold	11093			AP043596.1
+GCA_018327825.2	Primary Assembly	Un			AP043597.1	Chromosome	NW_027613624.1	unplaced-scaffold	92643			AP043597.1
+GCA_018327825.2	Primary Assembly	Un			AP043598.1	Chromosome	NW_027613625.1	unplaced-scaffold	46486			AP043598.1
+GCA_018327825.2	Primary Assembly	Un			AP043599.1	Chromosome	NW_027613626.1	unplaced-scaffold	77236			AP043599.1
+GCA_018327825.2	Primary Assembly	Un			AP043600.1	Chromosome	NW_027613627.1	unplaced-scaffold	65258			AP043600.1
+GCA_018327825.2	Primary Assembly	Un			AP043601.1	Chromosome	NW_027613628.1	unplaced-scaffold	5744			AP043601.1
