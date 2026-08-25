@@ -46,22 +46,24 @@ $ ls -ahl
 
 :hammer_and_wrench: **Group Exercise**: Let's obtain a dataset to allow us to explore `ls` and its options:
 
- - Download the `chrom_project.tgz` file from: [03_data](/03_data/)
- - When prompted, save it to your a directory you can navigate to by both your Finder/Explorer AND by the terminal: 
+ - Right click [03_data](/03_data/) and open in a new tab. This will navigate to the data subdirectory.
+ - Download the file `chrom_proj.tgz` by right clicking on it and selecting **Save Link As...**
+ - Save the file somewhere you 
 
-Note: this may be a good time to make a directory specifically for this class.
+>[!TIP]
+> This may be a good time to make a directory specifically for this class.
 
-Use the Finder/Explorer, navigate to the location where you downloaded the file.
+  - Use the Finder/Explorer, navigate to the location where you downloaded the file.
+  - Double click on the `chrom_proj.tgz` file to decompress it.
 
-Double click on the `` file to decompress it.
-
-**!!! Quick tip**: If double-clicking on the “tarball” doesn't open it, try copying-and-pasting the file someplace you can access through your terminal. Then, navigate to the file through the terminal, then execute this command line to decompress it.
+>[!TIP]
+> If double-clicking on the “tarball” doesn't open it, try copying-and-pasting the file someplace you can access through your terminal. Then, navigate to the file through the terminal, then execute this command line to decompress it.
 
 ```
-$ tar -zxvf 
+$ tar -zxvf chrom_proj.tgz
 ```
 
-If you need to, move the resulting expanded directory and its contents to a location you can easily manipulate in the terminal.
+  - If you need to, move the resulting expanded directory and its contents to a location you can easily manipulate in the terminal.
 
 Open your terminal and navigate (use `cd, pwd, ls`) to the directory chromsizes.
 
