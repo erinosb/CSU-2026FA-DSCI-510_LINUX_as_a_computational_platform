@@ -89,15 +89,16 @@ Ken Thompson (sitting) and Dennis Ritchie (standing) at the PDP-11 computer on w
 <img width="600" alt="ken_thompson_and_dennis_ritchie_at_pdp-11" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/ken_thompson_and_dennis_ritchie_at_pdp-11.jpg">
 </p>
 
-Linus Torvalds at home. Photo: Instagram/LinkedIn [Torvalds Shows Off Desk](https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/Linus_Torvalds_walkingDesk.jpeg)
-
-[Instagram video of Linus Torvalds's office set up](https://www.instagram.com/reels/DPTUVWfDPst/)
+Linus Torvalds at home. Photo: Instagram/LinkedIn 
 
 <p align="center">
 <img width="450" alt="linux-torvalds-shows-off-his-home-working-desk" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/Linus_Torvalds_walkingDesk.jpeg">
 </p>
 
-Linux Family Tree:
+
+[Instagram video of Linus Torvalds's office set up](https://www.instagram.com/reels/DPTUVWfDPst/)
+
+### Linux Family Tree:
 
 <p align="center">
 <img width="600" alt="linux family tree" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/OS_kernel_timeline.jpg">
@@ -108,12 +109,19 @@ Linux Family Tree:
 
 ### Why should we use Linux?
 
+<details>
+  <summary>Click to expand/collapse</summary>
+
+---
+
 - Power
 - Efficiency
 - Automation
 - Reproducibility
 - Fun
 - **Free**
+
+</details>
 
 ### Partner Exercise #1
 
