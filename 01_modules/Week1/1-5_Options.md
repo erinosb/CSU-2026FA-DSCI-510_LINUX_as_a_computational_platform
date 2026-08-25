@@ -54,20 +54,21 @@ $ ls -ahl
 > This may be a good time to make a directory specifically for this class.
 
   - Use the Finder/Explorer, navigate to the location where you downloaded the file.
-  - Double click on the `chrom_proj.tgz` file to decompress it.
+  - One of three things will happen:
+    1. The **tarball** will expand on its own into a directory
+    2. If you click on the **tarball**, it will expand into a directory
+    3. You will need to expand the **tarball** using a command.
 
 >[!TIP]
 > If double-clicking on the “tarball” doesn't open it, try copying-and-pasting the file someplace you can access through your terminal. Then, navigate to the file through the terminal, then execute this command line to decompress it.
 
 ```
-$ tar -zxvf chrom_proj.tgz
+$ tar -zxvf chrom_project.tgz
 ```
 
   - If you need to, move the resulting expanded directory and its contents to a location you can easily manipulate in the terminal.
 
 Open your terminal and navigate (use `cd, pwd, ls`) to the directory chromsizes.
-
-Not working? Dr. Nishimura made a video of this in case it is confusing. [Video link to tutorial of tarball download](https://zoom.us/rec/component-page?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&action=viewdetailpage&sharelevel=meeting&useWhichPasswd=meeting&requestFrom=pwdCheck&clusterId=aw1&componentName=need-password&meetingId=baghS9zqnq9wa-F1KmP-HQdRBUimkEIk8kUzxBj449faPZDHgFKF91eBQsvQgbyo.O63ixl1U5Lv2ax7D&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2F9_N4ArPU2l9LYc_jsRrACo0eI6X8eaa80SQcqPtexEcWyMaB7TbVkWJ7gYbepY9I%3FstartTime%3D1598531909000). Passcode: f$fQf2Lc
 
 **Advanced User BONUS Content:** [Tarballs and GZipping](../../Resources/Tarballs.md).
 
@@ -88,15 +89,7 @@ $ ls -alh
 - **Hint:** There might be some differences between what I have listed in this section: -rw-r–r–@ and what you have. Those are permission codes and you don't need to worry about them now. We'll talk about them later.
 
 ```
-total 232
--rw-r--r--@ 1 erinnishimura  staff    18B Aug 24 05:20 wuhCor1_chrom_sizes.txt
--rw-r--r--@ 1 erinnishimura  staff   229B Aug 24 05:21 sacCer3_chrom_sizes.txt
--rw-r--r--@ 1 erinnishimura  staff   1.3K Aug 24 05:18 mm39_chrom_sizes.txt
--rw-r--r--@ 1 erinnishimura  staff   375B Aug 24 05:16 hs1_chrom_sizes.txt
--rw-r--r--@ 1 erinnishimura  staff    44K Aug 24 05:19 dm6_chrom_sizes.txt
--rw-r--r--@ 1 erinnishimura  staff    47K Aug 24 05:19 danRer11_chrom_sizes.txt
--rw-r--r--@ 1 erinnishimura  staff    99B Aug 24 05:20 ce11_chrom_sizes.txt
--rw-r--r--@ 1 erinnishimura  staff   903B Aug 24 05:29 230824_README_download.txt
+
 ```
 
 ### Manuals
@@ -115,4 +108,4 @@ Use **Q** to quit out of the manual pages.
 
 I hate to tell you this, but the man pages are often inaccurate. Little differences between the distros and installations will lead to minor different behaviors. When this happens, try googling your problem and your operating system.
 
-Continue on to [Working with files 1](1-6_Working_with_files1.md)
+
