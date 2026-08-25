@@ -16,14 +16,17 @@ By typing into the terminal, we can interact with the **shell**. The shell is a 
 <img width="40%" alt="scheme" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/scheme.png">
 </p>
 
-> [!Terminal]
-> A method of interfacing with the shell through text entry. In the past, terminals were their own computers attached to the mainframe. Today a terminal is its own application/program called a terminal emulator.
-> [!Operating System]
+> [!Note]
+> **Terminal** - A method of interfacing with the shell through text entry. In the past, terminals were their own computers attached to the mainframe. Today a terminal is its own application/program called a terminal emulator.
+
+> [!Note]
 > A computer's core software that manages hardware and jobs. Examples are the Windows, MacOS, AndroidOS, and Linux operating systems.
-> [!Shell]
+
+> [!Note]
 >  In LINUX, this is a program that takes text entries from the terminal and passes them to the operating system
-> [!Kernel]
-> In LINUX, this is the core part of the Operating System
+
+> [!Note]
+> **Kernel** - In LINUX, this is the core part of the Operating System
 
 
 **!!! Cool trivia**: The operating system we will interface with in this class is larger than just the core kernel. It involves many other tasks and programs. Most of these auxiliary programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. However, that is quite a mouthful and doesn't quite zing like just plain “Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
