@@ -46,9 +46,9 @@ $ ls -ahl
 
 :hammer_and_wrench: **Group Exercise**: Let's obtain a dataset to allow us to explore `ls` and its options:
 
- - Right click [03_data](/03_data/) and open in a new tab. This will navigate to the data subdirectory.
- - Download the file `chrom_proj.tgz` by right clicking on it and selecting **Save Link As...**
- - Save the file somewhere you 
+ - Right click [03_data](/03_data/chrom_project.tgz) and open in a new tab. This will navigate to the dataset.
+ - Click on **Raw** in the top right corner.
+ - You will be prompted to select a directory where you want the dataset to download.
 
 >[!TIP]
 > This may be a good time to make a directory specifically for this class.
