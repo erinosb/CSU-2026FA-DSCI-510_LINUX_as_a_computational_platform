@@ -1,7 +1,7 @@
 
 # Paths
 
-### Todays objectives: 
+## Todays objectives: 
 
 <details>
   <summary>Click to expand/collapse</summary>
@@ -16,6 +16,7 @@
   - Wildcards
 
 - **Things you should know how to do after this class**
+  - Know the difference between an absolute path and a relative path 
   - Know the difference between “command”, “argument” and “options” and be able to identify them
   - Realize you can glob options together (-a -l -s is the same as -als for most command options)
   - Be comfortable navigating manuals and knowing they are available as a help resource
@@ -50,19 +51,17 @@
 
 </details>
 
-### Reminder: 
+## Reminder: 
 
-- Assignments 1 & 2 → submit on canvas, **DUE September 2nd by midnight**
-- This course is short and should be a springboard to more learning such as:
-  - [Boulder Computing Training Series](https://www.colorado.edu/crdds/events#research_computing-89)
-  - [Coding & Cookies](https://libguides.colostate.edu/coding-cookies/home) in the Morgan Library at CSU
-    - [Upcoming workshops](https://libguides.colostate.edu/coding-cookies)
+- Assignments 1 & 2 → submit on Canvas, **DUE September 1st before class**
+- This course is just the start 
+  - 
 
-### Test your understanding - take this quiz!
+## Test your understanding - take this quiz!
 
-[quiz 1](https://forms.gle/uMGb4qe14pmZKegu7)
 
-### Moving around: absolute paths v. relative paths
+
+## Moving around: absolute paths v. relative paths
 
 The types of paths we've used for navigating up to this point are called **relative paths**. This means that they only make sense from the perspective of the current working directory. In contrast, we can use `cd` to take us to **absolute paths** that would make sense anywhere on the computer system. **Absolute paths** always begin with the root directory, `/`. When we execute `pwd`, the shell spits out our current working directory as an absolute path because it start with a `/` such as `/Users/jessicahill/`.
 

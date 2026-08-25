@@ -126,9 +126,9 @@ Please e-mail me with any questions through regular e-mail or canvas e-mail. Cou
 
 Your grade for this course will be based on assignments, participation, and a final exam. The percentages are as follows:
 
-- Assignments: 35.5 %
-- In Class Quizzes: 30 %
-- Final exam: 35.5 %
+- Assignments: 30 % (6 x 5pts ea)
+- In Class Quizzes: 30 % (6 x 5pts ea)
+- Final exam: 40 %
 
 The calculation of the final letter grade will be made as follows:
 
@@ -143,7 +143,7 @@ The calculation of the final letter grade will be made as follows:
 ## Assignments
 
 - Assignments make up 35.5 % of your course grade.
-- There will be **6 assignments**. Assignments must be turned in on Canvas by 11:59 pm on the due date. 
+- There will be **6 assignments**. Assignments must be in turned in on Canvas by 10 am BEFORE CLASS on the due date.
 - If you need to turn in an assignment LATE, please talk to me and request additional time before the due date. You may turn in an assignment up to **48 hours late** but only with **PRIOR** approval!
 
 ## Student Disability Accommodations
