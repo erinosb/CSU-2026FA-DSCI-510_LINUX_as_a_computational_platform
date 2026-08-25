@@ -94,7 +94,7 @@ Linus Torvalds at home. Photo: Instagram/LinkedIn [Torvalds Shows Off Desk](http
 [Instagram video of Linus Torvalds's office set up](https://www.instagram.com/reels/DPTUVWfDPst/)
 
 <p align="center">
-<img width="410" alt="linux-torvalds-shows-off-his-home-working-desk" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/linux-torvalds-shows-off-his-home-working-desk.jpg">
+<img width="450" alt="linux-torvalds-shows-off-his-home-working-desk" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/Linus_Torvalds_walkingDesk.jpeg">
 </p>
 
 Linux Family Tree:
