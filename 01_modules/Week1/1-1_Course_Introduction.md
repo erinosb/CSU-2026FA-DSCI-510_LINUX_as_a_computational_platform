@@ -89,7 +89,9 @@ Ken Thompson (sitting) and Dennis Ritchie (standing) at the PDP-11 computer on w
 <img width="600" alt="ken_thompson_and_dennis_ritchie_at_pdp-11" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/ken_thompson_and_dennis_ritchie_at_pdp-11.jpg">
 </p>
 
-Linus Torvalds at home. Photo: Softpedia [Torvalds Shows Off Desk](https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/linux-torvalds-shows-off-his-home-working-desk.jpg)
+Linus Torvalds at home. Photo: Instagram/LinkedIn [Torvalds Shows Off Desk](https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/Linus_Torvalds_walkingDesk.jpeg)
+
+[Instagram video of Linus Torvalds's office set up](https://www.instagram.com/reels/DPTUVWfDPst/)
 
 <p align="center">
 <img width="410" alt="linux-torvalds-shows-off-his-home-working-desk" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/linux-torvalds-shows-off-his-home-working-desk.jpg">
@@ -118,7 +120,6 @@ Linux Family Tree:
 - Turn to a partner
 - Introduce yourself to your partner
 - Discuss: What do you hope to gain from this class and by learning Linux?
-- Discuss: Are there data types or analyses you want to use Linux to address?
 - Share: Please write down some notes about what you and your partner discussed here (names are optional)
 - **Asynchronous & Remote Students** - Please join in, too! Add your ideas to the document!
 
