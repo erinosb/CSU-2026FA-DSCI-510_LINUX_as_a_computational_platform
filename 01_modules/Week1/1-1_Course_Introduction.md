@@ -1,4 +1,9 @@
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/header1.jpeg">
+</p>
+
 # Course Introduction
+
 
 ### Todays objectives: 
 
