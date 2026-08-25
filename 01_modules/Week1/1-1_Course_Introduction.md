@@ -37,7 +37,7 @@
   - Know how to perform basic navigation into directories using cd
   - Know not to put spaces in names
   - Know how to use TAB for autocomplete
-  - Know the difference between an absolute path and a relative path
+  - Know the difference between an absolute path and a relative path (maybe - if we get to it)
 
 - **Commands covered**
   - `whoami`
@@ -75,7 +75,7 @@
 - A philosophy
 - A prominent example of the open source movement
 
-### Where did Linux come from
+### Where did Linux come from?
 
 - UNIX was developed by AT&T's Bell Laboratories in 1969 by Ken Thompson and Dennis Ritchie and their team.
 - An unpatented system
