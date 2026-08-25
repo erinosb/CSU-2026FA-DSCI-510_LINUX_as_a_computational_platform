@@ -195,13 +195,14 @@ Do you have any questions?
 
 ## Handy Tips
 
-- **tab to autocomplete:** When you're typing out the name of a directory or sub-directory, instead of typing out the whole thing, start typing it a few characters and then autocomplete by typing TAB. If the characters you've typed so far limit you down to one option, the name will autocomplete. If it narrows it down into a few options, press TAB again and those options will be listed.
+> [!TIP]
+> **Tab to autocomplete:** When you're typing out the name of a directory or sub-directory, instead of typing out the whole thing, start typing it a few characters and then autocomplete by typing TAB. If the characters you've typed so far limit you down to one option, the name will autocomplete. If it narrows it down into a few options, press TAB again and those options will be listed.
 
-**!!! Common pitfall**: 
+> [!WARNING]
+> **Not enough ls and pwd:** Many new users have trouble navigating directories when they first start out. It is something that you'll get used to over time. One thing that can help make the process easier is to continually execute pwd and ls commands. Just imagine that anytime you want to look at something in your Finder/Explorer, you are in effect issuing an ls command. So you should be typing ls as often as you look at your files!
 
-- **not enough ls and pwd:** Many new users have trouble navigating directories when they first start out. It is something that you'll get used to over time. One thing that can help make the process easier is to continually execute pwd and ls commands. Just imagine that anytime you want to look at something in your Finder/Explorer, you are in effect issuing an ls command. So you should be typing ls as often as you look at your files!
-
-- **spaces in names:** Linux does NOT like spaces in directory or filenames, becuase they are commonly used as delimiters to seperate arguments in a command. If one of your directories contains a space, you'll need to treat the space as part of a single argument. This is done by/called **escaping a character**. This can be acheived in one of two ways: 
+> [!WARNING]
+> **Spaces in names:** Linux does NOT like spaces in directory or filenames, becuase they are commonly used as delimiters to seperate arguments in a command. If one of your directories contains a space, you'll need to treat the space as part of a single argument. This is done by/called **escaping a character**. This can be acheived in one of two ways: 
   - Type a backslash+space as `\ ` instead of just a single space.
   - Use single (' ') or double quotes (" ") to enclose the argument containing spaces.
 
@@ -217,6 +218,11 @@ OR
 $ cd 'OneDrive - Colostate'
 $ cd "OneDrive - Colostate"
 ```
+
+---
+
+## Vocabulary
+
 
 
 Continue on to [Paths](1-4_Paths.md)
