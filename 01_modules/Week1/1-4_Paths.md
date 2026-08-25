@@ -82,7 +82,8 @@ $ cd music
 
 :hammer_and_wrench: **!!! Independent Exercise**: Open your Finder/Explorer and navigate to some directory on your computer where you keep a piece of data you've recently gathered. Look at the path bar to get a sense of where this directory is located. Now, using the terminal, try to change into this directory using an absolute path as the argument for a cd command. Use **TAB** to autocomplete to save time and improve accuracy.
 
-:hammer_and_wrench: **!!! Quick tip**: When moving up or down a directory structure using relative paths, you don't need to jump down each directory one at a time. You can double up your jumps using a `/` between directories. For example, if you are in `/Users/Name/` and you want to be in `/Users/Name/Documents/Labwork/`, try:
+> [!TIP]
+> **!!! Quick tip**: When moving up or down a directory structure using relative paths, you don't need to jump down each directory one at a time. You can double up your jumps using a `/` between directories. For example, if you are in `/Users/Name/` and you want to be in `/Users/Name/Documents/Labwork/`, try:
 
 ```
 $ pwd
