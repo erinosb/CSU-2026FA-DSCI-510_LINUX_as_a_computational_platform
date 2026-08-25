@@ -13,7 +13,7 @@ Linux maintains this older, text-based interface through the **terminal emulator
 By typing into the terminal, we can interact with the **shell**. The shell is a program that will take our text input and pass it to the **kernel**. The kernel is the core operating system that will assess how best to carry out each job given the computer's hardware and the task at hand.
 
 <p align="center">
-<img width="40%" alt="scheme" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/scheme.png">
+<img width="40%" alt="scheme" src="../../05_images/scheme.png">
 </p>
 
 The LINUX operating system is larger than the kernel. Some additional programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
