@@ -16,18 +16,14 @@ By typing into the terminal, we can interact with the **shell**. The shell is a 
 <img width="40%" alt="scheme" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/scheme.png">
 </p>
 
-<p align="center">
-  <img src="../../05_images/scheme.png" width="40%" alt="Terminal, shell, kernel diagram">
-</p>
-
 > [!Note]
 > **Terminal** - A method of interfacing with the shell through text entry. In the past, terminals were their own computers attached to the mainframe. Today a terminal is its own application/program called a terminal emulator.
 
 > [!Note]
-> A computer's core software that manages hardware and jobs. Examples are the Windows, MacOS, AndroidOS, and Linux operating systems.
+> **Operating System** - A computer's core software that manages hardware and jobs. Examples are the Windows, MacOS, AndroidOS, and Linux operating systems.
 
 > [!Note]
->  In LINUX, this is a program that takes text entries from the terminal and passes them to the operating system
+>  **Shell** - In LINUX, this is a program that takes text entries from the terminal and passes them to the operating system
 
 > [!Note]
 > **Kernel** - In LINUX, this is the core part of the Operating System
