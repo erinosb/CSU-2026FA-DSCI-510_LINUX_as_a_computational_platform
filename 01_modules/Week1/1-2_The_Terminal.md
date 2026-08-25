@@ -7,7 +7,7 @@ This wasn't always the case. When computers were first developed, all user inter
 Linux maintains this older, text-based interface through the **terminal emulator**, or **terminal**. By typing into the terminal, we can interact with the **shell**. The shell is a program that will take our text input and pass it to the **kernel**. The kernel is the core operating system that will assess how best to carry out each job given the computer's hardware and the task at hand.
 
 <p align="center">
-<img width="410" alt="scheme" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/scheme.png">
+<img width="410" alt="scheme" src="https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/05_images/scheme.png">
 </p>
 
 **!!! Cool trivia**: The operating system we will interface with in this class is larger than just the core kernel. It involves many other tasks and programs. Most of these auxiliary programs and tasks originate from the GNU Project that predates the Linux kernel. For this reason, what we refer to as “Linux” should probably be referenced as “GNU/Linux”. However, that is quite a mouthful and doesn't quite zing like just plain “Linux”. For more information on this interesting fact, please see **“Why I don't call it “GNU/LINUX”** in the textbook.
