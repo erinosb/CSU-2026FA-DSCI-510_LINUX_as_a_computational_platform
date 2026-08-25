@@ -1,3 +1,8 @@
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/headers_Slide1B.png">
+</p>
+
+
 # Navigating the file system
 
 ## Who, What, When, Where commands
