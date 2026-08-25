@@ -86,7 +86,7 @@
 Ken Thompson (sitting) and Dennis Ritchie (standing) at the PDP-11 computer on which they wrote the UNIX operating system. Photo: Creative Commons license from the [Unix Wikipedia Page](https://en.wikipedia.org/wiki/Unix)
 
 <p align="center">
-<img width="410" alt="ken_thompson_and_dennis_ritchie_at_pdp-11" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/ken_thompson_and_dennis_ritchie_at_pdp-11.jpg">
+<img width="600" alt="ken_thompson_and_dennis_ritchie_at_pdp-11" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/ken_thompson_and_dennis_ritchie_at_pdp-11.jpg">
 </p>
 
 Linus Torvalds at home. Photo: Softpedia [Torvalds Shows Off Desk](https://news.softpedia.com/news/Linux-Torvalds-Shows-Off-His-Home-Working-Desk-451264.shtml)
