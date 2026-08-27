@@ -53,7 +53,12 @@
 
 ## Reminder: 
 
+- Canvas Quiz
 - Assignments 1 & 2 → submit on Canvas, **DUE September 1st before class**
+- Updated REQUIREMENTS - text editor
+- Updates - my coding background
+- Updates - let me know if something isn't working
+
 - This course is just the start 
   - [Morgan Library Coding & Cookies Series](https://libguides.colostate.edu/coding-cookies)
   - [Boulder Training (online and in person)](https://www.colorado.edu/rc/events)
