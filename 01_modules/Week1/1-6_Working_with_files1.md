@@ -50,6 +50,8 @@ $ tail -n 5 less Hs_chromosome.tsv #show last 5 lines
 - Try using some options.
 - Read the two **README** files.
 
+----
+
 ## Getting file info 
 
 One of the handiest commands for getting information about a file is word count.
@@ -79,6 +81,8 @@ $ wc -l    # lists only the number of lines
 $ wc -w    # lists only the number of words
 $ wc -c    # lists only the number of characters
 ```
+
+----
 
 ## Multiple Arguments
 
