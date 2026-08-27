@@ -29,7 +29,7 @@ In 3 - 5 sentences, tell me about your research project and how you envision mig
 
 Please re-read the [AI statement here](../README.md#ai-statement). What are your coding goals for this class and for the future? What is your current AI philosophy? How will your AI philosophy help you build the skillset you desire?
 
-  - *What do I mean by an AI Philosophy? I mean how do you want AI to contribute to your learning process or your coding process? What strategies, boundaries, checks, or "personal audits" do you envision will help you? What hopes do you have? What concerns do you have? 
+  - *What do I mean by an AI Philosophy? I mean how do you want AI to contribute to your learning process or your coding process? What strategies, boundaries, checks, or "personal audits" do you envision will help you? What hopes do you have? What concerns do you have?*
 
 ## Question 3
 
