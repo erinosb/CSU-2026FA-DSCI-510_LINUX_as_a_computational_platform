@@ -94,7 +94,7 @@ Most commands allow us to list multiple arguments and will perform the command o
 
 `$ command [argument] <argument> <argument>`
 
-:hammer_and_wrench: **Individual Exercise** 
+:hammer_and_wrench: **Group Exercise** Try multiple arguments
 
 ```
 $ wc At_chromosome.tsv Bs_chromosome.tsv Ce_chromosome.tsv 
