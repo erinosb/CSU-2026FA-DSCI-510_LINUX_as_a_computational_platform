@@ -23,19 +23,16 @@ $ more At_chromosome.tsv  # OR
 $ Hs_chromosome.tsv
 ```
 
-Use **spacebar** or **down arrow** or **return** to scroll down
-
-Type **q** to quit
+  - Use **spacebar** or **down arrow** or **return** to scroll down
+  - Type **q** to quit
 
 ```
 $ less Hs_chromosome.tsv
 ```
 
-Use **spacebar** or **down arrow** or **return** to scroll down
-
-Use **b** or **up arrow** to scroll up
-
-Type **q** to quit
+  - Use **spacebar** or **down arrow** or **return** to scroll down
+  - Use **b** or **up arrow** to scroll up
+  - Type **q** to quit
 
 ```
 $ head less Hs_chromosome.tsv #show first 10 lines
@@ -48,9 +45,10 @@ $ tail -n 5 less Hs_chromosome.tsv #show last 5 lines
 > Sometimes it looks like head or tail are showing way more lines than you expect. If your lines are very, very long (typical in bioinformatics), this may be due to forced word wrapping in the terminal. Try re-sizing your browser bigger or smaller to see if this is the case.
 
 :hammer_and_wrench: **Group Exercise** 
+
 - Practice readingdifferent files in the `chrom_proj` directory using each command.
+- Try using some options.
 - Read the two **README** files.
-- Try adding some options.
 
 ## Getting file info 
 
@@ -67,11 +65,14 @@ Word count spits out:
 5. some totals if multiple files are given.
 
 ```
-$ wc dm6_chrom_sizes.txt
+$ wc At_chromosome.tsv
+$ wc Hs_chromosome.tsv.txt
 $ wc *.txt # This will list the word count of ALL the .txt files
 ```
 
-**!!! Cool trick**: We can also use options with **wc**:
+:question: What is Ta?
+
+:sunglasses: **Cool trick**: We can also use options with **wc**:
 
 ```
 $ wc -l    # lists only the number of lines
@@ -79,7 +80,7 @@ $ wc -w    # lists only the number of words
 $ wc -c    # lists only the number of characters
 ```
 
-### Multiple Arguments
+## Multiple Arguments
 
 To date, we have only performed a command on a single argument:
 
@@ -89,10 +90,10 @@ Most commands allow us to list multiple arguments and will perform the command o
 
 `$ command [argument] <argument> <argument>`
 
-**!!! Exercise**: Try it!
+:hammer_and_wrench: **Individual Exercise** 
 
 ```
-$ wc mm39_chrom_sizes.txt  sacCer3_chrom_sizes.txt
+$ wc At_chromosome.tsv Bs_chromosome.tsv Ce_chromosome.tsv 
 ```
 
 Continue on to [Wildcards](1-7_Wildcards.md)
