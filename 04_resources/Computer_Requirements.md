@@ -15,6 +15,8 @@ If your laptop is very slow or near dying, please consider borrowing (or buying)
 
 The computer should be a laptop. A tablet or iPad is not going to cut it!
 
+-----
+
 ## 2. Learn how to open the terminal on your computer
 
 What is a terminal or command line interface?
@@ -63,3 +65,28 @@ If you have a laptop that is running a Linux distro natively, you are all set to
 First - don't panic. It's ok. If you can't find a good laptop or you can't access a terminal, just e-mail me (Erin). I will help you troubleshoot the issue. I will also be in class early on the first day and will be available there to help you get everything up and running! Not a problem!
 
 Thanks, I’m looking forward to working with all of you!
+
+---
+
+## 3. Select a Text Editor to use
+
+You will need to code using a Text editor. You will turn in your assignments as "flat" text files. That is, no colors, bold, extra things like that. 
+
+**Mac Users - Simplest options**
+
+  - [Bare Bones Editor](https://www.barebones.com/products/bbedit/)
+    - In the App Store
+    - Don't buy it. Just use the free versions
+  - [cotEditor](https://apps.apple.com/us/app/coteditor/id1024640650?mt=12) 
+    - in the App Store
+
+**PC Users - Simplest options**
+
+  - [Notepad++](https://notepad-plus-plus.org/)
+
+**Either User - Fancier options**
+
+A simple text editor is the best for getting started, but once your coding gets more fancy, you may find you would benefit from an **IDE** or **Integrated Development Environment**. These include a text editor, the terminal, access to files, and (typically) AI.
+
+  - [Virtual Stuidio Code - VSC](https://code.visualstudio.com/). Mac, PC, Linux versions
+
