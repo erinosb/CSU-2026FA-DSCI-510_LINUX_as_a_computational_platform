@@ -72,7 +72,7 @@ $ tar -zxvf chrom_project.tgz
 
   - If you need to, move the resulting expanded directory and its contents to a location you can easily manipulate in the terminal.
 
-Open your terminal and navigate (use `cd, pwd, ls`) to the directory chromsizes.
+  * Open your terminal and navigate (use `cd, pwd, ls`) to the directory chromsizes.
 
 **Advanced User BONUS Content:** [Tarballs and GZipping](../../04_resources/Tarballs.md).
 
