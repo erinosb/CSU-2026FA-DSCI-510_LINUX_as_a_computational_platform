@@ -1,6 +1,6 @@
 # Assignment 2
 
-- Due **Tuesday, September 2, 2026, 10:00 am** 
+- Due **Tuesday, September 1, 2026, 10:00 am** 
 - **DO NOT write out the questions. Do not write long descriptions. Only write your succinct answers.**
 - Enter your answers into a .txt file within a text editor such as BBEdit, Notepad++, or some other application. Do not use Word. Do not use TextEdit (MAC).
 - Do not include the questions in your answer file
