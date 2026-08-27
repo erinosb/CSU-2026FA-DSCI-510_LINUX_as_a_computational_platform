@@ -47,7 +47,7 @@ $ command --help
 >[!TIP]
 > **THIS ISN'T ENGLISH:** Man, or **manual**, pages will seem like they are written in a cryptic foreign language. Just look for the relevant information. With use, they become less cryptic.
 
-If you get stuck in a weird place try these options …
+:ring_buoy: **HELP! I'm stuck!:** If you get stuck in a weird place try these options …
 
 ```
 q
