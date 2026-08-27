@@ -35,10 +35,10 @@ $ less Hs_chromosome.tsv
   - Type **q** to quit
 
 ```
-$ head less Hs_chromosome.tsv #show first 10 lines
-$ head -n 5 less Hs_chromosome.tsv #show first 5 lines
-$ tail less Hs_chromosome.tsv #show last 10 lines
-$ tail -n 5 less Hs_chromosome.tsv #show last 5 lines
+$ head Hs_chromosome.tsv #show first 10 lines
+$ head -n 5 Hs_chromosome.tsv #show first 5 lines
+$ tail Hs_chromosome.tsv #show last 10 lines
+$ tail -n 5 Hs_chromosome.tsv #show last 5 lines
 ```
 
 >[!TIP]
