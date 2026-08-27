@@ -23,7 +23,9 @@
 
 ## Question 1
 
-In 3 - 5 sentences, tell me about your research project and how you envision might fit into your project or your career. *If you don't have a research project, just focus on your career and your hopes for the future. Be sure to include the field of study you hope to enter.*
+In 3 - 5 sentences, tell me about your research project and how you envision might fit into your project or your career. 
+
+  - *If you don't have a research project, just focus on your career and your hopes for the future. Be sure to include the field of study you hope to enter.*
 
 ## Question 2
 
