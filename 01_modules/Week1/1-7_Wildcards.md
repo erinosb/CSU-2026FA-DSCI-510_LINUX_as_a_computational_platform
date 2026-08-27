@@ -44,6 +44,8 @@ b?b
 $ wc *.tsv
 $ wc *.txt
 $ $ wc ??_chromosome.tsv
+$ wc C*tsv 
+$ head -5 README*.txt
 ```
 
 Continue on to [Getting Help](1-8_Getting_help.md)
