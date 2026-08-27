@@ -22,4 +22,4 @@ To extract a tarball into an un-compressed directory again:
 - -v - verbose
 - -f - files
 
-Back to [Options](../Modules/Week1/1-5_Options.md)
+Back to [Options](../01_modules/Week1/1-5_Options.md)
