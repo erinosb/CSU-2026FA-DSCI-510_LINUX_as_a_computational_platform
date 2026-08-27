@@ -60,10 +60,10 @@
 
 ## Moving around: absolute paths v. relative paths
 
-The types of paths we've used for navigating up to this point are called **relative paths**. This means that they only make sense from the perspective of the current working directory. In contrast, we can use `cd` to take us to **absolute paths** that would make sense anywhere on the computer system. **Absolute paths** always begin with the root directory, `/`. When we execute `pwd`, the shell spits out our current working directory as an absolute path because it start with a `/` such as `/Users/jessicahill/`.
+The types of paths we've used for navigating up to this point are called **relative paths**. This means that they only make sense from the perspective of the current working directory. In contrast, we can use `cd` to take us to **absolute paths** that would make sense anywhere on the computer system. **Absolute paths** always begin with the root directory, `/`. When we execute `pwd`, the shell spits out our current working directory as an absolute path because it start with a `/` such as `/Users/erin/`.
 
 >[!NOTE]
-> **Absolute path:** The exact, full address of a file or directory starting from the root `/`. The absolute path always starts with a forward slash. An example of navigating using an absolute path would be `cd /home/martha/dogstuff`
+> **Absolute path:** The exact, full address of a file or directory starting from the root `/`. The absolute path always starts with a forward slash. An example of navigating using an absolute path would be `cd /home/luffy/shipInventory`
 
 >[!NOTE]
 >  **Relative path:** The location of a file or directory that only makes sense in the context of a given working directory. Examples of navigating using a relative path would be `cd subdirectory` or `cd ..`
@@ -71,7 +71,7 @@ The types of paths we've used for navigating up to this point are called **relat
 **!!! Example**: Changing directory using an **absolute path:**
 
 ```
-$ cd /home/users/sally/documents
+$ cd /home/users/sanji/documents
 ```
 **!!! Example**: Changing directory using an **relative path:**
 ```
@@ -110,8 +110,8 @@ $ ls
 Homework Labwork Servicework
 $ ls Servicework
 application1.docx report1.docx report2.docx
-$ ls /home/users/sandra/sheetmusic
-eight_polonaises.pdf hungarian_dance_no5.pdf six_variations.pdf 
+$ ls /home/users/luffy/shipInventory
+march_purchases.pdf april_purchases.pdf august_purchases.pdf 
 ```
 
 ## Handy Tips - SHORTCUTS
