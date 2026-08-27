@@ -22,7 +22,7 @@ Please see the [Computer Requirements](04_resources/Computer_Requirements.md) fo
 |-------|------|-------------|---------|-------------|
 | August 25 | [week1](01_modules/Week1) | Course introduction, The terminal, Navigating the file system | Chapters 1, 2 | [Assignment 1](https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/02_assignments/Assignment_1.md) **(due September 1)**|
 | August 27 | [week1](01_modules/Week1) | Paths, Options, Working with files 1 (more, less, head, tail, wc), Wildcards, Getting help | Chapter 2 (navigation), Chapter 3 (ls, less), Chapter 4 (wildcards) | [Assignment 2](https://github.com/erinosb/CSU-2026FA-DSCI-510_LINUX_as_a_computational_platform/blob/main/02_assignments/Assignment_2.md) **(due September 1)** |
-| Bonus Content | 1 | TBD | | |
+| Bonus Content | 1 | [Tarballs](04_resources/Tarballs.md)] | | |
 | September 1 | [week2](01_modules/Week2) | Making & removing, Copying & moving, File transfer, File formats | Chapters 4-5 (mkdir, cp, mv), Chapter 6 (redirection), Chapter 16, Chapter 18 (gzip) | Assignment 3 **(due September 8)** |
 | September 3 | [week2](01_modules/Week2) | Redirection, Working with files 2 (cat, grep, cut), Practice grep & cut, Pipes, More Pipes | Chapter 19 (grep), Chapter 20 (sort, uniq, cut), Chapter 5 (alias), Chapter 9 | Assignment 4 **(due September 8)** |
 | Bonus Content | 2 | TBD | | |
