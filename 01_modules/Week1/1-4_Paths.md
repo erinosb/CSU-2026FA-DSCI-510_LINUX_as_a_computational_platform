@@ -58,6 +58,8 @@
 - Updated REQUIREMENTS - text editor
 - Updates - my coding background
 - Updates - let me know if something isn't working
+- Updates - Code Club - Friday 9 am - 11 am (Erin 9 - 10; Eliud + Kira 10 - 11). AZ E210.
+
 
 - This course is just the start 
   - [Morgan Library Coding & Cookies Series](https://libguides.colostate.edu/coding-cookies)
