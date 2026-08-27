@@ -1,3 +1,7 @@
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/headers_Slide4.png">
+</p>
+
 # Wildcards
 
 So far, we have always typed out the exact argument names. We do this by hand-typing or using `tab` to auto-complete the name of a file or directory. This performs operations on **specific** files or directories. We can also use **wildcards** to ask the shell to perform operations on groups of filenames or directories. Wildcards are special characters that will match a set of characters. This can extend the command by performing the action on more than one file at a time.
@@ -6,11 +10,11 @@ So far, we have always typed out the exact argument names. We do this by hand-ty
 
 `?` this can represent any single character
 
-**References**
-- Please Refer to Chapter 4 in the textbook, The Linux Command Line, for a detailed discussion on wildcards. Today, we will just cover two types of wildcards, `*` and `?`.
-- [GNU/LINUX Wildcard Command Line Tools](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm)
+>[!TIP]
+> Please Refer to Chapter 4 in the textbook, The Linux Command Line, for a detailed discussion on wildcards. Today, we will just cover two types of wildcards, `*` and `?`. [GNU/LINUX Wildcard Command Line Tools](../../04_resources/TLCL-25.12A.pdf)
 
-**!!! Examples**:
+:hammer_and_wrench: **Group Exercise** 
+
 ```
 b*b
   will match bob, blob, bathtub, beach_club
@@ -30,13 +34,16 @@ b?b
   will NOT match bb, BOB, blob, bathtub, beach_club, bobbing, robob
 ```
 
-**!!! Exercise**: What will the following commands do? 
-```
-$ head -n 1 *.txt
-$ tail d*
-$ wc ???_chrom_sizes.txt
-```
+:hammer_and_wrench: **Partner Exercise**: How would you use a wildcards and options to display ONLY the number of lines of ONLY the chromosome.tsv files that use a two-letter ("At", "Hs") prefix? 
 
-**!!! Independent Exercise**: How would you use a wildcard to display the word count of all the chrom_sizes files while excluding the word count of the readme file?
+ - Hint: Exclude the covid file from the word count
+
+:hammer_and_wrench: **Hint:** Play around
+
+```
+$ wc *.tsv
+$ wc *.txt
+$ $ wc ??_chromosome.tsv
+```
 
 Continue on to [Getting Help](1-8_Getting_help.md)
