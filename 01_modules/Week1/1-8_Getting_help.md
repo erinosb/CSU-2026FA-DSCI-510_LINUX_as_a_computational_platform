@@ -7,13 +7,13 @@
 ## Getting help on the internet 
 
 >[!TIP]
-> If you need help!, your first line of defense is GOOGLE!!! Some common sites that have large repositories of computational questions and answers:
+> **GOOGLE TIPS:** If you need help!, your first line of defense is GOOGLE!!! Some common sites that have large repositories of computational questions and answers:
 
 - stackoverflow.com
 - stackexchange.com
 
 >[!TIP]
-> If you don't immediately find what you're looking for on a google search, try adding the following terms to your search:
+> **SEARCH TIPS:** If you don't immediately find what you're looking for on a google search, try adding the following terms to your search:
 
 - “linux”
 - “can't … linux”
@@ -23,10 +23,10 @@
 - **command name + error message**
 
 >[!TIP]
->Ask your professors and classmates for help by posting on Canvas Discussions!
+> **MAKE FRIENEDS:** Ask your professors and classmates for help by posting on Canvas Discussions!
 
->[!TIP]
->Don't post your question to a popular public messageboard (stackoverflow, stackexchange, etc) unless you know the proper protocol for how to ask questions.
+>[!WARNING]
+> Don't post your question to a popular public messageboard (stackoverflow, stackexchange, etc) unless you know the proper protocol for how to ask questions.
 
 ----
 
@@ -42,10 +42,10 @@ $ command --help
 ```
 
 >[!TIP]
->When navigating the **man** pages press `spacebar` to scroll down and `q` to exit.
+> **SCROLLING MAN PAGES:** When navigating the **man** pages press `spacebar` to scroll down and `q` to exit.
 
 >[!TIP]
->Man, or **manual**, pages will seem like they are written in a cryptic foreign language. Just look for the relevant information. With use, they become less cryptic.
+> **THIS ISN'T ENGLISH:** Man, or **manual**, pages will seem like they are written in a cryptic foreign language. Just look for the relevant information. With use, they become less cryptic.
 
 If you get stuck in a weird place try these options …
 
