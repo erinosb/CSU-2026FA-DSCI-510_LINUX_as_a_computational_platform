@@ -3,7 +3,7 @@
 We can compress a directory of files into a single, compressed file using the **tar** command. This greatly reduces the directory size and makes it easy to move a whole directory from computer-to-computer. Sadly, the commands and option for the **tar** command are notoriously hard to memorize:
 
 <p align="center">
-<img width="410" alt="tarball" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/tar_2x.png">
+<img width="80%" alt="tarball" src="../05_images/tar_2x.png">
 </p>
 
 To compress a directory into a tarball:
