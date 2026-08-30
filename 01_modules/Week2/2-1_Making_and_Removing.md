@@ -183,7 +183,7 @@ $ nano common_pitfalls.txt
 
 We will learn other ways to create new files in future lessons, too.
 
-**!!! Bonus Content:** For more detailed information on Nano: [nano tutorial](../../Resources/nano_tutorial.md)
+**!!! Bonus Content:** For more detailed information on Nano: [nano tutorial](../../04_resources/nano_tutorial.md)
 
 ----
 
