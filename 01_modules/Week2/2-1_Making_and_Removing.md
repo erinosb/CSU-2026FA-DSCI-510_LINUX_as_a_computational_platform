@@ -63,6 +63,8 @@ In this section, we'll learn how to create or delete files and directories using
   - HW 1 and 2 were due before class. Please turn those in
   - Quiz 2 
   - Signing up for ALPINE
+
+----
   
 ## Making Directories
 
@@ -79,8 +81,9 @@ We can make a new directory using the command `mkdir` (MaKe DIRectory):
 $ mkdir mynewdir
 $ ls
 ```
+----
 
-### Removing Directories
+## Removing Directories
 
 We can remove empty directories using `rmdir` (ReMove DIRectory):
 
@@ -112,6 +115,8 @@ $ ls
   6. You can add multiple directories by listing new directory names after `mkdir` separated by spaces: `mkdir dir1 dir2 dir3`
   7. Using one `mkdir` command, make the directories “01_Notes”, “02_Exercises”, “03_Assignments”.
   8. Now `ls` to see the subdirectories. 
+
+----
 
 ## Making Files
 
