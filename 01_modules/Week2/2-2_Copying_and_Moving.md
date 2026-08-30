@@ -7,7 +7,7 @@ The `cp` (CoPy) command is quite flexible. There are a few ways it can be used t
 ### Duplicating a file and giving it a new name
 
 <p align="center">
-<img width="410" alt="cp example" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/cp_example.png">
+<img width="75%" alt="cp example" src="../../05_images/cp_example.png">
 </p>
 
 This can be used to copy the contents of a file (the source file) into a new file (the target file) with a new name:
@@ -40,7 +40,7 @@ $ cp /users/jtkirk/captainslog_2713.txt /users/jtkirk/captainslog_2714.txt
 Once you make the connection that names, absolute paths, or relative paths can substitute in for <source_file.txt> or <target_file.txt>, you can see how you can place the copied file in some other directory, or pull a copy of a file from a source directory into your working directory.
 
 <p align="center">
-<img width="410" alt="cp example 2" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/cp_example2.png">
+<img width="75%" alt="cp example 2" src="../../05_images/cp_example2.png">
 </p>
 
 Duplicating a file into a directory and renaming it: `cp <source_file.txt> <target/path/targetname.txt>`
@@ -130,7 +130,7 @@ subdir1 subdir2 file1.txt file2.txt file3.txt #the origional files are still her
 Once you know `cp`, `mv` is pretty much the same thing with one exception. The source file will **disappear** once the operation is complete. This ends up **renaming** your file if you are working within the same directory. It acts like **cut-and-paste** instead of a copy-and-paste if you're moving between directories.
 
 <p align="center">
-<img width="410" alt="mv example" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/mv_example.png">
+<img width="75%" alt="mv example" src="../../05_images/mv_example.png">
 </p>
 
 Again, `mv` tries to operate in slightly different ways depending on the types of arguments you give it:
