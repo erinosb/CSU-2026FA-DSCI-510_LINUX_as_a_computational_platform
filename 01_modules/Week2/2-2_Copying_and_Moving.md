@@ -148,11 +148,11 @@ Again, `mv` tries to operate in slightly different ways depending on the types o
 | **mv** <source_file.txt> ... <dir> | Move source_file.txt(s) into dir and keep the names the same |
 
 
-:hammer_and_wrench: **Independent Exercise:**  On your own, practice using the `mv` command to rename `danRer11_chrom_sizes.txt` to `dr11_chrom_sizes.txt`.
+:hammer_and_wrench: **Independent Exercise:**  On your own, practice using the `mv` command to rename `Cv_wuhan1_chromosome.tsv` to `Cv_chromosome.tsv`.
 
 ### Move multiple files at once into the same location
 
-If you want to move multiple files from one loction into a different location (has to be the same location though!), you can do the following:
+If you want to move multiple files to a new location, you can do the following:
 
 ```
 $ ls 
