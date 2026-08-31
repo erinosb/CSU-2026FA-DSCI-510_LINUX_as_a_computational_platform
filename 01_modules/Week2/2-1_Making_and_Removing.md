@@ -1,3 +1,7 @@
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/headers_Slide1B.png">
+</p>
+
 # Making and Removing
 
 In this section, we'll learn how to create or delete files and directories using LINUX commands.
