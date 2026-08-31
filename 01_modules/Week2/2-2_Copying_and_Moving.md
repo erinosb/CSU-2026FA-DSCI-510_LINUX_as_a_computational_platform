@@ -4,7 +4,11 @@
 
 ## Copying files and directories with `cp`
 
-The `cp` (CoPy) command is quite flexible. There are a few ways it can be used to copy a file.
+The `cp` (CoPy) command is quite flexible. There are a few ways it can be used to copy a file..
+
+  1. Duplicating a file and giving the duplicate a new name
+  2. Duplicating a file and putting the duplicate in a new location
+  3. Duplicating a directory and all lits contents
 
 ### Duplicating a file and giving it a new name
 
@@ -21,8 +25,9 @@ This can be used to copy the contents of a file (the source file) into a new fil
 ```
 $ cp Hs_chromosome.tsv Hs_chromosome_backup.tsv
 $ ls
-$ more hs1_chrom_sizes.txt #peek in the file
-$ more hs1_chrom_sizes_backup.txt #peek in the backup
+$ more Hs_chromosome.tsv #peek in the file
+$ more Hs_chromosome_backup.tsv #peek in the backup
+$ wc Hs_chromosome* # ensure they are the same size
 ```
 
 You can think of this as basically shorthand for …
@@ -45,17 +50,21 @@ Once you make the connection that names, absolute paths, or relative paths can s
 <img width="50%" alt="cp example 2" src="../../05_images/cp_example2.png">
 </p>
 
-Duplicating a file into a directory and renaming it: `cp <source_file.txt> <target/path/targetname.txt>`
+`cp <source_file.txt> <target/path/targetname.txt>`
+
+  - This will duplicate a file into a directory and rename it
 
 OR
 
-Duplicating a file from another directory into the current directory and renaming it: `cp <target/path/sourcename.txt> <./targetname.txt>`
+`cp <target/path/sourcename.txt> <./targetname.txt>`
 
-:hammer_and_wrench: **Exercise:** Navigate into your folder `chromSizes`. Make a directory called `backups`. Place a copy of `mm10_chrom_sizes.txt` into `backups` and name it `mm10_chrom_sizes_backups.txt`.
+  - This will duplicate a file from another directory into the current directory and rename it. 
+
+:hammer_and_wrench: **Exercise:** Navigate into your folder `chrom_proj_`. Make a directory called `backups`. Place a copy of `Mm_chromosome.tsv` into `backups` and name it `Mm_chromosome_backup.tsv`.
 
 ```
 $ mkdir backups
-$ cp mm10_chrom_sizes.txt backups/mm10_chrom_sizes_backup.txt
+$ cp Mm_chromosome.tsv backups/Mm_chromosome_backup.tsv
 $ ls 
 $ ls backups
 ```
@@ -70,7 +79,7 @@ If you want to duplicate a file into a sub-directory, you don't need to change t
 :hammer_and_wrench: **Exercise:** Try it out
 
 ```
-$ cp dm6_chrom_sizes.txt backups
+$ cp Dm_chromosome.tsv backups
 $ ls 
 $ ls backups
 ```
@@ -94,13 +103,13 @@ $ ls copy_of_backups
 
 :hammer_and_wrench: **Independent Exercise:** I like to stay organized by adding notes to myself within project directories. I call these README or ABOUT files.
 
-1. Within your directory called `chromSizes` create a directory called `NOTES`.
-2. Copy the file `README_download.txt` into the `NOTES` directory.
+1. Within your directory called `chrom_proj` create a directory called `NOTES`.
+2. Copy the files that beginw tih `README_` into the `NOTES` directory.
 
 :hammer_and_wrench: **Independent Exercise:**  Add an XX genome.
 
-1. Copy `hs1_chrom_sizes.txt` to a new file called `hs1_chrom_sizes_XX.txt`.
-2. Using **nano**, go into `hs1_chrom_sizes_XX.txt` and delete the entry for the Y chromosome. 
+1. Copy `Hs_chromosome.tsv` to a new file called `Hs_chromosome_XX.tsv`.
+2. Using **nano**, go into `Hs_chromosome_XX.tsv` and delete the entry for the Y chromosome. 
 
 > [!WARNING]
 > You can't add a cursor anywhere you want. You'll need to navigate with arrow keys.
