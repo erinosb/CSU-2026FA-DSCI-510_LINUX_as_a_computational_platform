@@ -1,3 +1,5 @@
+
+
 # Copying and Moving
 
 ## Copying files and directories with `cp`
@@ -14,10 +16,10 @@ This can be used to copy the contents of a file (the source file) into a new fil
 
 `cp <source_file.txt> <target_file.txt>`
 
-:hammer_and_wrench: **Exercise:** Make a backup copy of a file. Navigate into your folder `chromsizess`. Make a copy of `hgs1_chrom_sizes.txt` called `hs1_chrom_sizes_backup.txt`.
+:hammer_and_wrench: **Exercise:** Make a backup copy of a file. Navigate into your folder `chrom_proj_`. Make a copy of `Hs_chromosome.tsv` called `Hs_chromosome_backup.tsv`.
 
 ```
-$ cp hs1_chrom_sizes.txt hs1_chrom_sizes_backup.txt
+$ cp Hs_chromosome.tsv Hs_chromosome_backup.tsv
 $ ls
 $ more hs1_chrom_sizes.txt #peek in the file
 $ more hs1_chrom_sizes_backup.txt #peek in the backup
