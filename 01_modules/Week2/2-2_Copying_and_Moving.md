@@ -11,6 +11,9 @@ The `cp` (CoPy) command is quite flexible. There are a few ways it can be used t
   3. [Duplicating a directory and all lits contents](#duplicating-a-directory-and-its-contents)
   4. [Copying multiple files at once](#copy-multiple-files-at-once-into-the-same-location)
 
+
+----
+
 ### Duplicating a file and giving it a new name
 
 <p align="center">
@@ -121,19 +124,9 @@ $ ls copy_of_backups
 If you want to copy multiple files from one loction into a different location (has to be the same location though!), you can do the following:
 
 ```
-$ pwd #where are we?
-parentdir
 $ ls #what contents are in our parentdir? 
-subdir1 subdir2 file1.txt file2.txt file3.txt
+subdir1 file1.txt file2.txt file3.txt
 $ cp file1.txt file2.txt file3.txt ./subdir1/
-$ cd subdir1 #now lets move into our subdir and see if it worked
-$ ls
-file1.txt file2.txt file3.txt
-$ cd ..
-$ pwd
-parentdir
-$ ls
-subdir1 subdir2 file1.txt file2.txt file3.txt #the origional files are still here, now we have made a copy of them
 ```
 
 ----
@@ -162,19 +155,9 @@ Again, `mv` tries to operate in slightly different ways depending on the types o
 If you want to move multiple files from one loction into a different location (has to be the same location though!), you can do the following:
 
 ```
-$ pwd 
-parentdir
 $ ls 
 subdir1 subdir2 file1.txt file2.txt file3.txt
 $ mv file1.txt file2.txt file3.txt ./subdir1/
-$ cd subdir1 
-$ ls
-file1.txt file2.txt file3.txt
-$ cd ..
-$ pwd
-parentdir
-$ ls
-subdir1 subdir2 #now the origionals have moved into subdir1
 ```
 
 Continue on to [File Transfer](2-3_File_Transfer.md)
