@@ -6,9 +6,10 @@
 
 The `cp` (CoPy) command is quite flexible. There are a few ways it can be used to copy a file..
 
-  1. Duplicating a file and giving the duplicate a new name
-  2. Duplicating a file and putting the duplicate in a new location
-  3. Duplicating a directory and all lits contents
+  1. [Duplicating a file and giving the duplicate a new name](#duplicating-a-file-and-giving-it-a-new-name)
+  2. [Duplicating a file and putting the duplicate in a new location](#duplicating-a-file-into-a-directory)
+  3. [Duplicating a directory and all lits contents](#duplicating-a-directory-and-its-contents)
+  4. [Copying multiple files at once](#copy-multiple-files-at-once-into-the-same-location)
 
 ### Duplicating a file and giving it a new name
 
@@ -135,6 +136,7 @@ $ ls
 subdir1 subdir2 file1.txt file2.txt file3.txt #the origional files are still here, now we have made a copy of them
 ```
 
+----
 
 ## Moving files and directories with `mv`
 
