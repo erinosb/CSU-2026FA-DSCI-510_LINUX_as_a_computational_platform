@@ -17,61 +17,116 @@ How do we know something is a **binary file**?
 - It was produced in a specific program (Microsoft Word, for example)
 - If you use `more` or `less`, it looks like a bunch of alien writing
 
-**!!! Quick Tip:**
+>[!TIP]
+> If you cannot see file extensions on your computer, take a moment to make these visible.
 
-- If you cannot see file extensions on your computer, take a moment to make these visible.
-- Where do file extensions come from? For flat, text files, you put them there!
-- It is good practice to **always save files with the proper file extensions!** All files should have extensions!
-- Some standardized file formats will have lines at the beginning that start with `#`. These are comments. They typically contain information about how the information was generated.
+Where do file extensions come from? F
 
-### Text Editor 
+  - or flat, text files, you put them there!
+
+>[!TIP]
+> It is good practice to **always save files with the proper file extensions!** All files should have extensions!
+
+>[!NOTE]
+> Some standardized file formats will have lines at the beginning that start with `#`. These are comments. They typically contain information about how the information was generated.
+
+---
+
+## Text Editor 
 
 Everyone will need to install a [text editor](https://en.wikipedia.org/wiki/Text_editor) for writing and modifying plain text files.
 
-- Mac:
-  - Recommend [BBEdit](https://www.barebones.com/products/) or [Xcode](https://xcodereleases.com/). Click Download under the BBEdit software. You dont need to buy it. The free version does everthing you need.
+- **Mac:**
+  - I recommend [BBEdit](https://www.barebones.com/products/) OR [cotEditor](https://coteditor.com/)
+    - You dont need to buy these. The free versions are enough.
 
-**!!! Warning:** Do not use MAC's application called **TextEdit**. It is a rich text format editor and not a flat text editor.
+>[!WARNING]
+> Do not use MAC's application called **TextEdit**. It is a rich text format editor and not a flat text editor.
 
-- Windows 11:
-  - Recommend [Notepad++](https://notepad-plus-plus.org/), BBEdit, or [Visual Studio Code](https://code.visualstudio.com/download) do not recommend TextEdit, Wordpad, Notebook, EMACS, or Microsoft Word.
-  - If you already have a text editor you like that is not listed, you are free to use it provided it saves files in true flat .txt and not rich text format.
+- **Windows 11:**
+  - Recommend [Notepad++](https://notepad-plus-plus.org/)
 
-### Standard file types in the life sciences
+- **Either**
+  - [Visual Studio Code](https://code.visualstudio.com/download) - this is a more feature-intensive Integraded Development Environment (IDE). It includes a text editor, a terminal, and a window for navigating files
+
+>[!NOTE]
+> If you already have a text editor you like that is not listed, you are free to use it provided it saves files in true flat .txt and not rich text format.
+
+---
+
+## Standard file types in the life sciences
 
 Several standardized types of text files have been developed to handle biological data and genome data. You may already be familiar with some [Common Examples of Biological File Types](https://en.wikipedia.org/wiki/List_of_file_formats#Biology). In dealing with genomic information, almost all the files are **text files**.
 
-Genome information is typically stored in **FASTA** files and **GTF/GFF** (aka **Annotation files**). The combination of these two file types gives you the entire genome sequence (fasta) and the location of all genes and other features in the genome (annotation file).
+Genome information is typically stored in **FASTA** files and **Annotation files** (**GTF/GFF3** files). The combination of these two file types gives you the entire genome sequence (fasta) and the location of all genes and other features in the genome (annotation file).
 
-- More information about [FASTA FILES HERE](../../Resources/FASTA_Files.md)
-- More information about [ANNOTATION FILES HERE](../../Resources/Annotation_Files.md) 
+  - More information about [FASTA FILES HERE](../../Resources/FASTA_Files.md). 
+    - This contains the entire genome sequence.
+  - More information about [ANNOTATION FILES HERE](../../Resources/Annotation_Files.md)
+    - This file contains information and the location of all gene and other features of the genome.
 
-**Where can we obtain these files?** There are many places where we can download genomic data, but the main resources for Genomic Datasets are the following repositories:
+**Where do we obtain these files?** There are many places where we can download genomic data, but the main resources for Genomic Datasets are the following repositories:
 
 - [UCSC Genome Browser](https://genome.ucsc.edu/index.html)
 - [Ensembl](https://www.ensembl.org/index.html)
 - [NCBI](https://www.ncbi.nlm.nih.gov/guide/howto/dwn-genome/)
-- Organism specific community resources like [Wormbase](https://www.wormbase.org/#012-34-5) or [TAIR](https://www.arabidopsis.org/)
+- Organism specific community resources like [Wormbase](https://www.wormbase.org) or [TAIR](https://www.arabidopsis.org/)
 
-**!!! Question:** For your own research, what type of information do you need? What types of files is it stored in? If you are in a different field, what are the main data types you encounter? Are they stored in text/flat files? What are the repositories in which they are stored?
+----
 
-### Independent Exercise 
+## What are the predominant file types in your field?
 
-Try it for yourself!
+For your own research, what type of information do you need? What types of files is it stored in? If you are in a different field, what are the main data types you encounter? Are they stored in text/flat files? What are the repositories in which they are stored?
 
-For this next exercise, try to download two *Saccharomyces cerevisiae* annotation files (.gtf files) and the chrom.sizes file. The .gtf files can be found here:
+----
 
-[https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/](https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)
+## Obtain the yeast genome and annotation
 
-They are located under the directory called genes
+:hammer_and_wrench: **Group Exercise**
 
-Your challenge:
-1. Use rsync or wget to download the two .gtf.gz files.
-2. Uncompress the .gtz.gz files
-3. Compare the two versions of the annotation files.
+Download the file
 
-Your challenge
-1. download the file called sacCer3.chrom.sizes
-2. Use rsync or wget to download sacCer3.chrom.sizes
+  - Let's download the covid genome information
+  - Navigate to [03_data](../../03_data)
+  - Click on `covid.tgz`
+  - Click on the word **Raw** on the far right side of the window
+  - Select a directory in which to save the files
+
+Extract the file
+
+  - **Mac** -> double click the file `covid.tgz` in the Finder
+  - **PC** -> In the terminal, navigate to the file `covid.tgz` and unzip with tar:
+
+```
+$ tar -zcvf covid.tgz
+```
+
+**Mac** and **PC**
+
+  - In the terminal, navigate into the expanded directory and examine the files obtained
+
+----
+
+## Ensuring files were not corrupted using `md5sum`
+
+To ensure your files were not corrupted during transit, I have included **md5sum checksums** for each file that are located in a file called `md5sum.txt`. **checksums** are digital codes associated with a file that are calculated out of information within the file. If the integrity of the file is intact, the md5sum checksum program will match digital code in those text files.
+
+**!!! Group Exercise:** Check sums
+
+  - Within the directory Covid, read the md5 sums I included within the file `md5sums.txt`
+
+```
+$ more md5sums.txt
+```
+  
+  - Now, check your own md5 sums:
+
+```
+$ md5 covid*
+```
+
+**Didn't work?** Try `md5sum covid*` or `md5sum-lite covid*` instead. Different distributions will have different utilities.
+
+  - Do the digital codes match? Let's check. Here is a little script that I called `CompareSums.sh` to check the contents ...
 
 Continue on to [Redirection](2-5_Redirection.md)
