@@ -1,6 +1,6 @@
 # Welcome to Week 1
 
-Table of contents:
+## Table of contents:
 
   - [1-1 Course Introduction](1-1_Course_Introduction.md)
   - [1-2 The Terminal](1-2_The_Terminal.md)
@@ -10,3 +10,6 @@ Table of contents:
   - [1-6 Working with Files 1](1-6_Working_with_files1.md)
   - [1-7 Wildcards](1-7_Wildcards.md)
   - [1-8 Getting Help](1-8_Getting_help.md)
+
+## Bonus Content
+  - [Tarballs](04_resources/Tarballs.md)
