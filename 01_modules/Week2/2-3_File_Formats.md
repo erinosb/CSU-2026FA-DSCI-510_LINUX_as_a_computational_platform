@@ -81,7 +81,10 @@ Genome information is typically stored in **FASTA** files and **Annotation files
 
 ## What are the predominant file types in your field?
 
-For your own research, what type of information do you need? What types of files is it stored in? If you are in a different field, what are the main data types you encounter? Are they stored in text/flat files? What are the repositories in which they are stored?
+  - If you are in a different field, what are the main data types you encounter? 
+  - What types of files is it stored in?
+  - Are they text/flat files? 
+  - What are the repositories in which they are stored?
 
 ----
 
@@ -103,7 +106,7 @@ Extract the file
   - **PC** -> In the terminal, navigate to the file `covid.tgz` and unzip with tar:
 
 ```
-$ tar -zcvf covid.tgz
+$ tar -zxvf covid.tgz
 ```
 
 **Mac** and **PC**
