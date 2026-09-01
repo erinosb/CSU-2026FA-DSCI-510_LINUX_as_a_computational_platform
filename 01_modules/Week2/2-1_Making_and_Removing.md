@@ -33,13 +33,11 @@ In this section, we'll learn how to create or delete files and directories using
 - **Things you should know how to do after this class**
   - Be comfortable using `cp` to copy files or directories in a few different ways (new file in the same directory, in a different directory, or with a new name)
   - Be comfortable using `mv` to move files and directories in different ways. Know the difference between `cp` and `mv`.
-  - Know how to log into a remote computer, server, or supercomputer
-  - Know one or two ways to transfer files from remote computers to your local computer
   - Know how to check whether your file was corrupted during transit.
   - Know the difference between text files and binary files.
   - Know that all your files should have file extensions.
   - Know a little bit about FASTA and GTF/GFF (Annotation) files
-  - Know how to zip and unzip .gz/g-zipped files
+  - Know how to decompress tarballs
   - Understand what stdout, stderr, and stdin mean
   - Know how to redirect stdout, or stderr to an output file.
 
@@ -48,7 +46,6 @@ In this section, we'll learn how to create or delete files and directories using
   - `cp`
   - `touch <filename>`
   - `nano <filename>`
-  - `rsync` or `wget` (or sftp, curl, or scp – whichever works best for you)
   - `md5sum` or `md5` or `md5sum-lite`
   - `gzip`
   - `gunzip`
