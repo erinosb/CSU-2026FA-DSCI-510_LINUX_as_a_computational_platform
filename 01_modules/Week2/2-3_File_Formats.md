@@ -39,7 +39,7 @@ Let's learn about **file formats**. Different file formats are typically identif
 
 ---
 
-## Text Editor 
+## Exploring Files with Text Editor 
 
 Everyone will need to install a [text editor](https://en.wikipedia.org/wiki/Text_editor) for writing and modifying plain text files.
 
@@ -88,7 +88,7 @@ Genome information is typically stored in **FASTA** files and **Annotation files
 
 ----
 
-## Obtain the yeast genome and annotation
+## Obtain the covid genome and annotation
 
 :hammer_and_wrench: **Group Exercise**
 
@@ -141,4 +141,4 @@ $ md5 covid*
 
   - Contact the group that posted the data and checksums to ensure that the files are intact and uncorrupted.
 
-Continue on to [Redirection](2-5_Redirection.md)
+Continue on to [Redirection](2-4_Redirection.md)
