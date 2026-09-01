@@ -39,14 +39,14 @@ Recall the `cut` command:
 
 **cut usage:**
 
-`cut [options] -f #… <file.txt> …`
+`cut [options] -f #... <file.txt> ...`
 
 - This is the default usage and it splits on tabs
 - You can capture a single column such as column one using `-f 1` or a series of columns using `-f 1,2,3`
 
 **cut usage with other delimiters:**
 
-`cut -d <newdelimiter> -f # <file.txt> …`
+`cut -d <newdelimiter> -f... # <file.txt> ...`
 
 This will allow you to split on other delimiters like spaces (' ') or commas (,).
 
