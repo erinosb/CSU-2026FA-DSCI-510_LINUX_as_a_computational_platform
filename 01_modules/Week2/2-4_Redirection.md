@@ -9,7 +9,7 @@
 **Standard streams** are default input and output channels. In Linux, there are three standard streams: **stdin**, **stdout**, and **stderr**. You may also see input and output channels referred to as Input/Output or simply **I/O**.
 
 <p align="center">
-<img width="75%" alt="stdin-stdout-stderr" src="../../05_images/stdin-stdout-stderr.png">
+<img width="50%" alt="stdin-stdout-stderr" src="../../05_images/stdin-stdout-stderr.png">
 </p>
 
 **Standard Input**, or **stdin**, is input going into the shell. By default, this input comes from you typing on the keyboard.
