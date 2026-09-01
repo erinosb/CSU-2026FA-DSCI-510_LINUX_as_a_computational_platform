@@ -51,7 +51,7 @@ $ wc yeast_annotation.gff blerg.jpg &> output3.txt
 
 ## Question 5
 
-A. Write out a command line entry that would help you create a backup of the yeast genome sequence.
+A. Write out a command line entry that would create a backup of the yeast genome sequence.
 
 B. Write out a command line entry that would rename the file `yeast_annotation.gff` to `Scerevisiae_annotation.gff`
 
