@@ -1,7 +1,7 @@
 
 # Independent practice using `grep` and `cut`
 
-*These exercises use the [covid genome sequence and annotation files](../../03_data/covid.tgz). 
+*These exercises use the [covid genome sequence and annotation files](../../03_data/covid.tgz)*
 
   - Ensure you have downloaded the covid genome and sequence files.
   - Sync things up so you can interact with this file using the command line. That is, move the file to a directory that you can access using the terminal. OR, within the terminal, navigate to the directory where this file lives.
