@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment 3
 
 - Due **Tuesday, September 8, 2026, 10:00 am** 
 - **DO NOT write out the questions. Do not write long descriptions. Only write your succinct answers.**
