@@ -9,13 +9,13 @@ Let's learn about **file formats**. Different file formats are typically identif
 - **text files** (also called **flat** files) are files that have only text information.
 - **binary files** files that have more complex information that can be interpreted as formatting, images, application-specific objects, as well as text. Examples: .docx, .xlsx, .jpg, .pdf, and .m4p
 
-How do you we know something is a text file?
+### How do you we know if a file is a text file?
 
 - It has the file extension like .txt, .csv, .fa, .gb
 - You can use `more` or `less` to read through it
 - You can use a **text editor** to view and edit it
 
-How do we know something is a **binary file**?
+### How do we know if a file is a **binary file**?
 
 - It has a specific file extension associated with a specific program
 - It was produced in a specific program (Microsoft Word, for example)
