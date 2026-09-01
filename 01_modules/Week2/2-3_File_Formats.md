@@ -1,3 +1,7 @@
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/headers_Slide5.png">
+</p>
+
 # File Formats
 
 Let's learn about **file formats**. Different file formats are typically identified by specific **file extensions**, suffixes to their names that inform programs of their type. Two general types of file formats are:
