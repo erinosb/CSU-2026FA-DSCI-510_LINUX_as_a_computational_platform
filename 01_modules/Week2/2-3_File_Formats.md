@@ -137,4 +137,8 @@ $ md5 covid*
 
   - Do the digital codes match? Let's check. Here is a little script that I called `CompareSums.sh` to check the contents ...
 
+**What to do if they don't match?** 
+
+  - Contact the group that posted the data and checksums to ensure that the files are intact and uncorrupted.
+
 Continue on to [Redirection](2-5_Redirection.md)
