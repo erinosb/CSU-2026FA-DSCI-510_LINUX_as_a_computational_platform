@@ -167,4 +167,4 @@ $ cut -d "\t" -f 2 file.txt #set the delimiting character to a tab, then cut out
 $ cut -d "." -f 2 file.txt #set the delimiting character to a ., then cut out the second field. 
 ```
 
-Continue on to [Practice grep and cut](2-7_Practice_grep_and_cut.md)
+Continue on to [Practice grep and cut](2-6_Practice_grep_and_cut.md)
