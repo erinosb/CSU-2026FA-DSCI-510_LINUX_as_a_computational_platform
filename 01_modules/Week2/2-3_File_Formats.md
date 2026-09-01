@@ -24,9 +24,12 @@ Let's learn about **file formats**. Different file formats are typically identif
 >[!TIP]
 > If you cannot see file extensions on your computer, take a moment to make these visible.
 
-Where do file extensions come from? F
+  - [Mac: Making file extensions visible](https://www.idownloadblog.com/2023/05/23/how-to-show-hide-filename-extensions-mac/)
+  - [PC: Making file extensions visible](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/)
 
-  - or flat, text files, you put them there!
+### Where do file extensions come from?
+
+  - For flat, text files, you put them there!
 
 >[!TIP]
 > It is good practice to **always save files with the proper file extensions!** All files should have extensions!
