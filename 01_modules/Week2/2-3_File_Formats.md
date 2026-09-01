@@ -81,8 +81,8 @@ Genome information is typically stored in **FASTA** files and **Annotation files
 
 ## What are the predominant file types in your field?
 
-  - If you are in a different field, what are the main data types you encounter? 
-  - What types of files is it stored in?
+  - If you are in a different field, what are the main types of data or information you encounter? 
+  - What types of files are they stored in?
   - Are they text/flat files? 
   - What are the repositories in which they are stored?
 
@@ -92,9 +92,9 @@ Genome information is typically stored in **FASTA** files and **Annotation files
 
 :hammer_and_wrench: **Group Exercise**
 
-Download the file
+Download the tarball `covid.tgz`
 
-  - Let's download the covid genome information
+  - Let's download the covid genome information together
   - Navigate to [03_data](../../03_data)
   - Click on `covid.tgz`
   - Click on the word **Raw** on the far right side of the window
@@ -111,23 +111,23 @@ $ tar -zxvf covid.tgz
 
 **Mac** and **PC**
 
-  - In the terminal, navigate into the expanded directory and examine the files obtained
+  - In the terminal, navigate into the expanded directory and examine the files obtained using `ls`, `more`, and `wc`
 
 ----
 
 ## Ensuring files were not corrupted using `md5sum`
 
-To ensure your files were not corrupted during transit, I have included **md5sum checksums** for each file that are located in a file called `md5sum.txt`. **checksums** are digital codes associated with a file that are calculated out of information within the file. If the integrity of the file is intact, the md5sum checksum program will match digital code in those text files.
+To ensure your files were not corrupted during transit, I have included **md5sum checksums** for each file that are located in a file called `md5sum.txt`. **Checksums** are digital codes associated with a file that are calculated out of information within the file. If the integrity of the file is intact, the md5sum checksum program will match digital code in those text files.
 
 **!!! Group Exercise:** Check sums
 
-  - Within the directory Covid, read the md5 sums I included within the file `md5sums.txt`
+  - Within the directory `Covid`, read the file `md5sums.txt`
 
 ```
 $ more md5sums.txt
 ```
   
-  - Now, check your own md5 sums:
+  - Now, calculate your own md5 sums of the included files:
 
 ```
 $ md5 covid*
