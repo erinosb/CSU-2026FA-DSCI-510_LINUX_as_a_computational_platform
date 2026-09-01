@@ -39,6 +39,4 @@ Figure: An example of a genome sequence (.fa) and annotation file (.gtf) that ar
 <img width="410" alt="browser shot" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/browser_shot.png">
 </p>
 
-Back to [File Formats](../Modules/Week2/2-4_File_Formats.md)
-
-Back to [Practice grep and cut](../Modules/Week2/2-7_Practice_grep_and_cut.md)
+Back to [File Formats](../01_modules/Week2/2-3_File_Formats.md)
