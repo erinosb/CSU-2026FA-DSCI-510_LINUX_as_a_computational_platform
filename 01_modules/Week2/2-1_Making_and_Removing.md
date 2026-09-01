@@ -93,6 +93,8 @@ Do you have an ALPINE Account?
   
 ## Making Directories
 
+Today, we will start out by learning how to create and delete directories and files.
+
 We can make a new directory using the command `mkdir` (MaKe DIRectory):
 
 `mkdir <newdirectoryname> …`
