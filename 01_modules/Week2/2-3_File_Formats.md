@@ -46,14 +46,12 @@ Everyone will need to install a [text editor](https://en.wikipedia.org/wiki/Text
 - **Mac:**
   - I recommend [BBEdit](https://www.barebones.com/products/) OR [cotEditor](https://coteditor.com/)
     - You dont need to buy these. The free versions are enough.
-
->[!WARNING]
-> Do not use MAC's application called **TextEdit**. It is a rich text format editor and not a flat text editor.
+    - **Warning:** Do not use MAC's application called **TextEdit**. It is a rich text format editor and not a flat text editor.
 
 - **Windows 11:**
   - Recommend [Notepad++](https://notepad-plus-plus.org/)
 
-- **Either**
+- **Mac or PC: IDEs**
   - [Visual Studio Code](https://code.visualstudio.com/download) - this is a more feature-intensive Integraded Development Environment (IDE). It includes a text editor, a terminal, and a window for navigating files
 
 >[!NOTE]
