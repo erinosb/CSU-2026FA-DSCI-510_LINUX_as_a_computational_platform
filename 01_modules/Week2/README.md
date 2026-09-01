@@ -10,6 +10,8 @@ Thursday Sept 3, 2026
   - [2-2 Copying and Moving](2-2_Copying_and_Moving.md)
   - [2-3 File Formats](2-3_File_Formats.md)
   - [2-4 Redirection](2-4_Redirection.md)
+  - [2-5 Working with Files 2](2-5_Working_with_files2.md)
+  - [2-6 Practice with grep and cut](2-6_Practice_grep_and_cut.md)
 
 ## Bonus Content
 
