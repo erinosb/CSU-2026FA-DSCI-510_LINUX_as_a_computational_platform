@@ -152,7 +152,7 @@ $ cut -f 1,2 chr_sizes_table.txt
 > The `cut` utility counts like so: 1, 2, 3, 4. However, not all computing languages start on 1. Many start on 0 and count like so: 0, 1, 2, 3. It is a good idea to double check your language by testing it every time.
 
 <p align="center">
-<img width="75%" alt="mug" src="../../05_images/worlds_0_programmer_mug.png">
+<img width="50%" alt="mug" src="../../05_images/worlds_0_programmer_mug.png">
 </p>
 
 >[!WARNING]
