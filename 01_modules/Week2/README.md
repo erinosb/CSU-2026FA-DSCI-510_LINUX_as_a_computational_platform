@@ -16,3 +16,5 @@ Thursday Sept 3, 2026
   - [Mac: Making file extensions visible](https://www.idownloadblog.com/2023/05/23/how-to-show-hide-filename-extensions-mac/)
   - [PC: Making file extensions visible](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/) 
   - [nano tutorial](../../04_resources/nano_tutorial.md)
+  - [FASTA FILES HERE](../../04_resources/FASTA_Files.md). 
+  - [ANNOTATION FILES HERE](../../04_resources/Annotation_Files.md)
