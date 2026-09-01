@@ -1,3 +1,7 @@
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/headers_Slide5.png">
+</p>
+
 # Working With Files 2
 
 The following commands will help you to access and organize the information contained in files.
@@ -8,7 +12,7 @@ The following commands will help you to access and organize the information cont
 
 `cut` – pull out a specific column (or any other delimited information) from a file
 
-### Let's make a file
+## Let's make a file
 
 **!!! Group Exercise:** 
 
