@@ -38,7 +38,7 @@ $ wc covid_annotation.gff  > wc_annotations.txt
 
 ## Redirect error and status messages with `2>`
 
-Let's see what happens if we tried to redirect an errant command …
+:hammer_and_wrench: **Group Exercise** Let's see what happens if we tried to redirect an errant command …
 
 ```
 $ wc blerg > wc_fake_output.txt
@@ -59,6 +59,8 @@ $ wc blerg 2> wc_err_output.txt
 ## Redirect both output and error/status messages with `&>`
 
 Wonderful! But what if we had given `wc` two files, one good and one bad. Experiment a little.
+
+:hammer_and_wrench: **Group Exercise**
 
 ```
 $ wc covid_annotation.gff blerg > wc_both_1.txt
@@ -84,6 +86,6 @@ $ wc covid_sequence.fna >> runningTotal.txt
 $ more runningTotal.txt
 ```
 
-Continue on to [Assignment 3](../../02_assignments/Assignment_1.md)
+Continue on to [Assignment 3](../../02_assignments/Assignment_3.md)
 
 Continue on to [Working with files 2](2-5_Working_with_files2.md)
