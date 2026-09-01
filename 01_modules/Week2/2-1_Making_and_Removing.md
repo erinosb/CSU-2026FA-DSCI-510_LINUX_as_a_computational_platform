@@ -162,7 +162,7 @@ Well, that's a pretty boring file. Let's add some content to it using the linux 
 It'll look like this:
 
 <p align="center">
-<img width="410" alt="nano" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/nano.png">
+<img width="75%" alt="nano" src="../../05_images/nano.png">
 </p>
 
 :hammer_and_wrench: **Exercise:** Let's add content to `quick_tips.txt` using nano:

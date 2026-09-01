@@ -25,7 +25,7 @@ Please see the [Computer Requirements](04_resources/Computer_Requirements.md) fo
 | Bonus Content | [Week1](01_modules/Week1) | [Tarballs](04_resources/Tarballs.md) | | |
 | September 1 | [Week2](01_modules/Week2) | Making & removing <br/> Copying & moving <br/> File Formats <br/> Redirection | Chapters 4-5 (mkdir, cp, mv) <br/>  Chapter 6 (redirection) <br/>  Chapter 16 <br/> Chapter 18 (gzip) | Assignment 3 **(due September 8)** |
 | September 3 | [Week2](01_modules/Week2) | Working with files 2 (cat, grep, cut) <br/> Practice grep & cut <br/> Pipes <br/> More Pipes | Chapter 19 (grep) <br/> Chapter 20 (sort, uniq, cut) <br/> Chapter 5 (alias) <br/> Chapter 9 | Assignment 4 **(due September 8)** |
-| Bonus Content | [Week2](01_modules/Week2) | [Mac: Making file extensions visible](https://www.idownloadblog.com/2023/05/23/how-to-show-hide-filename-extensions-mac/) <br/> [PC: Making file extensions visible](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/) | | |
+| Bonus Content | [Week2](01_modules/Week2) | [Mac: Making file extensions visible](https://www.idownloadblog.com/2023/05/23/how-to-show-hide-filename-extensions-mac/) <br/> [PC: Making file extensions visible](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/) <br/> [nano tutorial](../../04_resources/nano_tutorial.md)| | |
 | September 8 | 3 | Working with files |  | Assignment 5 **(due September 15)** |
 | September 10 | 3 | Scripting 1 |  | Assignment 6 **(due September 15)** |
 | Bonus Content | 3 | TBD |  | |
