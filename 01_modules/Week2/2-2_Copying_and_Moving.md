@@ -160,4 +160,4 @@ subdir1 subdir2 file1.txt file2.txt file3.txt
 $ mv file1.txt file2.txt file3.txt ./subdir1/
 ```
 
-Continue on to [File Transfer](2-3_File_Transfer.md)
+Continue on to [File Formats](2-3_File_Formats.md)
