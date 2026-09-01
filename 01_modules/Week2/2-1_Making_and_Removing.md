@@ -66,6 +66,30 @@ In this section, we'll learn how to create or delete files and directories using
   - Signing up for ALPINE
 
 ----
+
+## Sign up for an ALPINE Account
+
+Do you have an ALPINE Account?
+
+**NO**
+
+  - Please sign up for one [here](https://rcamp.rc.colorado.edu/accounts/account-request/create/organization)
+  - Please select **Colorado State University**
+  - Please enter your e-mail as **eID@colostate.edu**
+    - For example, Tony Stark has two e-mails at CSU: tony.stark@colostate.edu and tstark@colostate.edu.
+    - He will use tstark@colsotate.edu
+  - Please enter your password as **password,push**. 
+    - For example, Tony Stark's password is `strongestavenger`. He will type in: `strongestavenger,push`
+
+**YES**
+
+  - Try to loging to [ALPINE ondemand](https://ondemand-rmacc.rc.colorado.edu/)
+    - Pulldown ORCID and find **Colorado State University**
+    - Click on **Remember This Selection**
+    - Log into the CSU eID/password page as you typically do
+    - DUO authenticate as you typicall do.
+
+----
   
 ## Making Directories
 
