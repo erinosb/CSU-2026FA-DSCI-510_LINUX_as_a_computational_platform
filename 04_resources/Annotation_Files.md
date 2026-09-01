@@ -39,4 +39,4 @@ Figure: An example of a genome sequence (.fa) and annotation file (.gtf) that ar
 <img width="75%" alt="browser shot" src="../05_images/browser_shot.png">
 </p>
 
-Back to [File Formats](../01_modules/Week2/2-3_File_Formats.md)
+Back to [File Formats](../01_modules/Week2/2-3_File_Formats.md#standard-file-types-in-the-life-sciences)

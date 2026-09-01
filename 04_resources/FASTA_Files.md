@@ -46,4 +46,4 @@ TACGTACGCACACGGATGCTACAGTATATACCATCTCAAACTTACCCTACTCTCAGATTC
 CACTTCACTCCATGGCCCATCTCTCACTGAATCAGTACCAAATGCACTCACATCATTATG
 ```
 
-Back to [File Formats](../01_modules/Week2/2-3_File_Formats.md)
+Back to [File Formats](../01_modules/Week2/2-3_File_Formats.md#standard-file-types-in-the-life-sciences)
