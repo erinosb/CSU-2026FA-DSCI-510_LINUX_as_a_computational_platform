@@ -159,7 +159,7 @@ In an earlier lesson, we learned how to redirect STDOUT and STERR to a file. If 
 $ wc mini.gff | tee wc_output.txt
 ```
 
-<[!TIP]
+>[!TIP]
 > `tee` is used for redirecting stdout. You can redirect both stderr & stdout, but it is a little cumbersome:
 
 ```
