@@ -67,7 +67,7 @@ $ sed -e 's/T/U/g' -e 's/t/u/g' DNA.txt
 
 :hammer_and_wrench: **Group Exercise:** How would you save your translated RNA sequence into a file called `RNA.txt`?
 
-**Extended Learning** Please explore more ways to use `sed`: [https://www.grymoire.com/Unix/Sed.html](https://www.grymoire.com/Unix/Sed.html). Those instructions will show you how to use `sed` to …
+**Extended Learning** Please explore more ways to use `sed`: [Sed - An Introduction and Tutorial](https://www.grymoire.com/Unix/Sed.html). Those instructions will show you how to use `sed` to …
 
 - Use complex regular expressions for searching
 - Retain aspects of the matched string
