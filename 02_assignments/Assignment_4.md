@@ -25,7 +25,7 @@ B. What command line entry would you use to SAVE all the comment lines in the fi
 
 ## Question 2
 
-A. How many gene entries are in the `yeast_annotation.gff`?
+A. How many gene entries are listed in the `yeast_annotation.gff`?
 
 B. What command line entry (or entries) did you use to attain that number?
 
@@ -86,4 +86,10 @@ What command line entry would you use to extract all the "header" lines into a n
 
 *hint: header lines start with >*
 
+-----
 
+## Bonus Challenge Question (no points, just for fun)
+
+There are 6459 genes in the yeast genome. Can you find a way to extract this number from the file `yeast_annotation.gff`?
+
+What command line entry (or entries) did you use?
