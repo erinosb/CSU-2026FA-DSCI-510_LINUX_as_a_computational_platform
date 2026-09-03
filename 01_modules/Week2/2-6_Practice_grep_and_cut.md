@@ -20,14 +20,14 @@ Recall the `grep` usage:
 - Typically, the pattern given to search is enclosed in quotes.
 - `grep` can search multiple files
 
-:hammerandwrench: **Exercise 1:**
+:hammer_and_wrench: **Exercise 1:**
 
   - Coding sequences are marked as `CDS` in the .gff file. 
   - Can you print all the CDS lines out to the screen using grep? 
   - Can you capture the same lines into a file using `>`?
   - *Note*: How would you exclude capturing "mature_protein_region_of_CDS" and only capture "CDS" entries?
 
-:hammerandwrench: **Exercise 2:**
+:hammer_and_wrench: **Exercise 2:**
 
   - How many stem loops are listed in covid_annotation.gff?
 
@@ -50,7 +50,7 @@ Recall the `cut` command:
 
 This will allow you to split on other delimiters like spaces (' ') or commas (,).
 
-:hammerandwrench: **Exercise 3**
+:hammer_and_wrench: **Exercise 3**
 
   - Notice how columns have the same information in each row. Others have unique information.
 - To look it up, reference here: [ALL ABOUT ANNOTATION FILES](../../04_resources/Annotation_Files.md)
