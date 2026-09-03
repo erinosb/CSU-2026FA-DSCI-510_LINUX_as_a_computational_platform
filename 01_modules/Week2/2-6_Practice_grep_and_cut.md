@@ -56,4 +56,4 @@ This will allow you to split on other delimiters like spaces (' ') or commas (,)
 - To look it up, reference here: [ALL ABOUT ANNOTATION FILES](../../04_resources/Annotation_Files.md)
 - Can you redirect only the 9th column of `covid_annotation.gff` into an output file called `featureDetails.txt`?
 
-Continue on to [Pipes](2-8_Pipes.md)
+Continue on to [Pipes](2-7_Pipes.md)
