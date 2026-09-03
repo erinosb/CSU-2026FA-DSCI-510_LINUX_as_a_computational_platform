@@ -12,6 +12,9 @@ Thursday Sept 3, 2026
   - [2-4 Redirection](2-4_Redirection.md)
   - [2-5 Working with Files 2](2-5_Working_with_files2.md)
   - [2-6 Practice with grep and cut](2-6_Practice_grep_and_cut.md)
+  - [2-7 Pipes](2-7_Pipes.md)
+  - [2-8 More Pipes](2-8_More_Pipes.md)
+  - [2-9] Working with files 3](2-9_Working_with_files3.md)
 
 ## Bonus Content
 
