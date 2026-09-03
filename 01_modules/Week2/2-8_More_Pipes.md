@@ -201,7 +201,7 @@ This column of information contains the annotation information associated with e
 
 How would you extract out just the gene ids?
 
-#HINT: The output will look like this...
+:wink: **Hint** The output will look like this...
 
 ```
 ##gff-version 3
@@ -273,8 +273,9 @@ ID=id-NC_045512.2:29728..29768
 ###
 ```
 
+:wink: **Hint**
+
 ```
-#HINT:
 $ cut -f 9 SARSCoV2_ncbiGenes.gtf | cut <put some additional code here>
 ```
 
@@ -301,7 +302,7 @@ Here, the argument for the `grep` command is <myfile.gff>. The argument for the 
 
 :hammer_and_wrench:  **Partner Exercise:** Can you write a series of pipes that will list the unique genes in the SARS-CoV2 genome?
 
-**Hint:** The final product should look like this ...
+:wink: **Hint** The final product should look like this ...
 
 ```
 ORF1ab
