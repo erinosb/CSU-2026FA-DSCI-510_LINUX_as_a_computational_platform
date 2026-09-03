@@ -16,23 +16,25 @@ Now that we know what piping is, we can discover some new functionalities of Lin
 
 :hammer_and_wrench: **Group Exercise:** Let's make a file called mini.gff.
 
-  * Copy and paste the following content into a file called mini.giff using nano or your text editor.
+  * Copy and paste the following content into a file called `mini.giff` using nano or your text editor.
 
 
 ```
 # A tester gff file.                                
 # For testing pipes.                                
-chrV	sacCer3_ensGene	CDS	574807	575379	0.000000	-	0	gene_id "YER190C-A"; transcript_id  "YER190C-A";
-chrII	sacCer3_ensGene	CDS	805038	805256	0.000000	-	0	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrV	sacCer3_ensGene	start_codon	575377	575379	0.000000	-	.	gene_id "YER190C-A"; transcript_id "YER190C-A";
-chrII	sacCer3_ensGene	start_codon	805254	805256	0.000000	-	.	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrII	sacCer3_ensGene	exon	805035	805256	0.000000	-	.	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrIII	sacCer3_ensGene	exon	309070	310155	0.000000	+	.	gene_id "YCR105W"; transcript_id "YCR105W";
-CHRII	sacCer3_ensGene	start_codon	805351	805353	0.000000	+	.	gene_id "YBR299W"; transcript_id "YBR299W";
-CHRIII	sacCer3_ensGene	start_codon	310958	310960	0.000000	+	.	gene_id "YCR106W"; transcript_id "YCR106W";
-chrV	sacCer3_ensGene	exon	574804	575379	0.000000	-	.	gene_id "YER190C-A"; transcript_id "YER190C-A";
-chrV	sacCer3_ensGene	stop_codon	575680	575682	0.000000	-	.	gene_id "YER190C-B"; transcript_id "YER190C-B";
+chrV sacCer3_ensGene    CDS 574807  575379  0.000000    -   0   gene_id "YER190C-A"; transcript_id "YER190C-A";
+chrII sacCer3_ensGene   CDS 805038  805256  0.000000    -   0   gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrV sacCer3_ensGene    start_codon 575377  575379  0.000000    -   .   gene_id "YER190C-A"; transcript_id "YER190C-A";
+chrII acCer3_ensGene    start_codon 805254  805256  0.000000    -   .   gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrII   sacCer3_ensGene exon    805035  805256  0.000000    -   .   gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrIII  sacCer3_ensGene exon    309070  310155  0.000000    +   .   gene_id "YCR105W"; transcript_id "YCR105W";
+CHRII   sacCer3_ensGene start_codon 805351  805353  0.000000    +   .   gene_id "YBR299W"; transcript_id "YBR299W";
+CHRIII  sacCer3_ensGene start_codon 310958  310960  0.000000    +   .   gene_id "YCR106W"; transcript_id "YCR106W";
+chrV    sacCer3_ensGene exon    574804  575379  0.000000    -   .   gene_id "YER190C-A"; transcript_id "YER190C-A";
+chrV sacCer3_ensGene stop_codon 575680 575682 0.000000 - . gene_id "YER190C-B"; transcript_id "YER190C-B";
+chrV sacCer3_ensGene stop_codon 575680 575682 0.000000 - . gene_id "YER190C-B"; transcript_id "YER190C-B";
 ```
+
 ---
 
 ## Sorting files by line using `sort`
@@ -43,13 +45,13 @@ We can use sort to sort a file's lines into a new order …
 
 `sort [options] <file.txt> …`
 
-**!!! Exercise:** Sort the mini.gff file:
+:hammer_and_wrench: **Group Exercise:** Sort the mini.gff file:
 
 ```
 $ sort mini.gff
 ```
 
-**!!! Exercise:** Read the sort man pages to figure out how you would …
+:hammer_and_wrench: **Independent Exercise:** Read the `sort` man pages to figure out how you would …
 
 - sort in reverse order
 - sort the capital and lower case letters together
@@ -96,39 +98,27 @@ $ cut -f 1 mini.gff | sort -u
 $ cut -f 1 mini.gff | sort | uniq
 ```
 
-**!!! Quick tip:** To find the duplicated lines, use `-d` as an option for **uniq**.
+[!TIP]
+> ]To find the duplicated lines, use `-d` as an option for **uniq**.
 
 ```
 $ cut -f 1 mini.gff | sort | uniq -d
 ```
 
-**!!! Common pitfall:** Pipes are fun, but pipes can be problematic with large files. Depending on your computer or cluster, there may be a limit to how much information can be piped to a new command. In these cases, creating a temp file (sometimes written as file.tmp) is preferable.
+>[!WARNING]
+> Pipes are fun, but pipes can be problematic with large files. Depending on your computer or cluster, there may be a limit to how much information can be piped to a new command. In these cases, creating a temp file (sometimes written as file.tmp) is preferable.
 
 ---
 
-Clarifying content on the `sort` and `uniq` commands:
+### When is something considered unique?
+
+For the `uniq` command to remove duplicate entries, those entries must be adjacent. That is why `sort` and `uniq` are used in combination.
 
 Example of **removal**
-```
-$ cat file.txt
-banana
-apple
-banana
-apple
 
-$ sort file.txt
-apple
-apple
-banana
-banana
-
-$ sort -u file.txt
-apple
-banana
 ```
+# Example of duplicates that are NOT removed
 
-Example of **not removed**
-```
 $ cat file.txt
 banana
 apple
@@ -140,47 +130,22 @@ banana
 apple
 banana
 apple   # duplicates are not adjacent, so they stay!
+
+# Examples of proper removal...
+
+$ sort file.txt | uniq
+apple
+banana
+
+$ sort -u file.txt
+apple
+banana
 ```
 
-regarding the in-class example using the mini.gff file, the problem was the lines were not actually identical even though they did look pretty similar. I had to re-space all of the lines (so something was off with the tab spacing)
-
-**origional file** that `sort -u` and `uniq` DONT work on ... (it is the last 2 lines that were duplicated!)
-```
-# A tester gff file.                                
-# For testing pipes.                                
-chrV	sacCer3_ensGene	CDS	574807	575379	0.000000	-	0	gene_id "YER190C-A"; transcript_id "YER190C-A";
-chrII	sacCer3_ensGene	CDS	805038	805256	0.000000	-	0	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrV	sacCer3_ensGene	start_codon	575377	575379	0.000000	-	.	gene_id "YER190C-A"; transcript_id "YER190C-A";
-chrII	sacCer3_ensGene	start_codon	805254	805256	0.000000	-	.	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrII	sacCer3_ensGene	exon	805035	805256	0.000000	-	.	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrIII	sacCer3_ensGene	exon	309070	310155	0.000000	+	.	gene_id "YCR105W"; transcript_id "YCR105W";
-CHRII	sacCer3_ensGene	start_codon	805351	805353	0.000000	+	.	gene_id "YBR299W"; transcript_id "YBR299W";
-CHRIII	sacCer3_ensGene	start_codon	310958	310960	0.000000	+	.	gene_id "YCR106W"; transcript_id "YCR106W";
-chrV	sacCer3_ensGene	exon	574804	575379	0.000000	-	.	gene_id "YER190C-A"; transcript_id "YER190C-A";
-chrV	sacCer3_ensGene	stop_codon	575680	575682	0.000000	-	.	gene_id "YER190C-B"; transcript_id "YER190C-B";
-chrV    sacCer3_ensGene stop_codon      575680  575682  0.000000        -       .       gene_id "YER190C-B"; transcript_id "YER190C-B";
-```
-
-**corrected file** that `sort -u` and `uniq` DO work on ... (it is the last 2 lines that were duplicated!)
-```
-# A tester gff file.                                
-# For testing pipes.                                
-chrV sacCer3_ensGene    CDS 574807  575379  0.000000    -   0   gene_id "YER190C-A"; transcript_id "YER190C-A";
-chrII sacCer3_ensGene   CDS 805038  805256  0.000000    -   0   gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrV sacCer3_ensGene    start_codon 575377  575379  0.000000    -   .   gene_id "YER190C-A"; transcript_id "YER190C-A";
-chrII acCer3_ensGene    start_codon 805254  805256  0.000000    -   .   gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrII   sacCer3_ensGene exon    805035  805256  0.000000    -   .   gene_id "YBR298C-A"; transcript_id "YBR298C-A";
-chrIII  sacCer3_ensGene exon    309070  310155  0.000000    +   .   gene_id "YCR105W"; transcript_id "YCR105W";
-CHRII   sacCer3_ensGene start_codon 805351  805353  0.000000    +   .   gene_id "YBR299W"; transcript_id "YBR299W";
-CHRIII  sacCer3_ensGene start_codon 310958  310960  0.000000    +   .   gene_id "YCR106W"; transcript_id "YCR106W";
-chrV    sacCer3_ensGene exon    574804  575379  0.000000    -   .   gene_id "YER190C-A"; transcript_id "YER190C-A";
-chrV sacCer3_ensGene stop_codon 575680 575682 0.000000 - . gene_id "YER190C-B"; transcript_id "YER190C-B";
-chrV sacCer3_ensGene stop_codon 575680 575682 0.000000 - . gene_id "YER190C-B"; transcript_id "YER190C-B";
-```
 
 ---
 
-### Redirect to multiple locations using `tee`
+## Redirect to multiple locations using `tee`
 
 In an earlier lesson, we learned how to redirect STDOUT and STERR to a file. If we want to direct STDOUT to both a file and the screen, we can use the `tee` command. `tee` is used with the pipe command.
 
@@ -188,44 +153,132 @@ In an earlier lesson, we learned how to redirect STDOUT and STERR to a file. If 
 
 `command | tee <filename.txt>`
 
-**!!! Exercise:** Try to send output from a command to both the screen and a file.
+:hammer_and_wrench: **Group Exercise:** Try to send output from a command to both the screen and a file.
 
 ```
 $ wc mini.gff | tee wc_output.txt
 ```
 
-**!!! Quick Tip:** `tee` is really used for redirecting stdout. You can redirect both stderr & stdout, but it is a little cumbersome:
+<[!TIP]
+> `tee` is used for redirecting stdout. You can redirect both stderr & stdout, but it is a little cumbersome:
 
 ```
 $ wc mini.gff skdjfldj 2>&1 | tee wc_stdoutstderr.txt
 ```
 
-### Piping multiple `cut` commands
+---
+
+## Piping multiple `cut` commands
 
 One thing that we end up doing a lot is piping together multiple cut and grep commands. This is very useful because it allows us to extract **rows** of information using `grep` and **columns** of information using `cut`. We can extract the exact information we want out of a large file.
 
-**!!! Exercise:** Piping together of `cut` commands.
+:hammer_and_wrench: **Group Exercise:** Piping together of `cut` commands.
 
-Download the annotation file that lists all the features in the [SARS-CoV-2 genome](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/SARSCoV2_ncbiGenes.gtf). To do so, click over to google drive and then download the file.
+Switch over to the Covid genome information you downloaded in a previous exercise...
+
+```
+$ pwd
+~/genomes/Covid
+$ ls -1
+covid_annotation.gff
+covid_sequence.fna
+ErinsNotes.txt
+md5sum.txt
+README.md
+```
+
+We are going to use the file `covid_annotation.gff`
 
 - Sync things up so you can interact with this file using the command line. That is, move the file to a directory that you can access using the terminal. OR, within the terminal, navigate to the directory where this file lives.
 
 Use a `cut` command to extract the 9th row of information from this .gtf file like so:
 
 ```
-$ cut -f 9 SARSCoV2_ncbiGenes.gtf 
+$ cut -f 9 covid_annotation.gff
 ```
 
 This column of information contains the annotation information associated with each entry.
 
 How would you extract out just the gene ids?
 
+#HINT: The output will look like this...
+
+```
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM985889v3
+#!genome-build-accession NCBI_Assembly:GCF_009858895.2
+##sequence-region NC_045512.2 1 29903
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049
+ID=NC_045512.2:1..29903
+ID=id-NC_045512.2:1..265
+ID=gene-GU280_gp01
+ID=cds-YP_009724389.1
+ID=cds-YP_009724389.1
+ID=id-YP_009724389.1:1..180
+ID=id-YP_009724389.1:181..818
+ID=id-YP_009724389.1:819..2763
+ID=id-YP_009724389.1:2764..3263
+ID=id-YP_009724389.1:3264..3569
+ID=id-YP_009724389.1:3570..3859
+ID=id-YP_009724389.1:3860..3942
+ID=id-YP_009724389.1:3943..4140
+ID=id-YP_009724389.1:4141..4253
+ID=id-YP_009724389.1:4254..4392
+ID=id-YP_009724389.1:4393..5324
+ID=id-YP_009724389.1:4393..5324
+ID=id-YP_009724389.1:5325..5925
+ID=id-YP_009724389.1:5926..6452
+ID=id-YP_009724389.1:6453..6798
+ID=id-YP_009724389.1:6799..7096
+ID=cds-YP_009725295.1
+ID=id-YP_009725295.1:1..180
+ID=id-YP_009725295.1:181..818
+ID=id-YP_009725295.1:819..2763
+ID=id-YP_009725295.1:2764..3263
+ID=id-YP_009725295.1:3264..3569
+ID=id-YP_009725295.1:3570..3859
+ID=id-YP_009725295.1:3860..3942
+ID=id-YP_009725295.1:3943..4140
+ID=id-YP_009725295.1:4141..4253
+ID=id-YP_009725295.1:4254..4392
+ID=id-YP_009725295.1:4393..4405
+ID=id-GU280_gp01
+ID=id-GU280_gp01-2
+ID=gene-GU280_gp02
+ID=cds-YP_009724390.1
+ID=gene-GU280_gp03
+ID=cds-YP_009724391.1
+ID=gene-GU280_gp04
+ID=cds-YP_009724392.1
+ID=gene-GU280_gp05
+ID=cds-YP_009724393.1
+ID=gene-GU280_gp06
+ID=cds-YP_009724394.1
+ID=gene-GU280_gp07
+ID=cds-YP_009724395.1
+ID=gene-GU280_gp08
+ID=cds-YP_009725318.1
+ID=gene-GU280_gp09
+ID=cds-YP_009724396.1
+ID=gene-GU280_gp10
+ID=cds-YP_009724397.2
+ID=gene-GU280_gp11
+ID=cds-YP_009725255.1
+ID=id-GU280_gp11
+ID=id-GU280_gp11-2
+ID=id-NC_045512.2:29675..29903
+ID=id-NC_045512.2:29728..29768
+###
+```
+
 ```
 #HINT:
 $ cut -f 9 SARSCoV2_ncbiGenes.gtf | cut <put some additional code here>
 ```
 
-Answer? 
+---
 
 ### Where do the arguments go in piped commands?
 
@@ -241,27 +294,27 @@ So it will look like …
 $ grep 'allgenes' myfile.gtf | wc
 ```
 
-Here, the argument for the `grep` command is <myfile.gtf>. The argument for the `wc` command is the output of the `grep` command.
+Here, the argument for the `grep` command is <myfile.gff>. The argument for the `wc` command is the output of the `grep` command.
 
-### Pairwork - Challenge Exercise
+---
+## Pairwork - Challenge Exercise
 
-**!!! Exercise:** Can you write a series of pipes that will list the unique genes in the SARS-CoV2 genome?
+:hammer_and_wrench:  **Partner Exercise:** Can you write a series of pipes that will list the unique genes in the SARS-CoV2 genome?
 
-**Hint** … the final product should look like this …
+**Hint:** The final product should look like this ...
 
 ```
-"E"
-"M"
-"N"
-"ORF10"
-"ORF1a"
-"ORF1ab"
-"ORF3a"
-"ORF6"
-"ORF7a"
-"ORF7b"
-"ORF8"
-"S"
+ORF1ab
+S
+ORF3a
+E
+M
+ORF6
+ORF7a
+ORF7b
+ORF8
+N
+ORF10
 ```
 
 What were some of your answers? 
