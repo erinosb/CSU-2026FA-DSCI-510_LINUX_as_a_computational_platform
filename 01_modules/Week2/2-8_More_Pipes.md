@@ -1,5 +1,5 @@
 <p align="center">
-<img width="100%" alt="icons" src="../../05_images/header_pipes.png">
+<img width="100%" alt="icons" src="../../05_images/headers_pipes.jpg">
 </p>
 
 # More Pipes
