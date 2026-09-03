@@ -2,6 +2,57 @@
 <img width="100%" alt="icons" src="../../05_images/headers_Slide5.png">
 </p>
 
+### Todays objectives: 
+
+<details>
+  <summary>Click to expand/collapse</summary>
+
+---
+
+- **Vocabulary**
+  - Some carried over from past 
+  - Standard streams
+  - Redirection
+  - Standard input (stdin)
+  - Standard output (stdout)
+  - Standard error (stderr)
+  - Concatenate
+  - Regular expressions/regex
+  - Delimiting character
+  - Field
+  - Pipe
+
+- **Things you should know how to do after this class**
+  - Understand what stdout, stderr, and stdin mean
+  - Know how to redirect stdout, or stderr to an output file.
+  - Know how to concatenate files together
+  - Know how to search for simple strings in files
+  - Know how to modify your search for simple strings using options
+  - Know how to cut out delimited information from files
+  - Know how to change the delimiter from a tab to another character (using cut)
+  - Know how to use pipes to combine two commands into one
+
+- **Commands covered**
+  - `md5sum` or `md5` or `md5sum-lite`
+  - `>`
+  - `2>`
+  - `&>`
+  - `>>`
+  - `cat`
+  - `grep`
+  - `cut`
+  - `|`
+  - `sort`
+  - `uniq`
+  - `tee`
+
+---
+
+</details>
+
+  * Quiz 3 
+  * ALPINE Sign up
+
 # Working With Files 2
 
 The following commands will help you to access and organize the information contained in files.
@@ -11,6 +62,8 @@ The following commands will help you to access and organize the information cont
 `grep` – regular expressions. search for a specific pattern within a file
 
 `cut` – pull out a specific column (or any other delimited information) from a file
+
+-----
 
 ## Let's make a file
 
@@ -41,6 +94,8 @@ chrVI	270161
 chrI	230218
 chrM	85779
 ```
+
+-----
 
 ## Concatenating files with `cat`
 
