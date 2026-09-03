@@ -105,7 +105,7 @@ $ tr [Tt] [Uu] < DNA.txt
 $ tr [Tt] [Uu] < DNA.txt > RNA.txt
 ```
 
-For zsh users ... you need to update the syntax for `tr` to 
+For zsh users (Mac people), you will likely use...
 
 ```
 % tr 'Tt' 'Uu' < DNA.txt
