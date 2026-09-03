@@ -321,3 +321,7 @@ ORF10
 What were some of your answers? 
 
 Continue on to [Working with files 3](2-9_Working_with_files3.md)
+
+OR 
+
+Continue on to [Assignments](../../02_assignments/)

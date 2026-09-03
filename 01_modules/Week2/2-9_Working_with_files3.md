@@ -13,7 +13,9 @@ In this section we'll learn
 - `tr`
 - `AWK` (I'll just reference you to AWK)
 
-### Substitutions with `sed`, `tr`, `AWK`
+----
+
+## Substitutions with `sed`, `tr`, `AWK`
 
 In this section, we'll add to our toolkit by learning three ways to **find and replace** select content within a file. The first is using `sed` **- Stream EDitor**. `sed` is a complex program capable of filtering and transforming text within a file. sed is capable of very complex functionality, but for today, we'll just learn its **find and replace** function.
 
@@ -45,7 +47,7 @@ And the last is `awk` which I'll just describe and refer you to, but we won't de
 -e  Expression. Allows multiple search and replace actions
 ```
 
-**!!! Group Exercise:** Let's make a file called `DNA.txt` and save in it some capital and lower case A,T,C,G sequence like 'ATCAGATATAGATTTTAACCCAAttatcctt' or some such.
+:hammer_and_wrench: **Group Exercise:** Let's make a file called `DNA.txt` and save in it some capital and lower case A,T,C,G sequence like 'ATCAGATATAGATTTTAACCCAAttatcctt' or some such.
 
 Say we want to translate this sequence into an RNA sequence. That is, we want all the T's to become U's. Try the following commands. What does each do? Do they all work (on MAC, they may not)?:
 
@@ -63,7 +65,7 @@ To combine search patterns together, use the option `-e`
 $ sed -e 's/T/U/g' -e 's/t/u/g' DNA.txt
 ```
 
-**!!! Group Exercise:** How would you save your translated RNA sequence into a file called `RNA.txt`?
+:hammer_and_wrench: **Group Exercise:** How would you save your translated RNA sequence into a file called `RNA.txt`?
 
 **Extended Learning** Please explore more ways to use `sed`: [https://www.grymoire.com/Unix/Sed.html](https://www.grymoire.com/Unix/Sed.html). Those instructions will show you how to use `sed` to …
 
@@ -75,7 +77,9 @@ $ sed -e 's/T/U/g' -e 's/t/u/g' DNA.txt
 - Pipe together multiple sed replacements into complex combinations
 - Save complex search and replace instructions into files for re-use
 
-### Translate - `tr`
+----
+
+## Translate - `tr`
 
 Translate (`tr`)is a much smaller program than `sed` but is better suited to simple tasks, such as in translating DNA:
 
@@ -92,7 +96,8 @@ $ tr [T] [U] < DNA.txt         #will convert T's to U's
 $ tr [Tt] [Uu] < DNA.txt       #will convert upper case T's to U's and lower case t's to u's
 ```
 
-**!!! Common pitfall:** for some reason `tr` needs its input argument specifically indicated as its input using the redirect `<` or using a piped cat command:
+>[!WARNING]
+> For some reason `tr` needs its input argument specifically indicated as its input using the redirect `<` or using a piped cat command:
 
 ```
 $ cat DNA.txt | tr [Tt] [Uu]
@@ -108,7 +113,9 @@ For zsh users ... you need to update the syntax for `tr` to
 # This also works in the bash shell!
 ```
 
-### AWK
+---
+
+## AWK
 
 `AWK` is a speedy little program developed in the 1970's at Bell labs by three programmers Alfred Aho, Peter Weinberger, and Brian Kernighan. The name is the initials of their last names but sounds like the bird, auk.
 
@@ -126,10 +133,12 @@ awk '{ gsub(/T/, "U"); print }' DNA.txt
 awk '{ gsub(/T/, "U"); gsub(/t/, "u"); print }' DNA.txt
 ```
 
-### A Note on Complexity and Speed
+----
+
+## A Note on Complexity and Speed
 
 If this is starting to feel AWKward, you're not alone. Once you start to imagine how you want to search, replace, and print out information, your imaginings can quickly outpace what even a sed or awk command can easily do. It's time to level up to python or javascript.
 
 `sed` and `AWK` are extremely fast! If you can write code in them, they will typically run faster than a python code.
 
-Continue on to [Intro to scripting - Scripting 1](3-3_Scripting1.md)
+Continue on to [Assignments](../../02_assignments/)
