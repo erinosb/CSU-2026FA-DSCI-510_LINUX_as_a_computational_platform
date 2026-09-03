@@ -12,14 +12,30 @@ Now that we know what piping is, we can discover some new functionalities of Lin
 
 `tee` - redirect stdout or stderr to multiple locations
 
-**!!! Exercise:** Let's download a small file [mini.gff](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/mini.gff).
+----
 
-- To download, right-click and open in a new tab
-- click on the down arrow to download
-- save to an appropriate place
-- sync your working directory (in the terminal) with the directory containing mini.gff
+:hammer_and_wrench: **Group Exercise:** Let's make a file called mini.gff.
 
-### Sorting files by line using `sort`
+  * Copy and paste the following content into a file called mini.giff using nano or your text editor.
+
+
+```
+# A tester gff file.                                
+# For testing pipes.                                
+chrV	sacCer3_ensGene	CDS	574807	575379	0.000000	-	0	gene_id "YER190C-A"; transcript_id  "YER190C-A";
+chrII	sacCer3_ensGene	CDS	805038	805256	0.000000	-	0	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrV	sacCer3_ensGene	start_codon	575377	575379	0.000000	-	.	gene_id "YER190C-A"; transcript_id "YER190C-A";
+chrII	sacCer3_ensGene	start_codon	805254	805256	0.000000	-	.	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrII	sacCer3_ensGene	exon	805035	805256	0.000000	-	.	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrIII	sacCer3_ensGene	exon	309070	310155	0.000000	+	.	gene_id "YCR105W"; transcript_id "YCR105W";
+CHRII	sacCer3_ensGene	start_codon	805351	805353	0.000000	+	.	gene_id "YBR299W"; transcript_id "YBR299W";
+CHRIII	sacCer3_ensGene	start_codon	310958	310960	0.000000	+	.	gene_id "YCR106W"; transcript_id "YCR106W";
+chrV	sacCer3_ensGene	exon	574804	575379	0.000000	-	.	gene_id "YER190C-A"; transcript_id "YER190C-A";
+chrV	sacCer3_ensGene	stop_codon	575680	575682	0.000000	-	.	gene_id "YER190C-B"; transcript_id "YER190C-B";
+```
+---
+
+## Sorting files by line using `sort`
 
 We can use sort to sort a file's lines into a new order …
 

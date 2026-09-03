@@ -16,7 +16,7 @@ We can use the pipe command between two commands to pass the output of the first
 
 `command1 | command2`
 
-:hammer_and_wrench:  **Group Exercise:** Follow along. 
+:hammer_and_wrench: **Group Exercise:** Follow along. 
 
   * A commonly piped task is to count how many files are in a directory:
 
