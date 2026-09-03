@@ -320,4 +320,4 @@ ORF10
 
 What were some of your answers? 
 
-Continue on to [Working with files 3](../Week3/3-2_Working_with_files3.md)
+Continue on to [Working with files 3](2-9_Working_with_files3.md)
