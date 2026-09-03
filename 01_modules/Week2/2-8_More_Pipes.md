@@ -1,3 +1,7 @@
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/header_pipes.png">
+</p>
+
 # More Pipes
 
 Now that we know what piping is, we can discover some new functionalities of Linux. Let's learn how to pipe the following commands:
