@@ -35,12 +35,11 @@ Let's clean up this folder.
 
 A. What command line entry would you write to create the directories `notes` and `genome` in a single command line entry?
 
-B. What command line enbry would you write to move the two REAMDE files into the `notes` subdirectory in a single command line entry?
+B. What command line enbry would you write to move the two files, `ErinsNotes.txt` and `README.md` into the `notes` subdirectory in a single command line entry?
 
 ## Question 4
 
 Assuming that the file `yeast_annotation.gff` exists and the file `blerg.jpg` does not, experiment with the following command line entries. 
-
 Describe what is captured in each output file?
 
 ```
