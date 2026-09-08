@@ -312,6 +312,4 @@ $ R
 # type q() to close the interactive session.
 ```
 
-:star: **Helpful Resources** Here's a quick little [bash scripting cheat sheet](https://devhints.io/bash)
-
 Continue on to [Array Variables](3-4_Array_Variables.md)
