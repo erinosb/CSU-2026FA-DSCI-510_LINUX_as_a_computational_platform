@@ -79,7 +79,7 @@ Let's take a look at each part of this script …
 <img width="50%" alt="scripting1" src="../../05_images/scripting1.png">
 </p>
 
-### The nuts and bolts of writing
+## The nuts and bolts of writing
 
 OK, so how do we actually write these scripts? I find it useful to use a **text editor** to write my scripts. I use BBEdit, so my scripts look like this. I write them in the BBEdit app.
 
@@ -91,7 +91,8 @@ OK, so how do we actually write these scripts? I find it useful to use a **text 
 
 **On ALPINE** - ALPINE has its own text editor for you to use.
 
-**!!! THE CHALLENGE:** the major challenge is syncing up where you are in the terminal with where your script of interest is located.
+>[!WARNING]
+> Make sure you are in the correct directory! The major challenge is syncing up where you are in the terminal with where your script of interest is located. 
 
 >[!TIP]
 > Are you working on Notepad++ on a PC and seeing weird stuff at the end of each line like `\r` or `\r\n`? If so, you'll need to set your “end of line conversion". To do this, go into Notepad++ **Settings –> Preferences** –> Navigate to **End of line conversion** and select unix/mac. OR, go to **Edit –> EOL Conversion** and select Windows/Linux/Mac.
@@ -110,7 +111,7 @@ To execute a bash script, we simply navigate on the terminal to the place where 
 <img width="75%" alt="scripting3" src="../../05_images/scripting3.png">
 </p>
 
-**!!! Group Exercise:** Let's work together to execute this script and see what it does.
+:hammer_and_wrench: **Group Exercise:** Let's work together to execute this script and see what it does.
 
 Make a new directory called `IntroToScripting`
 Navigate into `IntroToScripting` (**Hint:** You should see IntroToScripting's path when you type `$ pwd`
@@ -118,6 +119,9 @@ Copy and paste the text below into a file called `startProject.sh` in the `Intro
 
 ```
 #!/usr/bin/env bash
+
+# Say hi
+echo "Hello World"
  
 # Make three subdirectories
 mkdir 01_input
@@ -137,13 +141,15 @@ $ bash startProject.sh
 
 Navigate what just happened. 
 
-### Expanding our code
+---
+
+## Expanding our code
 
 OK, let's make this a little bit more fancy …
 
-**!!! Jess' demo:** I will demonstrate opening the code in a text editor and amending the script so that it expands on some of its functionality. In the end I'll have this new code (or something close to it):
+:eyes: **Erin's demo:** I will demonstrate opening the code in a text editor and amending the script so that it expands on some of its functionality. In the end I'll have this new code (or something close to it):
 
-☟ **This is what it should look like on BBEdit or Notepad++ when you open the file:**
+**This is what it should look like on BBEdit or Notepad++ when you open the file:**
 
 ```
 #!/usr/bin/env bash
@@ -171,19 +177,24 @@ echo $(date) >> $projectname/README_${projectname}.txt
 echo "startProject>>> successfully completed"
 ```
 
-**!!! Group Exercise:**
+:hammer_and_wrench: **Group Exercise:** 
 
 - Copy the script above into a file called `startProject.sh`
 - Execute the script to test it. Note, this time you don't need to make your own project directory. The script will make it for you.
 
-### What did we learn from the demonstration?
+----
 
-**!!! Comment your code !!!** This makes your code readable to other users. Remember *other users* also refers to future-you.
 
-**!!! Testing:** Test your scripts frequently for proper behavior. Even the best programmers test their code every few lines.
+## What did we learn from the demonstration?
 
-**!!! Expansion:** Scripts are often expanded from basic functionality out to more complex functionality. So we are typically writing from a skeletal script to a more “fleshed out” script. Scripts can also be written from top → down. When writing top → down, plan ahead and write out the comments first.
+>[!TIP]
+> This makes your code readable to other users. Remember *other users* also refers to future-you.
 
-**!!! Isolation:** Sometimes when you are building on the functionality of a script, it makes sense to comment out several blocks of code during the testing phase (also called **debugging** phase). This allows you to isolate just the new changes you are introducing before seeing how they integrate into the complete script.
+>[!TIP]
+> Test your scripts frequently for proper behavior. Even the best programmers test their code every few lines.
 
-Continue on to [More scripting - Scripting 2](3-4_Scripting2.md)
+**Expansion:** Scripts are often expanded from basic functionality out to more complex functionality. So we are typically writing from a skeletal script to a more “fleshed out” script. Scripts can also be written from top → down. When writing top → down, plan ahead and write out the comments first.
+
+**Isolation:** Sometimes when you are building on the functionality of a script, it makes sense to comment out several blocks of code during the testing phase (also called **debugging** phase). This allows you to isolate just the new changes you are introducing before seeing how they integrate into the complete script.
+
+Continue on to [More scripting - Scripting 2](3-2_Scripting2.md)
