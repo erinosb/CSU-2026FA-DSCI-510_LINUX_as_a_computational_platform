@@ -221,9 +221,13 @@ We can do arithmetic operations in bash scripts using **double parentheses** pro
 | `** or ^` | exponential | `myresult=$(( 10**4 ))` |
 
 >[!WARNING]
-> These expressions only work with integers. Numbers with decimal points are called **floating point number** in computer science. To do calculations on those, use the built in `bc` application which stands for either **bench calculator** or **basic calculator**.
+> These expressions only work with integers. Numbers with decimal points are called **floating point number** in computer science. We will need other programs to do math on floating point numbers.
+
+----
 
 ## Using the Basic Calculator to do math
+
+The program **bc** either stands for **bench calculator** or **basic calculator**. It can perform basic math on float point numbers on the command line. Sadly, it is not very intuitive to use. 
 
 **bc usage**
 
@@ -262,6 +266,8 @@ echo $myresult
 ----
 
 ## Using python, R or awk to do math
+
+Python has several packages that make math a dream. R is also made with math and statistics in mind. Awk is not the best for math, but it will do in a pinch. 
 
 You could also use `python`, `R`, or `awk` to work with floating point integers! See below for some examples ...
 
