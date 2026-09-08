@@ -1,3 +1,9 @@
+
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/headers_files.png">
+</p>
+
+
 # Intro To Scripting 
 
 ### Chaining with `;`
@@ -39,7 +45,7 @@ However, for this class, we'll get into the habit of using a slightly more compl
 With minor exceptions, anything you can run normally on the command line can be put into a script and it will do exactly the same thing. Similarly, any commands you can put into a script can generally also be run on the command line.
 
 
-### When do I use bash Scripts? 
+## When do I use bash Scripts? 
 
 If you have some reason to do the same **series** of commands over and over again, it is often best to write these commands into a script so that the process can be **automated** and **reproducible**.
 
@@ -69,7 +75,7 @@ touch README.txt
 Let's take a look at each part of this script …
 
 <p align="center">
-<img width="410" alt="scripting1" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/scripting1.png">
+<img width="50%" alt="scripting1" src="../../05_images/scripting1.png">
 </p>
 
 ### The nuts and bolts of writing
