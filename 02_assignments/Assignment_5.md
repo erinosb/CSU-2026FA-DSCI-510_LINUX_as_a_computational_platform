@@ -21,7 +21,7 @@ She has written the following code but it doesn't seem to work. Can you fix her 
 #!/bin/usr/env/bash 
 
 # This script will take a file (likely a .gtf file) and convert any chromosome names in the format chrI, chrII, chrIII to chromosome1 chromosome2, chromosome3, etc.
-# This script is designed specifically for the C. elegans chromosome that has 5 autosomes and an X chromosome
+# This script is designed specifically for the C. elegans genome that has 5 autosomes and an X chromosome
 
 # This script will prompt the reader for a file to convert
 echo -n "convertChrom>>> Enter your filename and press [RETURN]: "
@@ -31,7 +31,7 @@ read filename
 sed -e 's/chrI/chromosome1/g' $filename | sed -e 's/chrII/chromosome2/g' | sed 's/chrIII/chromosome3/g' | sed 's/chrIV/chromosome4/g' | sed 's/chrV/chromosomeV/g' | sed 's/chrX/chromosomeX/g'
 ```
 
-**Hint** make a test file with all possible `chrI`, `chrII` combinations. 
+**Hint** make a test file that contains all entries to convert: `chrI`, `chrII`, `chrIII`, `chrIV`, `chrV`, `chrX`.
 
 ---
 
