@@ -293,6 +293,7 @@ It is also possible to start a python or R interactive session from the command 
 </p>
 
 Interactive `python` session example:
+
 ```
 $ python
 >>>
@@ -311,5 +312,9 @@ $ R
 # now you can speak in R!
 # type q() to close the interactive session.
 ```
+
+In the future you will learn how to launch your R and python scripts on the command line, but for now, I'm just showing you these single-line and interactive measures.
+
+
 
 Continue on to [Array Variables](3-4_Array_Variables.md)
