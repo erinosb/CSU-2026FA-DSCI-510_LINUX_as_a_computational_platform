@@ -284,7 +284,7 @@ $ echo | awk '{print 10.0 / 3.0}'
 $ awk 'BEGIN {print 10.0 / 3.0}'
 ```
 
-## Using python, R or awk to do math
+## Bonus content - Using python, R or awk to do math
 
 It is also possible to start a python or R interactive session from the command line like so...
 
@@ -315,6 +315,15 @@ $ R
 
 In the future you will learn how to launch your R and python scripts on the command line, but for now, I'm just showing you these single-line and interactive measures.
 
+----
 
+## Vocabular Re-cap
+
+  - Variables
+  - Variable name
+  - Variable value
+  - Assigning variables
+  - Dereferencing variables
+  - Variable reassignment
 
 Continue on to [Array Variables](3-4_Array_Variables.md)
