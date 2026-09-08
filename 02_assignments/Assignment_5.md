@@ -9,6 +9,10 @@
 
 ---
 
+**Hint:** Do not include the question text in your answer. Just copy-and-paste your script or code into a text file.
+
+---
+
 ## Question 1 - 10 pts
 
 You friend would like to write a script that asks the user for a C. elegans gtf file and then converts any chromosome names with roman numbers into chromosome names with numerals. 
