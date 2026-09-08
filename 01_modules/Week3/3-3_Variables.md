@@ -317,7 +317,7 @@ In the future you will learn how to launch your R and python scripts on the comm
 
 ----
 
-## Vocabular Re-cap
+## Vocabulary re-cap
 
   - Variables
   - Variable name
@@ -325,5 +325,13 @@ In the future you will learn how to launch your R and python scripts on the comm
   - Assigning variables
   - Dereferencing variables
   - Variable reassignment
+
+## Learning objectives re-cap
+
+  - Know how to assign and reassign variables
+  - Know how to dereference variables to reveal their associated values
+  - Know what constitutes an allowed and good sense name for a variable
+  - Capture output of a command as a variable
+  - Know some basic math operations
 
 Continue on to [Array Variables](3-4_Array_Variables.md)
