@@ -107,7 +107,7 @@ To execute a bash script, we simply navigate on the terminal to the place where 
 `bash <script.sh>`
 
 <p align="center">
-<img width="40%" alt="scripting3" src="../../05_images/startProject.png">
+<img width="40%" alt="scripting3" src="../../05_images/scripting3.png">
 </p>
 
 **!!! Group Exercise:** Let's work together to execute this script and see what it does.
