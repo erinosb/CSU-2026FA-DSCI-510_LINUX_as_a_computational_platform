@@ -62,14 +62,15 @@ I can write these same commands into a script called `startProject.sh`. It looks
 
 ```
 #!/usr/bin/env bash
+
+# Say hi
+echo "Hello World"
  
 # Make three subdirectories
 mkdir 01_input
 mkdir 02_scripts
 mkdir 03_output
  
-# Start a readme file beginning with today's date and time:
-touch README.txt
 ```
 
 Let's take a look at each part of this script …
@@ -92,9 +93,12 @@ OK, so how do we actually write these scripts? I find it useful to use a **text 
 
 **!!! THE CHALLENGE:** the major challenge is syncing up where you are in the terminal with where your script of interest is located.
 
-**!!! PC PITFALL** Are you working on Notepad++ on a PC and seeing weird stuff at the end of each line like `\r` or `\r\n`? If so, you'll need to set your “end of line conversion". To do this, go into Notepad++ **Settings –> Preferences** –> Navigate to **End of line conversion** and select unix/mac. OR, go to **Edit –> EOL Conversion** and select Windows/Linux/Mac.
+>[!TIP]
+> Are you working on Notepad++ on a PC and seeing weird stuff at the end of each line like `\r` or `\r\n`? If so, you'll need to set your “end of line conversion". To do this, go into Notepad++ **Settings –> Preferences** –> Navigate to **End of line conversion** and select unix/mac. OR, go to **Edit –> EOL Conversion** and select Windows/Linux/Mac.
 
-### The nuts and bolts of executing
+----
+
+## The nuts and bolts of executing
 
 To execute a bash script, we simply navigate on the terminal to the place where our script is located. Then, I use `ls` to ensure I can **see** the script located in my working directory. Then, I execute it using the command **bash**, like so…
 
