@@ -15,7 +15,7 @@ You friend would like to write a script that asks the user for a C. elegans gtf 
 
 chrI -> chromosome 1, for example
 
-She has written the following code but it doesn't seem to work. Can you fix her code for her so it has the desired behavior?
+She has written the following code but it doesn't seem to work. Can you fix her code for her so it has the desired behavior? Copy and paste your new script into the answer key here. Include the shebang. Include comments. 
 
 ```
 #!/bin/usr/env/bash 
@@ -35,17 +35,22 @@ sed -e 's/chrI/chromosome1/g' $filename | sed -e 's/chrII/chromosome2/g' | sed '
 
 ---
 
-## Question 2 
+## Question 2 - 10 pts 
+
+Write a quick shell script that prompts the user for a file that contains some DNA sequence (A's, T', G', and C's) and then outputs to the screen the corresponding RNA sequence in which any T's have been transformed into U's.
+
+**Hint** Use the read command in Question 1 to prompt the reader for their file
+
+**Hint** Make a test file 
+
+**Hint** Your code should include a shebang and comments
 
 ---
 
-## Question 3 
+## Question 3 - 5 pts
 
----
+Let's pretend the script you wrote in Question2 is called `DNA2RNA.sh`.
 
-## Question 4
+What would be the proper command line entry you would use to convert the test file `DNA1.txt` to a new files called `RNA1.txt` using your code `DNA2RNA.sh`?
 
---- 
-
-## Question 5
-
+**Hint** How would you re-direct the output of `DNA2RNA.sh` to the file `RNA1.txt`?
