@@ -141,7 +141,6 @@ You can capture the output of a command as a variable like so:
 
 ```
 $ today=$(date)
- 
 $ echo $today
 ```
 
@@ -149,7 +148,6 @@ You can capture the output of a numerical operation as a variable with double pa
 
 ```
 $ mytotal=$((49 + 50))
- 
 $ echo $mytotal
 ```
 
@@ -159,8 +157,9 @@ or like so ...
 $ total1=6
 $ total2=5
 
-$ finalTotal=$(($total1 - $total2))
-1
+$ finalTotal=$(($total1 + $total2))
+$ echo $finalTotal
+11
 ```
 
 :hammer_and_wrench: **Exercise:** modify your `favoriteThings.sh` script to capture the output of a command or numerical operation. Write an echo statement to dereference the variable.
