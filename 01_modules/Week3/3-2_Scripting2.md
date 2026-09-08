@@ -11,7 +11,9 @@ What is **shell scripting**? We are doing shell scripting because this scripts w
 
 Note - even though you may not technically be using the **bash** shell, it's still referred to as bash scripting just by habit.
 
-### Reviewing scripting
+-----
+
+## Reviewing scripting
 
 We will be writing scripts within text editors.
 
@@ -40,7 +42,9 @@ Some things to remember:
 
 [A fun article on why all programming students learn Hello World first](https://slate.com/technology/2019/10/hello-world-history-programming.html#:~:text=Before%20long%2C%20writers%20of%20tutorial,you'd%20enjoy%20the%20syntax.)
 
-### Echo Statements
+-----
+
+## Echo Statements
 
 Echo statements let us print text out to the screen. Like all LINUX commands, they can be used on the command line or within a script:
 
@@ -59,7 +63,7 @@ Echo statement options:
 
 `-e` allow special character interpretations. “\n” will be interpreted as a return. “\t” will be interpreted as a tab
 
-**!!! Exercise:** Write a script called `balrog.sh`. Write a series of echo statements. Try using -e and -n to test how things work:
+:hammer_and_wrench: **Group Exercise:** Write a script called `balrog.sh`. Write a series of echo statements. Try using -e and -n to test how things work:
 
 **!!! Example:** The script below is `balrog.sh`
 
@@ -89,20 +93,27 @@ You shallnotpass
 Go back to the Shadow 		 You shall not 	 pass.
 ```
 
-### Commenting Out 
+-----
+
+## Commenting Out 
 
 You can gently ask the computer to ignore lines of code by adding a pound sign in front of it. This is **called commenting out** your code.
 
 ```
-#!/usr/bin/env bash
+echo -n "startProject>>> Enter your new project name (no spaces) and press [RETURN]: "
+read projectname
  
-echo "Hello World!"
-echo "My name is Marvin"
-#echo "and I am having a rather boring day"
-#echo "In fact, all my days are rather boring"
-#echo "Maybe I can share stories of my life with you to pass the time?"
+## Report progress
+# echo -e "startProject>>> Starting project named $projectname"
+ 
+## Make a project directory and three subdirectories
+# mkdir $projectname
+# mkdir $projectname/01_input
+# mkdir $projectname/02_scripts
+# mkdir $projectname/03_output
 ```
 
-**!!! Super Useful:** Commenting out lines of code is super useful when you are trying to find a bug in your code. For example, you can comment out all the lines of code and then add lines back in one at a time to determine where the error lies.
+>[!TIP]
+> Commenting out lines of code is super useful when you are trying to find a bug in your code. For example, you can comment out all the lines of code and then add lines back in one at a time to determine where the error lies.
 
-Continue on to [Variables](3-5_Variables.md)
+Continue on to [Variables](3-3_Variables.md)
