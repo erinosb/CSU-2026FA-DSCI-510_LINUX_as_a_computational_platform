@@ -69,7 +69,7 @@ favorite number=3 # this doesn't work
 echo -e "my favorite number is ${favoritenumber}."
 ```
 
-**!!! Examples:** Here are a few more examples of variable assignments:
+**Examples:** Here are a few more examples of variable assignments:
 
 ```
 homeDir="/nas02/home/e/r/erinosb"
@@ -77,7 +77,7 @@ favoriteNumber=42
 favoriteLetter="E"
 ```
 
-**!!! Exercise:** Favorite things
+:hammer_and_wrench: **Exercise:** 
 
 Use the code below to assign your favorite things to different variables.
 
@@ -85,8 +85,6 @@ Use the code below to assign your favorite things to different variables.
 - Run the code as is.
 - Next, add in the values to all the variables
 - Run the code again
-
-**!!! Bonus** - try breaking your code by adding spaces around the equals sign. Then fix it again.
 
 ```
 #!/usr/bin/env bash
@@ -104,7 +102,9 @@ favoriteFood=
 echo "Hi, my name is $username. My favorite organism is $favoriteOrganism. My favorite show is $favoriteShow. I love to eat $favoriteFood."
 ```
 
-### Variable Reassignment
+----
+
+## Variable Reassignment
 
 We can change a variable's associated value within a program. This is called **reassignment**. Say you watch a new show and you now want to update what your favorite show is, like so …
 
@@ -119,7 +119,7 @@ favoriteOrganism="Arabidopsis"
  
 favoriteShow="Breaking Bad"
  
-favoriteFood="sushi"
+favoriteFood="pozole"
  
 echo "Hi, my name is $username. My favorite organism is $favoriteOrganism. My favorite show is $favoriteShow. I love to eat $favoriteFood."
  
@@ -129,11 +129,13 @@ favoriteShow="Better Call Saul"
 echo "Hi, my name is $username. My favorite organism is $favoriteOrganism. My favorite show is $favoriteShow. I love to eat $favoriteFood."
 ```
 
-**!!! Exercise:** Reassign a new value to one of your variables and then copy the same echo statement below that reassignment line of code.
+:hammer_and_wrench: **Group Exercise:** Reassign a new value to one of your variables and then copy the same echo statement below that reassignment line of code.
 
-**?** Why are we interested in making variables? Within a bash script, saving information into variables allows you to take in different inputs and execute reproducible commands on that input. Eventually, we will want to do some series of tasks many, many times within a script. This will involve multiple iterations, called looping. Each time we go around a loop, we will change the input values while keeping the commands operating on them the same.
+:question: Why are we interested in making variables? Within a bash script, saving information into variables allows you to take in different inputs and execute reproducible commands on that input. Eventually, we will want to do some series of tasks many, many times within a script. This will involve multiple iterations, called looping. Each time we go around a loop, we will change the input values while keeping the commands operating on them the same.
 
-### Capturing output as variables
+-----
+
+## Capturing output as variables
 
 You can capture the output of a command as a variable like so:
 
@@ -161,12 +163,12 @@ $ finalTotal=$(($total1 - $total2))
 1
 ```
 
-**!!! Exercise:** modify your `favoriteThings.sh` script to capture the output of a command or numerical operation. Write an echo statement to dereference the variable.
+:hammer_and_wrench: **Exercise:** modify your `favoriteThings.sh` script to capture the output of a command or numerical operation. Write an echo statement to dereference the variable.
 
-**!!! Advanced skills exercise** modify your `favoriteThings.sh` script to report how many files you have in the current working directory. Print out this information to the user with the following statement:
+:hammer_and_wrench: **Exercise** modify your `favoriteThings.sh` script to report how many files you have in the current working directory. Print out this information to the user with the following statement:
 
 ```
-"Hi, my name is Erin. My favorite organism is C. elegans. My favorite show is Better Call Saul. I love to eat ramen.
+"Hi, my name is Erin. My favorite organism is C. elegans. My favorite show is One Piece. I love to eat ramen.
 I have 23 files in my current working directory."
 ```
 
@@ -204,7 +206,9 @@ echo "the number of files in my current working directory is:" $filesindir
 
 </details>
 
-### A few details about math in bash
+----
+
+## A few details about math in bash
 
 We can do arithmetic operations in bash scripts using **double parentheses** provided we are working with integers …
 
@@ -225,7 +229,7 @@ We can do arithmetic operations in bash scripts using **double parentheses** pro
 
 that's a `-l`, as in little L. This sets scale to **20** and loads an extended math library before running any code.
 
-**!!! Example:**
+**Example:**
 
 ```
 $ echo "11/3" | bc -l
@@ -265,7 +269,7 @@ $ python -c 'print(10.0 / 3.0)'
 see here for how it looks through an interactive session ...
 
 <p align="center">
-<img width="700" alt="interactive python session" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/interactivePython.png">
+<img width="75%" alt="interactive python session" src="../../05_images/interactivePython.png">
 </p>
 
 **!!! Pitfall** The difficulty of doing mathematics using LINUX is a major drawback of LINUX. Other languages that are much more conducive to mathematics are **R** which is built around a statistics framework and Python when used with its many lovely math modules like **NumPy**, **Pandas**, and **MatplotLib**.
@@ -343,8 +347,8 @@ echo "Direct R commands finished."
 Rscript my_script_with_args.R "arg1" "123"
 ```
 
-**!!! Helpful Resource** 
+:star: !!! Helpful Resource** 
 
 Here's a quick little [bash scripting cheat sheet](https://devhints.io/bash)
 
-Continue on to [Array Variables](3-6_Array_Variables.md)
+Continue on to [Array Variables](3-4_Array_Variables.md)
