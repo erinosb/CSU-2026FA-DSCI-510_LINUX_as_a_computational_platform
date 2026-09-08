@@ -39,9 +39,9 @@ sed -e 's/chrI/chromosome1/g' $filename | sed -e 's/chrII/chromosome2/g' | sed '
 
 Write a quick shell script that prompts the user for a file that contains some DNA sequence (A's, T', G', and C's) and then outputs to the screen the corresponding RNA sequence in which any T's have been transformed into U's.
 
-**Hint:** Use the read command in Question 1 to prompt the reader for their file
+**Hint:** Use the `read` command in Question 1 to prompt the reader for their file
 
-**Hint:** Make a test file 
+**Hint:** Make a test file to ensure your script works
 
 **Hint:** Your code should include a shebang and comments
 
@@ -51,6 +51,6 @@ Write a quick shell script that prompts the user for a file that contains some D
 
 Let's pretend the script you wrote in Question2 is called `DNA2RNA.sh`.
 
-What would be the proper command line entry you would use to convert the test file `DNA1.txt` to a new files called `RNA1.txt` using your code `DNA2RNA.sh`?
+What would be the proper command line entry you would use to convert a DNA sequence contained in the file `DNA1.txt` to an RNA sequence in a new file called `RNA1.txt` using your code `DNA2RNA.sh`?
 
 **Hint** How would you re-direct the output of `DNA2RNA.sh` to the file `RNA1.txt`?
