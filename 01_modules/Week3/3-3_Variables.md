@@ -220,7 +220,10 @@ We can do arithmetic operations in bash scripts using **double parentheses** pro
 | % | modulo (find the remainder) | `myresult=$(( 11%3 ))` |
 | `** or ^` | exponential | `myresult=$(( 10**4 ))` |
 
-**!!! Warning** - these expressions only work with integers. Numbers with decimal points are called **floating point number** in computer science. To do calculations on those, use the built in `bc` application which stands for either **bench calculator** or **basic calculator**.
+>[!WARNING]
+> These expressions only work with integers. Numbers with decimal points are called **floating point number** in computer science. To do calculations on those, use the built in `bc` application which stands for either **bench calculator** or **basic calculator**.
+
+## Using the Basic Calculator to do math
 
 **bc usage**
 
@@ -253,27 +256,35 @@ myresult=$(echo "11/3" | bc -l)
 echo $myresult
 ```
 
-You could also use `awk`, `python`, or `R` to work with floating point integers! See below for some examples ...
+>[!WARNING]
+> This is very awkward. The difficulty of doing mathematics using LINUX is a major drawback of LINUX. Other languages that are much more conducive to mathematics are **R** which is built around a statistics framework and Python when used with its many lovely math modules like **NumPy**, **Pandas**, and **MatplotLib**.
+
+----
+
+## Using python, R or awk to do math
+
+You could also use `python`, `R`, or `awk` to work with floating point integers! See below for some examples ...
 
 ```
+# Using python
+$ python -c 'print(10.0 / 3.0)'
+3.3333333333333335
+
+# Using awk - Option 1
 $ echo | awk '{print 10.0 / 3.0}'
 3.33333
 
+# Using awk - Option 2
 $ awk 'BEGIN {print 10.0 / 3.0}'
-
-$ python -c 'print(10.0 / 3.0)'
-3.3333333333333335
 ```
 
-see here for how it looks through an interactive session ...
+## Using python, R or awk to do math
+
+It is also possible to start a python or R interactive session from the command line like so...
 
 <p align="center">
-<img width="75%" alt="interactive python session" src="../../05_images/interactivePython.png">
+<img width="75%" alt="interactive python session" src="../../05_images/python_interactive.png">
 </p>
-
-**!!! Pitfall** The difficulty of doing mathematics using LINUX is a major drawback of LINUX. Other languages that are much more conducive to mathematics are **R** which is built around a statistics framework and Python when used with its many lovely math modules like **NumPy**, **Pandas**, and **MatplotLib**.
-
-If you wanted to try to use `python` or `R` **interactively from the command line** or from a **script**, you could do the following ...
 
 Interactive `python` session example:
 ```
@@ -284,6 +295,8 @@ $ python
 # type 'exit' to close that interactve session. 
 ```
 
+If you wanted to try to use `R` **interactively from the command line** or from a **script**, you could do the following ...
+
 Interactive `R` session example:
 ```
 $ R
@@ -293,61 +306,6 @@ $ R
 # type q() to close the interactive session.
 ```
 
-`python` execution from a script example:
-```
-#!/bin/bash
-
-# navigate to directory containing python script(s) or execute bash script in same directory as your python script ...
-cd /path/to/your/python/scripts
-
-# run python script
-python your_script.py
-
-# can also pass arguments to python script
-python your_script.py arg1 arg2
-
-# execute a single Python command
-python -c 'print("Hello from Python!")'
-
-# excute multi-line python code chunk
-python << END_PYTHON_SCRIPT
-import sys
-
-def greet():
-    print("Hello, World!")
-    print("Welcome to Python.")
-    print("Have a great day!")
-
-greet()
-
-END_PYTHON_SCRIPT
-```
-
-`R` execution from a script example:
-```
-# test R script ... simple_math.R
-
-result <- 2 + 2
-cat("The result is:", result, "\n")
-```
-```
-#!/bin/bash
-
-echo "Running R script..."
-Rscript my_script.R
-echo "R script finished."
-
-
-echo "Running R commands directly..."
-Rscript -e 'print("This is a direct R command."); x <- 5; y <- 10; print(x * y)'
-echo "Direct R commands finished."
-
-# you could also pass arguments to your R script like so in your bash script ...
-Rscript my_script_with_args.R "arg1" "123"
-```
-
-:star: !!! Helpful Resource** 
-
-Here's a quick little [bash scripting cheat sheet](https://devhints.io/bash)
+:star: **Helpful Resources** Here's a quick little [bash scripting cheat sheet](https://devhints.io/bash)
 
 Continue on to [Array Variables](3-4_Array_Variables.md)
