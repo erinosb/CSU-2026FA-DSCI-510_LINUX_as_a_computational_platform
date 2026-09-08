@@ -56,15 +56,12 @@
 </details>
 
 
-### Reminder: 
+## Reminder: 
 
-HW 3 and 4 are due by 11:59 pm tonight!
+  - HW 3 and 4 are due 
+  - Quiz 4 
 
-### Test your understanding - take this quiz!
-
-[Quiz 4](https://forms.gle/kbtffRSixFUx68h69)
-
-### Connecting to remote computers
+## Connecting to remote computers
 
 Up to this point, we have only used the terminal to interact with your **local** computer. Today we will talk about several ways we can use the terminal to interact with **remote** computers over the internet.
 
@@ -102,30 +99,34 @@ Password: godofmischief,push
 # Switch to your DUO app on your phone to approve
 ```
 
-**!!! that's a lower case "L"**
+>[!WARNING]
+> That's a lower case "L"**
 
-**!!! Replace your eID e-mail with loki@colostate.edu**
+>[!TIP]
+> Replace your eID e-mail with loki@colostate.edu**
 
-**!!! You won't see anything pop up when you type your password**
+>[!TIP]
+> You won't see anything pop up when you type your password
 
-**!!! If `,push` doesnt work, try `,phone` or the 6-digit code on your DUO app (refreshes every 20 seconds)**
+>[!TIP]
+> If `,push` doesnt work, try `,phone` or the 6-digit code on your DUO app (refreshes every 20 seconds)**
 
-**!!! Exercise:** Make a file.
+:hammer_and_wrench: **Group Exercise:** Make a file.
 - Use nano to create a file called `iwashere.txt`
 - Write a little note
 
-### Accessing ALPINE using OnDemand
+## Accessing ALPINE using OnDemand
 
 The team at CU Boulder who developed ALPINE have helped to create an alternative way to interact with the ALPINE Supercomputer, one that can happen in you internet browser like Chrome or Firefox. This method of accessing ALPINE is called OnDemand.
 
-**!!! Exercise:** Let's practice accessing ALPINE using **OnDemand** together.
+:hammer_and_wrench: **Group Exercise:** Let's practice accessing ALPINE using **OnDemand** together.
 
-- Navigate to [OnDemand](https://ondemand-rmacc.rc.colorado.edu/pun/sys/dashboard) in a new tab or window
+- Navigate to [OnDemand](https://ondemand-rmacc.rc.colorado.edu/) in a new tab or window
   - For me, I right click on the above link and select **Open Link in New Window**
   - You will be asked to select an identity provider using a pull-down menu. Select on the pull-down menu (it may say **ORCID**). Start typing **Colorado State University**. Click on **Remember** and log in. It should look like this
 
 <p align="center">
-<img width="410" alt="login" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/login_window.png">
+<img width="75%" alt="login" src="../../05_images/login_window.png">
 </p>
 
 Next steps:
@@ -135,4 +136,4 @@ Next steps:
 
 **!!! Reflection:** How did this go for everyone? What problems were encountered?
 
-Continue on to [Working with files 3](3-2_Working_with_files3.md)
+Continue on to [Working with files 3](3-2_Scripting1.md)

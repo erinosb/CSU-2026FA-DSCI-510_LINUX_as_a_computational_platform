@@ -10,7 +10,7 @@ We can also execute two commands in succession. This is called chaining and it u
 
 `command1; command2`
 
-**!!! Exercise:** Try it:
+:hammer_and_wrench: **Group Exercise:** Try it:
 
 ```
 $ mkdir testdir; touch testdir/testfile.txt
@@ -18,7 +18,7 @@ $ mkdir testdir; touch testdir/testfile.txt
 
 The shell waits for the first command to finish before the second command starts. You can command multiple commands together. Hmm, this seems very useful. If only there was a way we could build on this …
 
-### What is a bash script? 
+## What is a bash script? 
 
 Next, we're going to level up and start saving our commands in files that can be executed. A simple such file is called a **script**. When scripts are written to be read by a linux shell, they are called **bash scripts**, and the process of coding in this way is called **bash scripting**.
 
