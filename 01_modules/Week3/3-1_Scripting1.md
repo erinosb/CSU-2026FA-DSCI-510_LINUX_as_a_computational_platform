@@ -83,7 +83,7 @@ Let's take a look at each part of this script …
 OK, so how do we actually write these scripts? I find it useful to use a **text editor** to write my scripts. I use BBEdit, so my scripts look like this. I write them in the BBEdit app.
 
 <p align="center">
-<img width="40%" alt="scripting2" src="../../05_images/scripting2.png">
+<img width="40%" alt="scripting2" src="../../05_images/startProject.png">
 </p>
 
 **Other options** - you can also write scripts in nano for simple scripts. There are other terminal-embedded text editors that are more complicated than nano like **vim** or **emacs** but these are beyond the scope of this class.
