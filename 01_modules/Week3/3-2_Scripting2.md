@@ -1,4 +1,4 @@
-# A little more detail about bash terminology
+# Scripting 2: A little more detail about bash terminology
 
 What is **shell scripting**? We are doing shell scripting because this scripts will be read and executed by the shell. When we use the bash shell it's called **bash scripting**. bash is typically the default shell program on most all LINUX operating systems and installations. Didn't know we had more than one shell? It's true. Most LINUX or mac operating systems come with a few different versions of the shell under the hood. In fact, MAC has now switched to the zsh shell which is an extended version of bash with some improvements.
 
@@ -99,6 +99,8 @@ Go back to the Shadow 		 You shall not 	 pass.
 
 You can gently ask the computer to ignore lines of code by adding a pound sign in front of it. This is **called commenting out** your code.
 
+For example...
+
 ```
 echo -n "startProject>>> Enter your new project name (no spaces) and press [RETURN]: "
 read projectname
@@ -114,6 +116,6 @@ read projectname
 ```
 
 >[!TIP]
-> Commenting out lines of code is super useful when you are trying to find a bug in your code. For example, you can comment out all the lines of code and then add lines back in one at a time to determine where the error lies.
+> Commenting out lines of code is useful when you are trying to find a bug in your code. For example, you can comment out all the lines of code and then add lines back in one at a time to determine where the error lies.
 
 Continue on to [Variables](3-3_Variables.md)

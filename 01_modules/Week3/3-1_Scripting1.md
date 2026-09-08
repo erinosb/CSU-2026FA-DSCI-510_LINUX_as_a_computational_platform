@@ -1,4 +1,3 @@
-
 <p align="center">
 <img width="100%" alt="icons" src="../../05_images/headers_files.jpg">
 </p>
@@ -147,7 +146,7 @@ Navigate what just happened.
 
 OK, let's make this a little bit more fancy …
 
-:eyes: **Erin's demo:** I will demonstrate opening the code in a text editor and amending the script so that it expands on some of its functionality. In the end I'll have this new code (or something close to it):
+:eyes: **Erin's demonstration:** I will demonstrate opening the code in a text editor and amending the script so that it expands on some of its functionality. In the end I'll have this new code (or something close to it):
 
 **This is what it should look like on BBEdit or Notepad++ when you open the file:**
 

@@ -1,3 +1,7 @@
+<p align="center">
+<img width="100%" alt="icons" src="../../05_images/headers_var.jpg">
+</p>
+
 # Variables 
 
 **Variables** are placeholders for information. The information can either stay constant throughout the script or change.
@@ -17,7 +21,7 @@ echo $varname
 echo ${varname}
 ```
 
-**!!! Demonstration:** within the bash script `roomNumbers.sh` we can assign the value “AZ E210” to a variable called `myroom`:
+:eyes: **Demonstration:** within the bash script `roomNumbers.sh` we can assign the value “AZ E210” to a variable called `myroom`:
 
 ```
 #!/usr/bin/env bash
@@ -38,7 +42,9 @@ AZ E210
 Today's class is being taught in AZ E210.
 ```
 
-#### How do I come up with good variable names? 
+----- 
+
+## How do I come up with good variable names? 
 
 - can only be a string of characters and/or numbers
 - cannot have spaces in them
@@ -48,9 +54,12 @@ Today's class is being taught in AZ E210.
 
 **Values** can be individual or multiples (called strings) of letters, numbers, symbols, spaces, special characters, returns, etc. Simple things can be assigned to variables without quotes, but complex things (especially spaces) require quotes. Either double or single quotes can be used but you must be consistent.
 
-**!!! Major pitfall:**
-- Use quotes around values that are comprised of characters or strings of characters. Avoid using quotes around numbers
-- You cannot put spaces around the equals sign. The variable name and the value must be flush.
+>[!WARNING]
+> Use quotes around values that are comprised of characters or strings of characters. Avoid using quotes around numbers. 
+
+>[!WARNING]
+> No spaces around the equals sign! The variable name and the value must be flush.
+
 
 ```
 favoritenumber=42 # this works
