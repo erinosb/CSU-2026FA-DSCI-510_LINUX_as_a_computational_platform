@@ -22,7 +22,7 @@ chrI -> chromosome 1, for example
 She has written the following code but it doesn't seem to work. Can you fix her code for her so it has the desired behavior? Copy and paste your new script into the answer key. Include the shebang. Include comments. 
 
 ```
-#!/bin/usr/env/bash 
+#!/usr/bin/env bash
 
 # This script will take a file (likely a .gtf file) and convert any chromosome names in the format chrI, chrII, chrIII to chromosome1 chromosome2, chromosome3, etc.
 # This script is designed specifically for the C. elegans genome that has 5 autosomes and an X chromosome
