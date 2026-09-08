@@ -15,7 +15,7 @@ You friend would like to write a script that asks the user for a C. elegans gtf 
 
 chrI -> chromosome 1, for example
 
-She has written the following code but it doesn't seem to work. Can you fix her code for her so it has the desired behavior? Copy and paste your new script into the answer key here. Include the shebang. Include comments. 
+She has written the following code but it doesn't seem to work. Can you fix her code for her so it has the desired behavior? Copy and paste your new script into the answer key. Include the shebang. Include comments. 
 
 ```
 #!/bin/usr/env/bash 
