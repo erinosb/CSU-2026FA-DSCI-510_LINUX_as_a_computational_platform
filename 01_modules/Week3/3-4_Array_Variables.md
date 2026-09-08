@@ -1,6 +1,5 @@
 # Array Variables
 
-
 So far, we have assigned only a single value to each variable. We can also assign multiple, ordered values to a variable. These create **array variables**.
 
 Arrays are zero-based. That is, the first element is accessed with the number 0.
@@ -25,7 +24,7 @@ echo ${arrayname[*]}
 echo ${arrayname[@]}
 ```
 
-**!!! Recall:** We just used parentheses to capture the output of a command into a variable, but in those cases, there was an extra dollar sign in the syntax: 
+:exclamation: **Recall:** We just used parentheses to capture the output of a command into a variable, but in those cases, there was an extra dollar sign in the syntax: 
 
 ```
 $ myscripts=$(ls *.sh) #captures the names of scripts in a directory as the values of an array variable
@@ -100,7 +99,7 @@ ships=(" " discovery titan voyager)
 ships[0]="mayflower" 
 ```
 
-**!!! Independent Exercise:** What cities have you lived in and in what order?
+:hammer_and_wrench: **Independent Exercise:** What cities have you lived in and in what order?
 
 - create an array variable called `mycities`
 - Add the names of cities you have lived in as individual elements
@@ -110,6 +109,6 @@ ships[0]="mayflower"
 
 `“I was born in Palo Alto. I grew up in Saratoga. I moved to Santa Cruz for college. Then I lived in Eugene. Next, I moved to Berkeley for graduate school. After that, I lived in Chapel Hill. Now, I live in Fort Collins.”`
 
-**!!! Alternative Exercise:** If you haven't lived in very many cities, that's ok. You can list cities you have visited or cities where you wish to live or visit.
+:hammer_and_wrench: **Alternative Exercise:** If you haven't lived in very many cities, that's ok. You can list cities you have visited or cities where you wish to live or visit.
 
-Continue on to [Special Variables](3-7_Special_variables_and_IO.md)
+Continue on to [Connectin to remote computers ](3-5_Connecting_to_remote_computers.md)
