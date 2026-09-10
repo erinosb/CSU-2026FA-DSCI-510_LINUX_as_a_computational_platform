@@ -40,16 +40,12 @@ echo $arrayname # Note that this doesn't work
 :exclamation: **Recall:** We just used parentheses to capture the output of a command into a variable, but in those cases, there was an extra dollar sign in the syntax: 
 
 ```
-$ myscripts=$(ls *.sh) #captures the names of scripts in a directory as the values of an array variable
+mylines=$(wc file1.txt)) #captures the output of a command line entry as a value
  
-$ echo $myscripts
- 
-$ myships=(enterprise discovery titan voyager) #assigns values to an array variable
- 
-$ echo $myships
+arrayname=(value1 value2 value3 value4) #assigns a list of values to an array
 ```
 
-:hammer_and_wrench: **Independent Exercise:** Let's explore this more. Make a bash script called `exploringArrays.sh`. Within it, create the array `ships` with four **values**. Values of array variables are also called **elements**. We can access these elements in a variety of ways:
+:hammer_and_wrench: **Group Exercise:** Let's explore this more. Make a bash script called `exploringArrays.sh`. Within it, create the array `ships` with four **values**. Values of array variables are also called **elements**. We can access these elements in a variety of ways:
 
 ```
 #!/usr/bin/env bash
@@ -60,6 +56,8 @@ ships=(enterprise discovery titan voyager)
 # Explore the elements
 echo ${ships[*]} # all elements
 echo ${ships[@]} # all elements
+
+echo $ships 
 ```
 
 ---
