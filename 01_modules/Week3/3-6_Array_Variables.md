@@ -1,10 +1,20 @@
+<p align="center">
+<img width="90%" alt="icons" src="../../05_images/headers_arrays.jpg">
+</p>
+
+----
+
 # Array Variables
 
 So far, we have assigned only a single value to each variable. We can also assign multiple, ordered values to a variable. These create **array variables**.
 
+In other words, array variables have lists for values. 
+
 Arrays are zero-based. That is, the first element is accessed with the number 0.
 
-**Assign values** to an array variable using parentheses:
+## Assigning Values to Array Variables
+
+We assign values to an array variable using parentheses:
 
 ```
 arrayname=(value1 value2 value3 value4)
@@ -16,12 +26,19 @@ arrayname=(value1 " " value3 value4)
 # if you print out all the values in this arrayvar the empty slot doesnt show up but you can still access this slot and even reassign its value!
 ```
 
-**Dereference** the list in a variety of different ways:
+---
+
+## Dereferencing Array Variables
+
+We can derefernce array variables in a variety of different ways.
+
+To get the full list
 
 ```
-echo $arrayname
 echo ${arrayname[*]}
 echo ${arrayname[@]}
+
+echo $arrayname # Note that this doesn't work
 ```
 
 :exclamation: **Recall:** We just used parentheses to capture the output of a command into a variable, but in those cases, there was an extra dollar sign in the syntax: 
@@ -36,7 +53,7 @@ $ myships=(enterprise discovery titan voyager) #assigns values to an array varia
 $ echo $myships
 ```
 
-Let's explore this more. Make a bash script called `exploringArrays.sh`. Within it, create the array `ships` with four **values**. Values are also called **elements**. We can access the elements in a variety of ways:
+:hammer_and_wrench: **Independent Exercise:** Let's explore this more. Make a bash script called `exploringArrays.sh`. Within it, create the array `ships` with four **values**. Values of array variables are also called **elements**. We can access these elements in a variety of ways:
 
 ```
 #!/usr/bin/env bash
@@ -53,9 +70,9 @@ echo ${ships[2]} # the third element
 echo ${ships[3]} # the fourth element
 ```
 
-In the example above, the number within the square brackets is called an **index** (plural is indices or indexes). The process of accessing an individual element using an index is called **indexing**. Indexing relies on the fact that elements within an array have a set order.
+**Index:** In the example above, the number within the square brackets is called an **index** (plural is indices or indexes). The process of dereferencing an individual element of an array variable using an index is called **indexing**. Indexing relies on the fact that elements within an array have a set order.
 
-We can also use indices to add a new element to an array or to **reassign** an element of an array. Try this:
+**Reassignment:** We can also use indices to add a new element to an array or to **reassign** an element of an array. Try this:
 
 ```
 #!/usr/bin/env bash
@@ -82,22 +99,29 @@ ships[1]="defiant"
 echo "Changed an element: ${ships[*]}"
 ```
 
-Finally, we can assess how many elements are in an array variable using the following syntax:
+**Length** Finally, we can assess how many elements are in an array variable using the following syntax:
 
 ```
 # length of an array variable. That is, how many elements are in the array:
 echo ${#ships[*]}
 ```
 
-example of creating an empty slot and reassigning it ...
+**Example: Starting Empty** Here's an example of starting with an empty Array Variable and adding to it ...
 
 ```
 #leave empty slot in the array variable
-ships=(" " discovery titan voyager)
+crew=()
 
-#re-assign empty slot
-ships[0]="mayflower" 
+# Assign crewmembers
+crew[0]="Spock"
+crew[1]="Kirk"
+crew[2]="McCoy"
+
+# Dereference the array variable:
+echo "There are ${#crew[*]} crewmembers: ${crew[*]}"
 ```
+
+----
 
 :hammer_and_wrench: **Independent Exercise:** What cities have you lived in and in what order?
 
