@@ -20,12 +20,6 @@ We assign values to an array variable using parentheses:
 
 ```
 arrayname=(value1 value2 value3 value4)
-
-# if you wanted to leave an open slot as an empty string placeholder ... you could use " " though it doesnt seem to matter if there is a space between the " " as "" also works. 
-
-arrayname=(value1 " " value3 value4)
-
-# if you print out all the values in this arrayvar the empty slot doesnt show up but you can still access this slot and even reassign its value!
 ```
 
 ---
