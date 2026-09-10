@@ -69,8 +69,11 @@ $ echo $OLDPWD
 $ echo $PATH
 ```
 
-----
+:hammer_and_wrench: **Independent Exercise:**
 
+Have your computer print out: I'm sorry, <insertyournamehere>. I'm afraid I can't do that.
+
+----
 
 ## How is the environment established?
 
