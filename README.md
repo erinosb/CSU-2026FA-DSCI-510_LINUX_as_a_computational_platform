@@ -32,7 +32,7 @@ Please see the [Computer Requirements](04_resources/Computer_Requirements.md) fo
 | September 15 | 4 | Scripting 2 |  |  |
 | September 17 | 4 | Scripting 3 |  |     |
 | Bonus Content | 4 | TBD | | |
-| **Final Exam** | **5** | **FAQ on Exam project, Tips & Tricks 1** | **Examples of past projects**  | **Exam Project (due September 24)** |
+| **Final Exam** | **5** | **FAQ on Exam project, Tips & Tricks 1** | **Examples of past projects**  | [Exam Project](02_assignment/Final_Exam.md) due Sept 24 |
 
 
 ----
