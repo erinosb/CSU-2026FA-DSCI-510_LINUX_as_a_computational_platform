@@ -12,6 +12,8 @@ In other words, array variables have lists for values.
 
 Arrays are zero-based. That is, the first element is accessed with the number 0.
 
+----
+
 ## Assigning Values to Array Variables
 
 We assign values to an array variable using parentheses:
@@ -64,13 +66,28 @@ ships=(enterprise discovery titan voyager)
 # Explore the elements
 echo ${ships[*]} # all elements
 echo ${ships[@]} # all elements
+```
+
+---
+
+## Indexing
+
+The process of dereferencing an individual element of an array variable is called **indexing**. Indexing relies on the fact that elements within an array have a set order. The index is the number of the element (plural is indices or indexes).. We place this number between square brackets like so...
+
+```
+# Indexing
 echo ${ships[0]} # the first element
 echo ${ships[1]} # the second element
 echo ${ships[2]} # the third element
 echo ${ships[3]} # the fourth element
 ```
 
-**Index:** In the example above, the number within the square brackets is called an **index** (plural is indices or indexes). The process of dereferencing an individual element of an array variable using an index is called **indexing**. Indexing relies on the fact that elements within an array have a set order.
+>[!WARNING]
+> In bash, Array Variable indexing starts on 0!
+
+----
+
+## Reassignment 
 
 **Reassignment:** We can also use indices to add a new element to an array or to **reassign** an element of an array. Try this:
 
@@ -83,6 +100,8 @@ ships=(enterprise discovery titan voyager)
 # Explore the elements
 echo ${ships[*]} # all elements
 echo ${ships[@]} # all elements
+
+# Indexing
 echo ${ships[0]} # the first element
 echo ${ships[1]} # the second element
 echo ${ships[2]} # the third element
@@ -99,6 +118,10 @@ ships[1]="defiant"
 echo "Changed an element: ${ships[*]}"
 ```
 
+--- 
+
+## How long is it?
+
 **Length** Finally, we can assess how many elements are in an array variable using the following syntax:
 
 ```
@@ -106,10 +129,16 @@ echo "Changed an element: ${ships[*]}"
 echo ${#ships[*]}
 ```
 
-**Example: Starting Empty** Here's an example of starting with an empty Array Variable and adding to it ...
+--- 
+
+## Starting empty
+
+Sometimes it is useful to start with an empty array and progressively add elements into it throughout our code.
+
+Here's an example...
 
 ```
-#leave empty slot in the array variable
+# Start with an empty array variable
 crew=()
 
 # Assign crewmembers
