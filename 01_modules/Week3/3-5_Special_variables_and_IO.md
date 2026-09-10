@@ -163,7 +163,7 @@ Well, it's really the same within a script.
 cat $mygff | wc -l > output_counts.txt
 ```
 
-`>` and `»` append information to the end of an output file. They allow us to create reports. Just remember - use `>` the first time you start your output file. This ensures that if you run your scripts multiple times, it makes a new output file every time and doesn't append to the previous run's output file. Then, add additional information to that output file using `>>`.
+`>` and `>>` append information to the end of an output file. They allow us to create reports. Just remember - use `>` the first time you start your output file. This ensures that if you run your scripts multiple times, it makes a new output file every time and doesn't append to the previous run's output file. Then, add additional information to that output file using `>>`.
 
 ```
 #!/usr/bin/env bash
