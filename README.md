@@ -27,7 +27,7 @@ Please see the [Computer Requirements](04_resources/Computer_Requirements.md) fo
 | September 3 | [Week2](01_modules/Week2) | Working with files 2 (cat, grep, cut) <br/> Practice grep & cut <br/> Pipes <br/> More Pipes | Chapter 19 (grep) <br/> Chapter 20 (sort, uniq, cut) <br/> Chapter 5 (alias) <br/> Chapter 9 | [Assignment 4](02_assignments/Assignment_4.md) <br/> **due September 8** |
 | Bonus Content | [Week2](01_modules/Week2) | [Mac: Making file extensions visible](https://www.idownloadblog.com/2023/05/23/how-to-show-hide-filename-extensions-mac/) <br/> [PC: Making file extensions visible](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/) <br/> [nano tutorial](../../04_resources/nano_tutorial.md)| | |
 | September 8 | [Week3](01_modules/Week3) | Scripting <br/> Variables <br/> Array Variables | Chapter 20 (sed) <br/> Chapter 24 (scripting) <br/> Chapter 25 (variables) <br/> [Ryan's Tutorials - bash intro](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php) | [Assignment 5](02_assignments/Assignment_5.md) <br/> **due September 15** |
-| September 10 | [Week3](01_modules/Week3) | Connecting to supercomputers <br/> More Variables <br/> String Operations |  | Assignment 6 <br/> **due September 15** |
+| September 10 | [Week3](01_modules/Week3) | Connecting to supercomputers <br/> More Variables <br/> String Operations |  | [Assignment 6](02_assignments/Assignment_6.md) <br/> **due September 15** |
 | Bonus Content | [Week3](01_modules/Week3) | TBD |  | |
 | September 15 | 4 | Scripting 2 |  |  |
 | September 17 | 4 | Scripting 3 |  |     |
