@@ -94,9 +94,8 @@ We can also pass input into our script as arguments. These arguments can be type
 
 Argument1 will be captured as a **special variable** that can be dereferenced using the syntax **$1** within the script itself. Argument2 can be dereferenced as **$2**. Special variables are initiated when you execute your code. They are useful for accessing information about how the script was executed.
 
-Here's how we pass in arguments from the command line.
 
-## List of special variables
+### List of special variables
 
 | Syntax | Meaning |
 |--------|---------|
