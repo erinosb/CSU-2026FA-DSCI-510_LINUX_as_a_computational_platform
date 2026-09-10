@@ -1,10 +1,14 @@
+<p align="center">
+<img width="90%" alt="icons" src="../../05_images/headers_arrows.png">
+</p>
+
 # IO and Special Variables
 
 How can we send information into a script? How do we get information out of script? This section will start to explore those concepts. Remember from before that this is called **Input/Output** or simply **IO**.
 
 In this section, we're going to introduce **special variables**. In essence, special variables will allow us to access input that is supplied by the user as an argument. Before we get into the details of that, let's explore our options. How, generally, can we get data into scripts?
 
-### Hard Coding
+## Hard Coding
 
 We can write the input into the script directly. If the input we're talking about is the name of a desired file, we can just write that name into the script itself.
 
@@ -14,7 +18,7 @@ We can write the input into the script directly. If the input we're talking abou
 wc -w file1.txt
 ```
 
-### Reading
+## Reading
 
 We can have the user supply the input interactively using the command `read`
 
@@ -46,7 +50,7 @@ bash wordCounter.sh
 
 `read` prompts the reader to type something and press enter. The entered keystrokes become the value assigned to the variable named in the command argument.
 
-### Special Variables - passing input into scripts as arguments
+## Special Variables - passing input into scripts as arguments
 
 We can also pass input into our script as arguments. These arguments can be typed in by the user as they execute the script on the command line like so:
 
@@ -56,7 +60,7 @@ Argument1 will be captured as a **special variable** that can be dereferenced us
 
 Here's how we pass in arguments from the command line.
 
-### List of special variables
+## List of special variables
 
 | Syntax | Meaning |
 |--------|---------|
