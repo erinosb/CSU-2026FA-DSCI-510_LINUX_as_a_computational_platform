@@ -21,17 +21,18 @@ Are you having trouble figuring out a file type or project? Click here for some 
 The grade for the final will be structured like so …
 
 ```
-1  pts - Question 1
-1  pts - Question 2
+2  pts - Question 1
+2  pts - Question 2
 2  pts - Question 3
 10 pts - Question 4
-   3 pts - Does the script perform the operation? What are the known bugs or issues?
-   2 pts - Does the script output a message that describes its proper usage if input is not supplied?
-   2 pts - Does the script contain loops and/or conditionals (3 total)?
-   2 pts - Your script should report to the user what is happening in each step
-   1 pts - Your script should be commented
-3  pts - Question 5
-3  pts - Question 6
+   1 pts - is commented
+   1 pts - Takes in the file as a special variable argument ($1)
+   2 pts - Outputs the result to the screen (that can be captured in a redirect) or to an output file
+   2 pts - Contains **at least 3 loops or conditionals** in any combination (3 loops, 2 loops + 1 conditional, etc).
+   2 pts - Reports to the user (display) what it is doing at different steps in the process.
+   2 pts - If the user fails to provide an input file, your script should print to the screen that something is wrong and suggest the proper usage of the script using a **usage statement**.
+2  pts - Question 5
+2  pts - Question 6
 
 20 pts - TOTAL (this will be scaled to be 35.5 % of your grade)
 
@@ -82,6 +83,7 @@ If I can't run your code and compare it to your output, you won't get points ass
 
 Write your script and attach it. Your script MUST do the following for full credit:
 
+  - Be commented
   - Take in the file as a special variable argument ($1)
   - Output the result to the screen (that can be captured in a redirect) or to an output file
   - Contain **at least 3 loops or conditionals** in any combination (3 loops, 2 loops + 1 conditional, etc).
