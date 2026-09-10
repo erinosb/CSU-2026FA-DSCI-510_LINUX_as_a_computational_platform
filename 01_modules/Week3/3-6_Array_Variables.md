@@ -111,4 +111,4 @@ ships[0]="mayflower"
 
 :hammer_and_wrench: **Alternative Exercise:** If you haven't lived in very many cities, that's ok. You can list cities you have visited or cities where you wish to live or visit.
 
-Continue on to [Connecting to remote computers ](3-5_Connecting_to_remote_computers.md)
+Continue on to [Special Variables](3-7_Special_variables_and_IO.md)
