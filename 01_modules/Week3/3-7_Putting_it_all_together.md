@@ -1,5 +1,5 @@
 
-# Putting it all together
+# Putting it all together - DNA2RNA example
 
 Here is a little script that will take in a file that contains a DNA sequence and converts it to RNA. The program is called DNA2RNA.sh and it is used like so...
 
@@ -35,3 +35,7 @@ sed -e 's/T/U/g' -e 's/t/u/g' $mydna > $myrna
 echo "DNA2RNA>>> The file $myrna has been created"
 echo "DNA2RNA>>> program complete"
 ```
+
+This script is helpful to understand because it contrasts how we can use `sed` to search and replace text within a **file** versus how we use string operations to search and replace text within a **variable's value**.
+
+Continue on to [Environmental Variables](3-8_Environmental_Variables.md)
