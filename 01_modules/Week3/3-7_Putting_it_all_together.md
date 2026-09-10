@@ -28,7 +28,7 @@ myrna=${mydna/%.txt/_RNA.txt}
 # tell the user what will happen:
 echo "DNA2RNA>>> The file $mydna will be converted to $myrna"
 
-# Do the conversion
+# Do the conversion and redirect the output into the outputfile called $myrna
 sed -e 's/T/U/g' -e 's/t/u/g' $mydna > $myrna
 
 # tell the user it is done:
