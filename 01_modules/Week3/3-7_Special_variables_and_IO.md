@@ -140,11 +140,11 @@ $ bash analyzeGFF.sh covid_annotation.gff
 This is where the real power of programming/scripting comes in. Our special variables script has the exact same behavior as the hard coding and reading examples above. However, using special variables we can apply our script to different inputs without re-editing the script directly.
 
 >[!TIP]
-> **Best practices:** It is good practice to pass arguments into variables that have nice, descriptive names. This is a good idea because it is hard to remember what $1 means. Also, $1 looks really robotic in a script, especially once you start doing math. Try this …
+> **Best practices:** It is good practice to pass arguments into variables that have nice, descriptive names. This is a good idea because it is hard to remember what $1 means. Also, $1 looks really robotic in a script, especially once you start doing math. Try this ...
 
 :hammer_and_wrench: **Independent Exercise:** 
 
-- How would you modify your script `countingLines.sh` so it can take in up to 3 arguments?
+- How would you modify your script `analyzeGFF.sh` so it can take in 3 arguments (3 .gff files)?
 
 ----
 
