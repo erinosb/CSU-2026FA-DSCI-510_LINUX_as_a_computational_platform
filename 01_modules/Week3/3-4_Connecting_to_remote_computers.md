@@ -1,3 +1,7 @@
+<p align="center">
+<img width="90%" alt="icons" src="../../05_images/headers_Slide2.png">
+</p>
+
 # Connecting to Remote Computers 
 
 ## Todays objectives: 
