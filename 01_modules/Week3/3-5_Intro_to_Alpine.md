@@ -59,6 +59,8 @@ How do these supercomputer systems compare to our laptops?
 
 ## Some pictures of the HPC System
 
+This is what it looks like to walk around in ALPINE:
+
 <p align="center">
 <img width="50%" alt="HPC1" src="../../05_images/HPC1.png">
 </p>
@@ -75,15 +77,19 @@ How do these supercomputer systems compare to our laptops?
 
 ## The ALPINE System - Mapped out
 
+This is what ALPINE looks like mapped out:
+
 <p align="center">
-<img width="410" alt="alpine map" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/alpine_map.png">
+<img width="75%" alt="alpine map" src="../../05_images/alpine_map.png">
 </p>
 
 Just like your local computer, the ALPINE supercomputer is comprised of **computing hardware** (CPUs, GPUs, etc), memory, and **file storage space**.
 
 When we log into ALPINE through ssh or onDemand, we don't immediately have access to all the parts of the ALPINE hardware. Instead, we arrive at the login node. The name of the login node is written right prior to the prompt. Typing `hostname` also gives you the name of the login node.
 
-**!!! Try It:** type `hostname`
+
+
+:hammer_and_wrench: **Group Exercise:** type `hostname`
 
 ---
 
@@ -101,7 +107,7 @@ When you first log into Alpine using `ssh`, you will be on a **login node**. Thi
 
 To move to a compile node, use the command `acompile`.
 
-**!!! Try It:** Switch over to a compile node like so …
+:hammer_and_wrench: **Try it** Switch over to a compile node like so …
 
 ```
 $ hostname
@@ -113,7 +119,8 @@ When on a compile node, we can load existing software, install new software, run
 
 Let's see what software is available to load:
 
-**!!! Try It:** 
+
+:hammer_and_wrench: **Try it** 
 
 ```
 $ module avail
@@ -130,10 +137,12 @@ Compute nodes are **multi-core processors**. This means we can run multiple jobs
 Here is an outline of the different types of compute nodes available:
 
 <p align="center">
-<img width="410" alt="alpine nodes" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/alpine_nodes.png">
+<img width="50%" alt="alpine nodes" src="../../05_images/alpine_nodes.png">
 </p>
 
-### Alpine File Storage
+----
+
+## Alpine File Storage
 
 Detailed information about the [File Storage on Alpine](https://curc.readthedocs.io/en/latest/compute/filesystems.html)
 
@@ -142,19 +151,15 @@ Whereas the nodes are analogous to CPU and memory on your home laptop, the files
 Here are the different file storage spaces available:
 
 <p align="center">
-<img width="600" alt="storage locations" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/storageLocations.png">
+<img width="600" alt="storage locations" src="../../05_images/storageLocations.png">
 </p>
 
-**!!! Exercise:** Explore your directories through the command line on ALPINE:
+:hammer_and_wrench: **Group Exercise:** Open a Jupyter Session
 
-```
-$ curc-quota. #curc-quota lets you check how much disk space you are using up 
-$ pwd # check where you are
-$ ls -alh
-$ cd /projects/$USER
-$ ls -alh
-$ cd /scratch/alpine/$USER
-$ ls -alh
-```
+**Step1** Navigate to a Jupyter Session
 
-Continue on to [Custom Commands on Alpine](4-6_Custom_Commands.md)
+**Step2** Navigate to your Projects Directory
+
+**Step3** Start a project
+
+Continue on to [Array Variables](3_6_Array_Variables)
