@@ -334,7 +334,7 @@ In the future you will learn how to launch your R and python scripts on the comm
   - Capture output of a command as a variable
   - Know some basic math operations
 
-Continue on to [Connecting to remote computers](3-4_Connecting_to_remote_computers.md)
+Continue on to [Array Variables](3-4_Array_Variables.md)
 
 OR [Assignments](../../02_assignments/)
 

@@ -124,4 +124,4 @@ touch $myoutputfile
 
 </details>
 
-Continue on to [Environmental Variables](3-9_Environmental_Variables.md)
+Continue on to [Putting it all together](3-7_Putting_it_all_together.md)

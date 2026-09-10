@@ -65,7 +65,7 @@ Echo statement options:
 
 :hammer_and_wrench: **Group Exercise:** Write a script called `balrog.sh`. Write a series of echo statements. Try using -e and -n to test how things work:
 
-**!!! Example:** The script below is `balrog.sh`
+**Example:** The script below is `balrog.sh`
 
 ```
 #!/usr/bin/env bash

@@ -247,4 +247,4 @@ $ bash analyzeGFF.sh covid_annotation.gff 260910_output.txt
 
   - How would you get this code to work?
 
-Continue on to [String Operations](3-8_String_Operations.md)
+Continue on to [String Operations](3-6_String_Operations.md)
