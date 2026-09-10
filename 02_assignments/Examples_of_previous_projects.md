@@ -8,6 +8,11 @@ A student was using a plate reader that generated .csv files. The student needed
 
 The script created a report to tell the user how many files were processed, the old names of the files, and the new names of the files. Some information was pulled out of the platereader .csv header (like the date) and also reported.
 
+### Qiime2 output
+
+This script processes and reports alpha diversity data from a Qiime2 analysis. This program lists all the unique OTUs in my Qiime2 output, counts them, and searches whether any of them are from a previous analysis I ran. This will be helpful in flagging new OTUs.
+
+
 ### Earthquake entries
 
 A student gathered publicly available earthquake data from a repository and wrote a script that would select for earthquakes over a certain magnitude and within certain states. The script generated a report of the earthquake entries that met those characteristics. The report selected only certain types of information to output.
@@ -50,6 +55,14 @@ The script reported the number of Oxygen atoms removed, the name of the input fi
 ### Organizing BLAST searches
 
 A student projected they will need to do many blast searches. They were interested in only hits that occurred within a specific group of insects. They wrote a really complex script that took as input a BLAST output text file and selected only entries from a long list of insect species.
+
+### Reformatting DSM files
+
+My lab uses a file type called .dsm to organize molecular data. One column of this file is extremely dense. I will write a script to convert this dense column of data into separate columns of data.
+
+### Clean up microscopy logfiles
+
+I use a microscope that generates logfiles for each image captured. I would like to use these flat files in a future R script but they contain many special characters that my R program doesn't like. I will write a script to strip out all the $, %, &, and @ characters from these files so that they can be imported into R. 
 
 ### Re-naming files
 
