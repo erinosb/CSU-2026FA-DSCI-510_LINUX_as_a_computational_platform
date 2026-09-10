@@ -10,19 +10,20 @@ Today, we will start to learn about **High-Performance Computing** or HPC. HPC i
 
 The supercomputer we'll be using is **ALPINE** and it lives on CU Boulder campus. [ALPINE](https://www.colorado.edu/rc/alpine) is a joint venture between Colorado State University and CU Boulder and is sponsored by those institutes and by a grant from the National Science Foundation. **ALPINE** is shared between CU Boulder, Colorado State University, CU Anschutz, and RMACC (Rocky Mountain Advanced Computing Consortium, a network of >20 other academic institutions in Colorado, Arizona, Idaho, Montana, and New Mexico).
 
-There is a list of the [Top 500 biggest supercomputers](https://www.top500.org/lists/top500/list/2023/06/) on the planet (as of June 2023). According to this list, the largest supercomputer is **FRONTIER** located at Oak Ridge National Labs in Tennessee and run by the DOE (US Department of Energy).
+There is a list of the [Top 500 biggest supercomputers](https://www.top500.org/lists/top500/list/2023/06/) on the planet (as of June 2026). According to this list, the largest supercomputer is **	LineShine** located in Shenzhen China and run by the China National Labs. 
 
 How do these supercomputer systems compare to our laptops?
 
 | Typical laptop | Alpine Supercomputer	| FRONTIER Supercomputer |
 | -------------- | -------------------- | ---------------------- |
-| 0.1 - 10 teraFLOPS | 450 teraFLOPS |	1,102,000 teraFLOPS |
-| 1 - 4 cores organized onto 1 node |	11,300 cores on 485 nodes	| 8,730,112 cores |
+| 0.1 - 10 teraFLOPS | 5,000 teraFLOPS |	2,735,820 teraFLOPS |
+| 1 - 4 cores organized onto 1 node |	32,368 cores on 485 nodes	| 13,789,440 cores |
 
-- **FLOPS** is a measure of how many floating point operations a computer can do per second. So it's a measure of calculations a second
-- **Cores** relates to how many CPUs (Central Processing Units) the computer has
+ - **FLOPS** is a measure of how many floating point operations a computer can do per second. So it's a measure of calculations a second
 
-**!!! NOTE:** *All 500* of the top 500 Supercomputer systems run LINUX or LINUX-based operating systems!
+ - **Cores** relates to how many CPUs (Central Processing Units) the computer has
+
+**NOTE:** *All 500* of the top 500 Supercomputer systems run LINUX or LINUX-based operating systems!
 
 -----
 
