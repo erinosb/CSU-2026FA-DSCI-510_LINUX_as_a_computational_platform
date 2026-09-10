@@ -26,9 +26,9 @@ arrayname=(value1 value2 value3 value4)
 
 ## Dereferencing Array Variables
 
-We can derefernce array variables in a variety of different ways.
+We can dereference array variables in a variety of ways.
 
-To get the full list
+Get the full list...
 
 ```
 echo ${arrayname[*]}
