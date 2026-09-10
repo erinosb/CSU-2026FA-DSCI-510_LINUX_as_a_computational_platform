@@ -129,15 +129,6 @@ myfile=$1 # will capture the <argument> as the value of a new variable called my
 ```
 #!/usr/bin/env bash
 
-## get a gff file by hardcoding
-# mygff="covid_annotation.gff"
- 
-## get a gff file by reading
-#echo "Type the name of the gff file to process: "
-#read mygff
-
-########################
-
 # get a gff through $1
 mygff=$1
 
