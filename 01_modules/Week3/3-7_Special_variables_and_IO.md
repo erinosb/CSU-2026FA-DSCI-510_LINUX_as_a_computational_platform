@@ -62,6 +62,8 @@ Alternatively, can have the user supply the input interactively using the comman
 
 ## get a gff file by hardcoding
 # mygff="covid_annotation.gff"
+
+########################
  
 # get a gff file by reading
 echo "Type the name of the gff file to process: "
@@ -120,6 +122,8 @@ Here's how we pass in arguments from the command line.
 #echo "Type the name of the gff file to process: "
 #read mygff
 
+########################
+
 # get a gff through $1
 mygff=$1
 
@@ -166,6 +170,8 @@ cat $mygff | wc -l > output_counts.txt
 #echo "Type the name of the gff file to process: "
 #read mygff
 
+########################
+
 # get a gff through $1
 mygff=$1
 
@@ -202,6 +208,8 @@ $ bash analyzeGFF.sh covid_annotation.gff
 
 ## How many lines are there?
 #cat $mygff | wc -l
+
+########################
 
 # get a gff through $1
 mygff=$1
