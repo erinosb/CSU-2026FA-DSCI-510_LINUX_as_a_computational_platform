@@ -4,6 +4,8 @@ In computer programming, a **string** is a sequence of characters. They often sh
 
 By far the most common string operations performed are **replacements** which just means substitution. Another common operation is **sub-setting** or selecting out just a portion of the string, also called a **sub-string**.
 
+In effect, string operations replace the value of a variable using certain rules.
+
 ## Replace a part of the string
 
 `<newvarname>=${<oldvarname>/<pattern>/<replacement>}`
