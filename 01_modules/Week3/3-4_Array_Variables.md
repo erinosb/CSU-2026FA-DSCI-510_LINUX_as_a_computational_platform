@@ -64,7 +64,7 @@ echo $ships
 
 ## Indexing
 
-The process of dereferencing an individual element of an array variable is called **indexing**. Indexing relies on the fact that elements within an array have a set order. The index is the number of the element (plural is indices or indexes).. We place this number between square brackets like so...
+The process of dereferencing an individual element of an array variable is called **indexing**. Indexing relies on the fact that elements within an array have a set order. The index refers to the number (plural is indices or indexes). We place this number between square brackets like so...
 
 ```
 # Indexing
@@ -114,7 +114,7 @@ echo "Changed an element: ${ships[*]}"
 
 ## How long is it?
 
-**Length** Finally, we can assess how many elements are in an array variable using the following syntax:
+We can assess how many elements are in an array variable using the following syntax:
 
 ```
 # length of an array variable. That is, how many elements are in the array:
