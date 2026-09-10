@@ -1,3 +1,9 @@
+<p align="center">
+<img width="90%" alt="icons" src="../../05_images/AlpineImage.jpg">
+</p>
+
+
+
 # Intro to Alpine
 
 Today, we will start to learn about **High-Performance Computing** or HPC. HPC is a means of performing large computational tasks on supercomputers or compute clusters in a way that takes advantage of their ability to perform multiple tasks simultaneously.
