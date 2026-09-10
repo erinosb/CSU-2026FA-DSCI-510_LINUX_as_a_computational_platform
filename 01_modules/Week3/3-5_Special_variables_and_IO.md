@@ -168,15 +168,6 @@ cat $mygff | wc -l > output_counts.txt
 ```
 #!/usr/bin/env bash
 
-## get a gff file by hardcoding
-# mygff="covid_annotation.gff"
- 
-## get a gff file by reading
-#echo "Type the name of the gff file to process: "
-#read mygff
-
-########################
-
 # get a gff through $1
 mygff=$1
 
