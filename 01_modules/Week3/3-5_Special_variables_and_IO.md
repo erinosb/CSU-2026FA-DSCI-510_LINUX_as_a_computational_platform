@@ -107,7 +107,7 @@ Argument1 will be captured as a **special variable** that can be dereferenced us
 | $@ | All the arguments supplied to the script |
 | $* | All the arguments supplied to the script |
 
-What does this mean? This means that whatever the user writes as `argument` becomes the values associated with the variable `1` that can be dereferenced within your script as $1.
+What does this mean? This means that whatever the user writes as `argument` in the terminal becomes the value associated with the special variable `1`. `1` can be dereferenced within your script as $1.
 
 ```
 # in the terminal
@@ -119,7 +119,7 @@ $ bash script.sh <argument>
 echo $1 # will print out <argument>
 
 # OR
-myfile=$1 # will capture the <argument> in the new variable called myfile
+myfile=$1 # will capture the <argument> as the value of a new variable called myfile
 ```
 
 :hammer_and_wrench: **Group Exercise:** 
