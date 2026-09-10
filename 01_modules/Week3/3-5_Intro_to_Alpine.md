@@ -162,4 +162,4 @@ Here are the different file storage spaces available:
 
 **Step3** Start a project
 
-Continue on to [Array Variables](3_6_Array_Variables)
+Continue on to [Array Variables](3_6_Array_Variables.md)
