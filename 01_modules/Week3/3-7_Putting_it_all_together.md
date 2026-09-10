@@ -39,3 +39,7 @@ echo "DNA2RNA>>> program complete"
 This script is helpful to understand because it contrasts how we can use `sed` to search and replace text within a **file** versus how we use string operations to search and replace text within a **variable's value**.
 
 Continue on to [Environmental Variables](3-8_Environmental_Variables.md)
+
+or
+
+Continue on to [Assignments](../../02_assignments/)
