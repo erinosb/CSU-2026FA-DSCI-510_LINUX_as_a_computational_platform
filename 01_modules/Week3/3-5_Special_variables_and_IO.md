@@ -51,7 +51,7 @@ $ bash analyzeGFF.sh
 
 ## Reading
 
-Alternatively, can have the user supply the input interactively using the command `read`
+Alternatively, we can ask the user to supply input using the command `read`
 
 :hammer_and_wrench: **Group Exercise:** 
 
@@ -90,7 +90,7 @@ cat $mygff | wc -l
 
 We can also pass input into our script as arguments. These arguments can be typed in by the user as they execute the script on the command line like so:
 
-`bash <shellscript.sh> [argument1] [argument2] …` 
+`bash <shellscript.sh> [argument1] [argument2] ...` 
 
 Argument1 will be captured as a **special variable** that can be dereferenced using the syntax **$1** within the script itself. Argument2 can be dereferenced as **$2**. Special variables are initiated when you execute your code. They are useful for accessing information about how the script was executed.
 
