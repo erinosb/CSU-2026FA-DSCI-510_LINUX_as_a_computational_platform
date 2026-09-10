@@ -1,16 +1,16 @@
 # String Operations
 
-In computer programming, a **string** is a sequence of characters. Variables often point to values that are strings. Sometimes we want to do operations on those strings. We can do this using **string operations**.
+In computer programming, a **string** is a sequence of characters. They often show up as words, ID #'s, or sentences. Variables often point to values that are strings. Sometimes we want to do operations on those strings. We can do this using **string operations**.
 
 By far the most common string operations performed are **replacements** which just means substitution. Another common operation is **sub-setting** or selecting out just a portion of the string, also called a **sub-string**.
 
-**Replace a part of the string**
+## Replace a part of the string
 
 `<newvarname>=${<oldvarname>/<pattern>/<replacement>}`
 
-Make a new variable `$newvar` that replaces one instance of “pattern” in `$oldvar` with “replacement”.
+Make a new variable `$newvarname` that replaces one instance of “pattern” in `$oldvarname` with “replacement”.
 
-**!!! Exercise:** You can follow along on the command line:
+:hammer_and_wrench: ***Group Exercise:** You can follow along on the command line:
 
 ```
 oldvar="Colorado"
@@ -18,7 +18,7 @@ newvar=${oldvar/o/O}
 echo $newvar #should output COlorado
 ```
 
-**Globally replace a part of the string**
+## Globally replace a part of the string
 
 ```
 <newvarname>=${<oldvarname>//<pattern>/<replacement>}
@@ -32,7 +32,7 @@ newvar=${oldvar//o/O}
 echo $newvar # should output COlOradO
 ```
 
-**Replace a prefix**
+## Replace the beginning of a string
 
 `<newvarname>=${<oldvarname>/#<pattern>/<replacement>}`
 
@@ -44,23 +44,31 @@ newvar=${oldvar/#To/So}
 echo $newvar # should be "So be or not to be"
 ```
 
-**Replace a suffix**
+## Replace the end of a string
 
 `<newvarname>=${<oldvarname>/%<pattern>/<replacement>}`
 
 Make a new variable `$newvar` that replaces “pattern” at the END of the string `$oldvar` with “replacement”.
 
 ```
-oldvar="file1.txt"
-newvar=${oldvar/%txt/fastq}
-echo $newvar # should be "file1.fastq"
+oldvar="To be or not to be"
+newvar=${oldvar/%be/see}
+echo $newvar # should be "To be or not to see"
 ```
 
-**Subset a string** 
+This one is VERY important for replacing file extensions like so...
+
+```
+oldvar="file1.txt"
+newvar=${oldvar/%txt/csv}
+echo $newvar # should be "file1.csv"
+```
+
+## Subset a string
 
 `<newvarname>=${<oldvarname>:<n>}`
 
-Make a new variable `$newvar` that corresponds to the `$var` string starting at nth letter.
+Make a new variable `$newvar` that corresponds to the `$oldvar` string starting at nth letter.
 
 ```
 oldvar="California"
@@ -68,7 +76,7 @@ newvar=${oldvar:3}
 echo $newvar # should be ifornia
 ```
 
-**Subset a string of specific length** 
+## Subset a string to be a specific length
 
 `<newvarname>=${<oldvarname>:<n>:<length>}`
 
@@ -91,7 +99,10 @@ Cheatsheet For String Replacement - Altering the Values of Variables
 | `${oldvar:position:length}` | Extract **length** characters from **oldvar** starting at **position** |
 | `${#oldvar}` | Report the number of characters in **oldvar** |
 
-**!!! Practice on your own:** Try to modify your script from before called `countingLines.sh` so that it takes in a single text file as an argument, say `file1.txt`. Then, have your script print out the number of lines in that file to a new output file called `file1_linecount.txt`.
+:hammer_and_wrench: **Independent Exercise** 
+  - Write a script that takes in a `.gff` file as an arugment (Use $1). 
+  - Let's say we give it the file `covid.gff`. 
+  - Write a string operation within the script to produce an output a file whose name takes the input file and changes it to `_output`. For example `covid_output.gff`
 
 
 <details>
@@ -101,13 +112,14 @@ Cheatsheet For String Replacement - Altering the Values of Variables
 #!/usr/bin/env bash
  
 # capture the first argument in a variable called myfirstfile
-myfirstfile=$1
+mygff=$1
  
-# use a sub-string substitution line to create a new variable called myoutputfile in which .txt is substituted for _linecount.txt
-myoutputfile=${myfirstfile/%.txt/_linecount.txt}
+# use a string operation line to create an outputfile
+myoutputfile=${mygff/%.gff/_output.gff}
  
-# operate on the input file and save the line count to the desired output file
-wc -l $myfirstfile > $myoutputfile
+# create the new outputfile
+echo "making file $myoutputfile"
+touch $myoutputfile
 ```
 
 </details>
