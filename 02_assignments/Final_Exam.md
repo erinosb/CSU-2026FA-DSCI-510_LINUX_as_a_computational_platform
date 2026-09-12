@@ -2,7 +2,7 @@
 
 - **Due by Thursday September 24 th at 11:59 pm.**
 - If you need more time to complete this exam, please contact me in advance!
-- This exam accounts for 35.5 % of your final grade. 
+- This exam accounts for 40 % of your final grade. 
 
 --- 
 
