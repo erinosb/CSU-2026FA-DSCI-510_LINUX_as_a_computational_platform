@@ -21,9 +21,9 @@ Are you having trouble figuring out a file type or project? Click here for some 
 The grade for the final will be structured like so …
 
 ```
-4  pts - Question 1
-4  pts - Question 2
-4  pts - Question 3
+5  pts - Question 1
+5  pts - Question 2
+5  pts - Question 3
 20 pts - Question 4
    1 pts - is commented
    1 pts - Takes in the file as a special variable argument ($1)
@@ -31,8 +31,7 @@ The grade for the final will be structured like so …
    2 pts - Contains **at least 3 loops or conditionals** in any combination (3 loops, 2 loops + 1 conditional, etc).
    2 pts - Reports to the user (display) what it is doing at different steps in the process.
    2 pts - If the user fails to provide an input file, your script should print to the screen that something is wrong and suggest the proper usage of the script using a **usage statement**.
-4  pts - Question 5
-4  pts - Question 6
+5  pts - Question 5
 
 40 pts - TOTAL
 
@@ -40,7 +39,7 @@ The grade for the final will be structured like so …
 
 ----
 
-## Question 1
+## Question 1 - 5 pts
 
 Select a standardized file type in your field. You can use any flat/text file formats listed in this [Wikipedia page of scientific standardized file types](https://en.wikipedia.org/wiki/List_of_file_formats). OR, you can pick any other file type that is flat. If you are a master's student or a graduate student not currently in a lab, you can pick any of the file formats we covered in class (.fa, .gtf) or go on the internet and try to learn more about how information is stored in the field or profession you eventually wish to join.
 
@@ -50,7 +49,7 @@ Please break down how the information is organized within your file. For example
 
 ----
 
-## Question 2
+## Question 2 - 5 pts
 
 **Answer the following:**
 - A. What is the operation your script will perform?
@@ -63,7 +62,7 @@ Having trouble? Think about how you might filter, sort, select, re-format, compi
 
 ----
 
-## Question 3
+## Question 3 - 5 pts
 
 **Answer the following and submit input an output files**
 
@@ -79,7 +78,7 @@ If I can't run your code and compare it to your output, you won't get points ass
 
 ----
 
-## Question 4
+## Question 4 - 20 pts
 
 Write your script and attach it. Your script MUST do the following for full credit:
 
@@ -108,41 +107,6 @@ Bonus goals - can you think of how to write in an “option” using an if state
 
 ----
 
-## Question 5 - Evaluation
+## Question 5 - Evaluation - 5 pts
 
 Evaluate your own script. Does it work? If not, what do you think is the trouble? If so, how would you expand the script in the future? Or, what would you need to learn next to make this script more useful?
-
-----
-
-## Question 6 - Automation
-
-*Note: This question is unrelated to the above project.*
-
-**Answer the following:**
-
-Carol has written a short bash script that takes in a file as a single argument and copies a backup into a backup directory with a new name (see below). Currently, this script only operates on one file at a time and is executed using the code `bash saveBackup.sh file1.txt`. How could she use a loop to automate this backup script so that it can work on many text files and be called using `bash saveBackup.sh *.txt`? *Use the hints in the code to help guide you.*
-
-```
-#!/usr/bin/env bash
- 
-# Make a backup directory if it doesn't already exist
-mkdir -p backups
- 
-# Acquire the input filename. ## Hint - change this line to acquire multiple files
-inputfile=$1
- 
-## Hint - Start loop here
- 
-# Substring replacement to create an output file name
-outputfile=${inputfile/.txt/_bkp.txt}
- 
-# Save the backup 
-echo -e "\nBacking up $inputfile. Saviing it as $outputfile in backup directory\n"
- 
-cp $inputfile backups/$outputfile
- 
-## Hint - Stop loop here
- 
-echo -e "saveBackups.sh program complete\n"
-```
-
