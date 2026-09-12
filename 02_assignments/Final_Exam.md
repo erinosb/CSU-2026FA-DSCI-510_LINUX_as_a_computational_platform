@@ -21,20 +21,20 @@ Are you having trouble figuring out a file type or project? Click here for some 
 The grade for the final will be structured like so …
 
 ```
-2  pts - Question 1
-2  pts - Question 2
-2  pts - Question 3
-10 pts - Question 4
+4  pts - Question 1
+4  pts - Question 2
+4  pts - Question 3
+20 pts - Question 4
    1 pts - is commented
    1 pts - Takes in the file as a special variable argument ($1)
    2 pts - Outputs the result to the screen (that can be captured in a redirect) or to an output file
    2 pts - Contains **at least 3 loops or conditionals** in any combination (3 loops, 2 loops + 1 conditional, etc).
    2 pts - Reports to the user (display) what it is doing at different steps in the process.
    2 pts - If the user fails to provide an input file, your script should print to the screen that something is wrong and suggest the proper usage of the script using a **usage statement**.
-2  pts - Question 5
-2  pts - Question 6
+4  pts - Question 5
+4  pts - Question 6
 
-20 pts - TOTAL (this will be scaled to be 35.5 % of your grade)
+40 pts - TOTAL
 
 ```
 
