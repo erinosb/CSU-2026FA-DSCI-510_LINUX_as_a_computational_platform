@@ -27,9 +27,12 @@ For this question, read the exam assignment. Answer Question 1. *Note - you don'
 
 For this question, read the exam assignment. Answer Question 2. *Note - you don't have to commit to this file type for the realy Project Exam. You can switch if you want to. The objective of this question is to start you working on your exam project*
 
-  A. What operation will your script perform?
-  B. Why will this operation be useful to you, your lab, or your field?
-  C. Outline a few key commands or steps your script will do.
+- A. What is the operation your script will perform?
+- B. Why is this a useful operation to do in your field or in your project?
+- C. What is the NAME of your script? (it cannot be script.sh. The name needs to be informative)
+- C. Outline a few key commands or steps your script will do. 
+
+Having trouble? Think about how you might filter, sort, select, re-format, compile, quantitate, or display information from your text file in a way that would be meaningful.
 
 *Note - as part of this answer, you need to explain to me a little bit about your project and your field*
 

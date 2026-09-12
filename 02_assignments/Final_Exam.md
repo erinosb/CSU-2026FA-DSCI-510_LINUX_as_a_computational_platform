@@ -59,6 +59,7 @@ Please break down how the information is organized within your file. For example
 
 Having trouble? Think about how you might filter, sort, select, re-format, compile, quantitate, or display information from your text file in a way that would be meaningful.
 
+*Note - as part of this answer, you need to explain to me a little bit about your project and your field*
 
 ----
 
