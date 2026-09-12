@@ -87,9 +87,3 @@ What command line entry would you use to extract all the "header" lines into a n
 *hint: header lines start with >*
 
 -----
-
-## Bonus Challenge Question (no points, just for fun)
-
-There are 6459 genes in the yeast genome. Can you find a way to extract this number from the file `yeast_annotation.gff`?
-
-What command line entry (or entries) did you use?
