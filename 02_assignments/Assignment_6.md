@@ -30,7 +30,7 @@ For this question, read the exam assignment. Answer Question 2. *Note - you don'
 - A. What is the operation your script will perform?
 - B. Why is this a useful operation to do in your field or in your project?
 - C. What is the NAME of your script? (it cannot be script.sh. The name needs to be informative)
-- C. Outline a few key commands or steps your script will do. 
+- D. Outline a few key commands or steps your script will do. 
 
 Having trouble? Think about how you might filter, sort, select, re-format, compile, quantitate, or display information from your text file in a way that would be meaningful.
 
