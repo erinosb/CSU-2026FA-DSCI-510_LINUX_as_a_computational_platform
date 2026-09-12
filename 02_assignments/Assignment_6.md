@@ -23,7 +23,7 @@ For this question, read the exam assignment. Answer Question 1. *Note - you don'
 
 ----
 
-** Question 2
+## Question 2
 
 For this question, read the exam assignment. Answer Question 2. *Note - you don't have to commit to this file type for the realy Project Exam. You can switch if you want to. The objective of this question is to start you working on your exam project*
 
@@ -38,7 +38,7 @@ Having trouble? Think about how you might filter, sort, select, re-format, compi
 
 ----
 
-** Question 3
+## Question 3
 
 Alexi is working in the terminal to execute a shell script he has just written. This is what is on his terminal.
 
@@ -67,7 +67,7 @@ What will be the values of the following special variables within Alexi's script
 
 ----
 
-Question 4 - 2 pts
+## Question 4 - 2 pts
 
 Write a short script called tabToCSV.sh. It takes in as input, a tab-delimited text file and converts it to a comma-separated file, the output file.
 
