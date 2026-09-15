@@ -57,7 +57,7 @@ if [$age -ge 21] # won't work
 ```
 
 
-`-ge` in this example is a **conditional operator** that means greater than or equal to
+`-ge` in this example is a **conditional operator** that means **greater than or equal to**
 
 ### Conditional Operators: Numbers
 
@@ -70,13 +70,13 @@ if [$age -ge 21] # won't work
 | `-gt` | Returns true if a "number" is **greater than** another number |
 | `-ge` | Returns true if a "number" is **greater than or equal to** another number |
 
-Here are some examples:
+:exclamation: **Examples**
 
 ```
 # Prints out a message if the value saved in myvar is less than or equal to 2023
-if [ $myvar -le 2023 ]
+if [ $myvar -le 2020 ]
 then
-  echo "your number is less than 2023"
+  echo "This is a pre-covid year"
 fi
  
 # Prints out a message if the value saved in myvar is equal to 42
