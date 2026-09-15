@@ -97,15 +97,7 @@ For a detailed description of how these are used see: [Ryan's Tutorials: bash if
 :hammer_and_wrench: **Independent Exercise:** Write a brief script called `numberReader.sh` that asks the user to type in a number. If the number is greater than 100, print out “That's a big number”
 
 >[!WARNING]
-> The following does not work ...
-
-```
-# Throws an error and doesn't work
-if [$myvar -le 2023]
-then
-  echo "your number is less than 2023"
-fi
-```
+> don't forget those spaces inside the square brackets
 
 >[!WARNING]
 > In some situations, conditional statements work better with double square brackets
