@@ -76,7 +76,7 @@ done
 
 Test it out! What happened?
 
-:hammer_and_wrench: **Independent Exercise:** Try it out yourself.
+:hammer_and_wrench: **Optional Independent Exercise:** Try it out yourself.
 - Write a script called `cycleNames.sh`
 - Create an array variable called `labgroup` that includes all the members of your lab (or family or friend-group)
 - Use a simple `for` loop to cycle over each person in `labgroup` and repeat a simple echo statement such as `“Hello, $member”` or `“$member, it's your turn for lab meeting”`.
@@ -89,7 +89,7 @@ Test it out! What happened?
 
 **while usage**
 
-```
+```bash
 while [ <some test> ]
 do
     <commands>
@@ -106,7 +106,7 @@ To achieve the proper behavior, our while loop will need three major components:
 
 :exclamation: **Example:** here is a loop that counts from 1 to 5. Let's call it `simpleCounter.sh`
 
-```
+```bash
 #!/usr/bin/env bash
  
 # INITIALIZATION of the counter variable x setting it to 1
@@ -128,7 +128,7 @@ echo "The code is complete"
 
 We can also use while loops to access content within an array variable but it can be a little tricky …
 
-```
+```bash
 #!/usr/bin/env bash
  
 # INITIALIZATION of the counter variable x setting it to 1
