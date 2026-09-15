@@ -150,7 +150,7 @@ fi
 
 ## `if/elif/else`
 
-This can get more complex, and in the interest of time, we're going to skip over this section. I'll include it here for those who wish to learn on their own.
+This can get more complex. In the interest of time, we're going to skip over this section. I'll include it here for those who wish to learn on their own.
 
 <p align="center">
 <img width="70%" alt="ifelifelse" src="../../05_images/if_elif_else.jpg">
@@ -227,7 +227,7 @@ We learned how to use conditional comparison statements on numbers. What about o
 myname="Harry Potter"
 if [[ $myname == "Harry Potter" ]]
 then
-   echo -e "Griffindor"
+   echo -e "Gryffindor"
 fi
 ```
 
