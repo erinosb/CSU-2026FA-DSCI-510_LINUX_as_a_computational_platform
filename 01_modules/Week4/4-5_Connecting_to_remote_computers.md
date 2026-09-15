@@ -79,4 +79,4 @@ Next steps:
 
 **Reflection:** How did this go for everyone? What problems were encountered?
 
-Continue on to [Intro to ALPINE](3-5_Intro_to_Alpine.md)
+Continue on to [Intro to ALPINE](4-6_Intro_to_Alpine.md)

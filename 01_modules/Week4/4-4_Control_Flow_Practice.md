@@ -1,6 +1,6 @@
 # Control Flow Practice
 
-### Todays objectives: 
+## Todays objectives: 
 
 <details>
   <summary>Click to expand/collapse</summary>
@@ -39,16 +39,7 @@
 
 </details>
 
-
-### Reminder: 
-
-Final exam due on teusday September 23rd! 
-
-### Test your understanding - take this quiz!
-
-[Quiz 7](https://forms.gle/LFgfbRWYnnCYCDM16)
-
-### Exercises for practice
+## Exercises for practice
 
 **!!! Exercise 1** - Use a `for` loop structure to produce the following output:
 
@@ -71,7 +62,7 @@ blast off!
 
 ---
 
-```
+```bash
 #!/usr/bin/env bash
  
 
@@ -84,7 +75,7 @@ do
  
 done
 ```
-```
+```bash
 #!/usr/bin/env bash
  
 array=(10 9 8 7 6 5 4 3 2 1)
@@ -95,30 +86,29 @@ done
  
 echo -e "Blast off!"
 ```
-```
+```bash
 #!/bin/bash
 for ((i=10; i>=1; i--)); do
         echo $i
 done
 echo "blast off!"
 ```
-```
-TBD
-```
 
 ---
 
 </details>
 
+---
 
-**!!! Exercise 2** - Use a `while` loop structure to produce the same output above.
+## Exercise 2: Use a `while` loop structure to produce the same output above.
 
 <details>
   <summary>Answers</summary>
 
 ---
+One option: 
 
-```
+```bash
 #!/usr/bin/env bash
 
 x=10
@@ -131,7 +121,9 @@ done
 
 echo "Blast off!"
 ```
-```
+
+Another option: 
+```bash
 #!/usr/bin/env bash
 
 i=10
@@ -149,9 +141,17 @@ echo "blast off!"
 
 </details>
 
-**!!! BONUS - Exercise 3** - `measureDiskSpace.sh` - Add to the `measureDiskSpace.sh` script so that instead of printing content to the screen, it now redirects all its output to a file called `diskUsage_output.txt`
+---
 
-**!!! BONUS - Exercise 4** - `measureDiskSpace2.sh` - create a conditional inside your loop that gives a different message if the file is empty like so …
+## BONUS - Exercise 3: `measureDiskSpace.sh` 
+
+Add to the `measureDiskSpace.sh` script so that instead of printing content to the screen, it now redirects all its output to a file called `diskUsage_output.txt`
+
+---
+
+## BONUS - Exercise 4 - `measureDiskSpace2.sh` 
+
+Create a conditional inside your loop that gives a different message if the file is empty like so ...
 
 ```
 $ bash measureDiskSpace.sh *.txt
@@ -167,7 +167,7 @@ Answer for Exercise 4:
 <details>
   <summary>Answer</summary>
 
-```
+```bash
 #!/usr/bin/env bash
  
 #Note: This answer contains a conditional within a for loop...
@@ -204,9 +204,15 @@ done
 
 </details>
 
-**!!! SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE - Exercise 5** - Remember the SARS-COV2 GTF file we downloaded before? Go ahead and download that again. Write a script that selects only the coding sequence entry lines (says CDS on column 3), and then outputs the gene name (written after gene_id in column 9), and then calculates the length of the coding sequence, and then outputs the following:
-- Input file: [SARS-CoV-2 genome](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/SARSCoV2_ncbiGenes.gtf)
-- Example output: 
+---
+
+
+## SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE - Exercise 5: 
+
+Remember the SARS-COV2 annotation file (.gff file)? 
+
+Write a script that selects only the coding sequence entry lines (says CDS on column 3), and then outputs the gene name (written after gene_id in column 9), and then calculates the length of the coding sequence, and then outputs the following:
+
 ```
 ORF1a 	13214
 ORF1ab 	13202
@@ -222,6 +228,7 @@ ORF8 	362
 N 	1256
 ORF10 	113
 ```
+
 - Note: - this is super hard and you'll need to try things that we didn't cover in class as well as navigate through some weird syntax funkiness.
 
 Answer for exercise 5:
@@ -273,4 +280,4 @@ done
 
 </details>
 
-Continue on to [Intro to Alpine](4-5_Intro_to_Alpine.md)
+Continue on to [Connecting To Remote Computers](4-5_connecting_to_remote_computers.md)
