@@ -41,7 +41,10 @@
 
 ## Exercises for practice
 
-**!!! Exercise 1** - Use a `for` loop structure to produce the following output:
+---
+### Exercise 1 
+
+Use a `for` loop structure to produce the following output:
 
 ```
 10
@@ -100,7 +103,9 @@ echo "blast off!"
 
 ---
 
-## Exercise 2: Use a `while` loop structure to produce the same output above.
+### Exercise 2
+
+Use a `while` loop structure to produce the same output above.
 
 <details>
   <summary>Answers</summary>
@@ -143,13 +148,13 @@ echo "blast off!"
 
 ---
 
-## BONUS - Exercise 3: `measureDiskSpace.sh` 
+### BONUS - Exercise 3: `measureDiskSpace.sh` 
 
 Add to the `measureDiskSpace.sh` script so that instead of printing content to the screen, it now redirects all its output to a file called `diskUsage_output.txt`
 
 ---
 
-## BONUS - Exercise 4 - `measureDiskSpace2.sh` 
+### BONUS - Exercise 4 - `measureDiskSpace2.sh` 
 
 Create a conditional inside your loop that gives a different message if the file is empty like so ...
 
@@ -206,8 +211,7 @@ done
 
 ---
 
-
-## SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE - Exercise 5: 
+### SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE - Exercise 5: 
 
 Remember the SARS-COV2 annotation file (.gff file)? 
 
