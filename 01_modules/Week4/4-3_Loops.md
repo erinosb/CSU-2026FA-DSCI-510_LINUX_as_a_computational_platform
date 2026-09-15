@@ -29,13 +29,13 @@ For this lesson, we will learn:
 
 The easiest loop in LINUX is a `for` loop that cycles over each element of an array variable. Before we get started, let's review array variables. Remember, array variables contain ordered elements. They are assigned like so …
 
-```
+```bash
 houses=(Gryffindor Slytherin Ravenclaw Hufflepuff)
 ```
 
 and they are dereferenced like so ... 
 
-```
+```bash
 echo -e ${houses[@]}
 #or
 echo -e ${houses[*]}
@@ -45,7 +45,7 @@ If we want to one-by-one, go through each element of an array and do something w
 
 **for usage - Python style**
 
-```
+```bash
 for <var> in ${<array>[@]}
 do
     <commands>
@@ -60,7 +60,7 @@ What commands go inside the loop? Anything you want, really. I do recommend test
 
 :hammer_and_wrench: **Exercise:** Let's try this together. Let's make a Hogwarts houses array. Let's start giving some points to different houses using a script `givePoints.sh`. Start `givePoints.sh` and make it executable. Next, copy in the following code:
 
-```
+```bash
 #!/usr/bin/env bash
  
 #assign hogwarts houses to the array variable called houses
