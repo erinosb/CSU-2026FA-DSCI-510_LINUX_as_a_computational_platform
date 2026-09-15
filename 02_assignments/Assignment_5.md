@@ -13,7 +13,7 @@
 
 ---
 
-## Question 1 - 10 pts
+## Question 1 - 2 pts
 
 You friend would like to write a script that asks the user for a C. elegans gtf file and then converts any chromosome names with roman numbers into chromosome names with numerals. 
 
@@ -39,7 +39,7 @@ sed -e 's/chrI/chromosome1/g' $filename | sed -e 's/chrII/chromosome2/g' | sed '
 
 ---
 
-## Question 2 - 10 pts 
+## Question 2 - 2 pts 
 
 Write a quick shell script that prompts the user for a file that contains some DNA sequence (A's, T', G', and C's) and then outputs to the screen the corresponding RNA sequence in which any T's have been transformed into U's.
 
@@ -51,7 +51,7 @@ Write a quick shell script that prompts the user for a file that contains some D
 
 ---
 
-## Question 3 - 5 pts
+## Question 3 - 1 pts
 
 Let's pretend the script you wrote in Question2 is called `DNA2RNA.sh`.
 
