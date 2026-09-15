@@ -18,7 +18,7 @@ For this lesson, we will learn:
 - `for` loops - easy
 - `while` loops - intermediate
 - `while read line` loops - intermediate
-
+- looping over arguments
 
 ----
 

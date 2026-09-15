@@ -13,7 +13,13 @@
   - Control flow
   - Sequences
   - Conditionals (also called selections)
+    - test statement
+    - conditional operator
   - Loops
+    - counter vaiable
+    - initialization
+    - condition
+    - incrementalization
 
 - **Things you should know how to do after this class**
   - Be able to differentiate sequences, conditionals, and loops
