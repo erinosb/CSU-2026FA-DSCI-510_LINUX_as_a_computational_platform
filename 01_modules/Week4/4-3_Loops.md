@@ -130,6 +130,8 @@ We can also use while loops to access content within an array variable but it ca
 
 ```bash
 #!/usr/bin/env bash
+
+houses=(Gryffindor Slytherin Ravenclaw Hufflepuff)
  
 # INITIALIZATION of the counter variable x setting it to 1
 x=1
@@ -138,56 +140,70 @@ x=1
 while [ $x -le ${#houses[@]} ]
 do
  
-  echo "In this round of the loop x is equal to $x"
- 
+  echo "x is equal to $x"
   echo "ten points to ${houses[$x]}"
  
   #INCREMENTALIZATION - Add 1 to x
   x=$(( $x + 1 ))  
  
 done
+
+echo "The code is complete"
 ```
 
 OK, that's weird. It looks like it started accessing the second element, Slytherin, first. Why?
 
 You'll recall that array variables start their counting on the number **0**. For this reason, we'll need to modify our code and start the iteration variable on 0. We'll also need to change the conditional -le (less than or equal to) to -lt (less than). If we don't do this, the loop will cycle too many times. Note, I also changed the comments, too.
 
-```
+```bash
+#!/usr/bin/env bash
+
 houses=(Gryffindor Slytherin Ravenclaw Hufflepuff)
  
 # INITIALIZATION of the counter variable x setting it to 0
-y=0
+x=0
  
-# CONDITION - Is x is less than the number of elements the number of elements in the houses array? If TRUE - do a loop. If FALSE - go to the next code block.
-while [ $y -lt ${#houses[@]} ]
+# CONDITION - check whether x is less than or equal to 5? If TRUE - do a loop. If FALSE - go to the next code block.
+while [ $x -lt ${#houses[@]} ]
 do
  
-  echo "In this round of the loop x is equal to $y"
+  echo "x is equal to $x"
+  echo "ten points to ${houses[$x]}"
  
-  echo "ten points to ${houses[$y]}"
- 
-  #INCREMENTALIZATION - Add 1 to y
-  y=$(( $y + 1 )) 
+  #INCREMENTALIZATION - Add 1 to x
+  x=$(( $x + 1 ))
  
 done
+ 
+echo "The code is complete"
 ```
 
 ### Incrementing numeric variables using x++
 
-if we have a numeric variable called x that is assigned the value 0, we can add one to this variable each time we go around the loop with the following x++ syntax …
+if we have a numeric variable called x that is assigned the value 0, we can add one to this variable each time we go around the loop with the following x++ syntax like so...
 
-```
+```bash
+#!/usr/bin/env bash
+
+houses=(Gryffindor Slytherin Ravenclaw Hufflepuff)
+ 
+# INITIALIZATION of the counter variable x setting it to 0
 x=0
  
-while [ $x -le 5 ]
+# CONDITION - check whether x is less than or equal to 5? If TRUE - do a loop. If FALSE - go to the next code block.
+while [ $x -lt ${#houses[@]} ]
 do
-  echo "x is equal to $x"
  
-  ((x++))     # Means the same as x=$(( $x + 1 ))
+  echo "x is equal to $x"
+  echo "ten points to ${houses[$x]}"
+ 
+  #INCREMENTALIZATION - Add 1 to x
+  # similarly, "((x--))" will decrease the value by 1.
+  ((x++))
  
 done
  
-# similarly, "((x--))" will decrease the value by 1.
+echo "The code is complete"
 ```
 
 :hammer_and_wrench: **Independent Exercise:** 
@@ -241,26 +257,14 @@ done < listOfHouses.txt
 
 ## Tips, Warnings, and Bonus Content
 
+>[!TIP]
+> Use echo to print out the values of the counter value or the values of the array variable for each cycle of the loop.
+
 >[!WARNING]
 > Stuck in a loop? If you are stuck in an infinite loop, press `CTRL + C`
 
 >[!TIP]
-> Incrementing numeric variables using x++
-- If we have a numeric variable called x that is assigned the value 0, we can add one to this variable each time we go around the loop with the following x++ syntax …
-
-```
-x=0
- 
-while [ $x -le 5 ]
-do
-  echo "x is equal to $x"
- 
-  ((x++))     # Means the same as x=$(( $x + 1 ))
- 
-done
- 
-# similarly, "((x--))" will decrease the value by 1.
-```
+> Increment numeric variables using x++
 
 :exclamation: **Conventions** - We have been using **x** as a counter variable in class. And typically counter variables are single letters. The convention however is typically to choose **i**. In many online examples, you'll see **i**, so just be aware. 
 
@@ -270,13 +274,11 @@ done
 - `for` loops C-style - hard
 
 <details>
-  <summary>for usage - C style</summary>
+  <summary>Bonus content - C style loops</summary>
 
 ---
 
 This will may be familiar to people who have written code in other languages that have been influenced by the C language.
-
-Personally, don't use C-style loops very often, but they are useful to illustrate that `while` loops and `for` loops do the same thing.
 
 In a `while` loop, we actually did three things:
 
@@ -295,7 +297,7 @@ done
 
 Here is an example of the same loop in a C-style:
 
-```
+```bash
 #!/usr/bin/env bash
  
 files=(file1.txt file2.txt file3.txt)
@@ -307,7 +309,7 @@ do
 done
 ```
 
-The syntax within the double parentheses is very special because it is basically mimicking “C”. Don't worry if it seems to look weird. If this doesn't make sense, just skip it and move on to Python-style loops. You can totally live without C-style loops.
+The syntax within the double parentheses is very special because it is basically mimicking the “C” language. Don't worry if it seems to look weird. If this doesn't make sense, just skip it. You can totally live without C-style loops.
 
 ---
 
@@ -321,23 +323,24 @@ The syntax within the double parentheses is very special because it is basically
 
 `break` statement forces the loop to end/stop under a given circumstance/for a certain situation.
 
-```
+```bash
 #!/usr/bin/env bash
 
 # Make a backup set of files
+mydir=$1
 
-for value in $1/*
+for value in ${mydir}/*
 do
-    used=$( df $1 | tail -1 | awk '{ print $5 }' | sed 's/%//' )
+    used=$( df $mydir | tail -1 | awk '{ print $5 }' | sed 's/%//' )
     if [ $used -gt 90 ]
     then
         echo Low disk space 1>&2
         break
     fi
-    cp $value $1/backup/
+    cp $value ${mydir}/backup/
 done
 ```
-```
+```bash
 i=0
 
 while [[ $i -lt 5 ]]
@@ -355,22 +358,26 @@ echo 'All Done!'
 
 `continue` statement forces the loop to end/stop the current iteration of the loop and begin the next iteration. 
 
-```
+```bash
 #!/usr/bin/env bash
 
 # Make a backup set of files
 
-for value in $1/*
+mydir=$1
+for value in ${mydir}}/*
 do
     if [ ! -r $value ]
     then
         echo $value not readable 1>&2
         continue
     fi
-    cp $value $1/backup/
+    cp $value ${mydir}/backup/
 done
+
 ```
-```
+
+
+```bash
 i=0
 
 while [[ $i -lt 5 ]]; do
@@ -391,23 +398,24 @@ echo 'All Done!'
 
 ## Looping over arguments
 
-A typical task is to supply your script with a list of arguments using a wildcard character like so …
+A typical task is to supply your script with a list of arguments using a wildcard character like so...
 
 ```
 $ bash measureDiskSpace.sh *.txt
 ```
 
-Say this script performs `du -h <file.txt>` on each file you pass to it and formats the output like so …
+Say this script performs `du -h <file.txt>` on each file you pass to it and formats the output like so...
 
-```
+```bash
 Disk usage for file1.txt is:    0B	file1.txt
 Disk usage for file2.txt is:  4.0K	file2.txt
 Disk usage for file3.txt is: 23.0K      file3.txt
 ```
 
-**!!! Exercise:** Try to think about how you would write `measureDiskSpace.sh` so it can accept any number of arguments provided, such as when you call it with a wildcard.
+:hammer_and_wrench: !!! Exercise:** Try to think about how you would write `measureDiskSpace.sh` so it can accept any number of arguments provided, such as when you call it with a wildcard.
 
-**!!! Hint:** Try converting the special array variable for arguments into a new array variable name like so. Then see if you can use a loop structure we already learned to help you do this.
+>[!TIP]
+> Use a special array variable for arguments into a new array variable name like so. Then see if you can use a loop structure we already learned to help you do this.
 
 ```
 myarguments=$@
