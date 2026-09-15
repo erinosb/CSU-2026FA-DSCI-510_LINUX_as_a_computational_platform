@@ -289,7 +289,7 @@ wc -l $myfirstfile > $myoutputfile
 
 - You can use the command `exit` to stop your script at any point. This is useful if you find that the argument requirement has not been satisfied.
 - Keep in mind - This is a challenging exercise. If you're not getting it, that's ok. If the script isn't behaving how you predict, you're not crazy. I don't know why these steps aren't more intuitive.
-- [Checking Arguments Reference](https://www.networkworld.com/article/972112/verifying-bash-script-arguments.html#:~:text=Checking%20the%20number%20of%20arguments%20provided&text=The%20%3D%3D%20(equals)%2C%20lt,the%20person%20running%20the%20script)
+- [Verifying arguments](https://www.networkworld.com/article/972112/verifying-bash-script-arguments.html)
 - There are many ways to do this, here is one way ...
 
 <details>
