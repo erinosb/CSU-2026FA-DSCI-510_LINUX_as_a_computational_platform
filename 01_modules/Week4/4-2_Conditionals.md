@@ -73,8 +73,8 @@ if [$age -ge 21] # won't work
 :exclamation: **Examples**
 
 ```
-# Prints out a message if the value saved in myvar is less than or equal to 2023
-if [ $myvar -le 2020 ]
+# Prints out a message if the value saved in myvar is less than 2020
+if [ $myvar -lt 2020 ]
 then
   echo "This is a pre-covid year"
 fi
