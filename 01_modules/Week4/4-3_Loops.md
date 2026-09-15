@@ -255,6 +255,58 @@ done < listOfHouses.txt
 
 ----
 
+## Looping over arguments
+
+A typical task is to supply your script with a list of arguments using a wildcard character like so...
+
+```
+$ bash measureDiskSpace.sh *.txt
+```
+
+Say this script performs `du -h <file.txt>` on each file you pass to it and formats the output like so...
+
+```bash
+Disk usage for file1.txt is:    0B	file1.txt
+Disk usage for file2.txt is:  4.0K	file2.txt
+Disk usage for file3.txt is: 23.0K      file3.txt
+```
+
+:hammer_and_wrench: !!! Exercise:** Try to think about how you would write `measureDiskSpace.sh` so it can accept any number of arguments provided, such as when you call it with a wildcard.
+
+>[!TIP]
+> Use a special array variable for arguments into a new array variable name like so. Then see if you can use a loop structure we already learned to help you do this.
+
+```
+myarguments=$@
+```
+
+My answer here:
+
+<details>
+  <summary>Answer</summary>
+
+```
+#!/usr/bin/env bash
+ 
+# Capture arguments
+myarguments=$@
+ 
+#Loop over each argument
+ 
+for myfile in ${myarguments[@]}
+do
+	# Calculate the disk usage for a file
+	myspace=$( du -h $myfile )
+ 
+	# Print the sentence including the file name and the disk usage:
+	echo -e "Disk usage for $myfile is: $myspace"
+done
+```
+
+</details>
+
+----
+
 ## Tips, Warnings, and Bonus Content
 
 >[!TIP]
@@ -396,54 +448,6 @@ echo 'All Done!'
 
 ----
 
-## Looping over arguments
 
-A typical task is to supply your script with a list of arguments using a wildcard character like so...
-
-```
-$ bash measureDiskSpace.sh *.txt
-```
-
-Say this script performs `du -h <file.txt>` on each file you pass to it and formats the output like so...
-
-```bash
-Disk usage for file1.txt is:    0B	file1.txt
-Disk usage for file2.txt is:  4.0K	file2.txt
-Disk usage for file3.txt is: 23.0K      file3.txt
-```
-
-:hammer_and_wrench: !!! Exercise:** Try to think about how you would write `measureDiskSpace.sh` so it can accept any number of arguments provided, such as when you call it with a wildcard.
-
->[!TIP]
-> Use a special array variable for arguments into a new array variable name like so. Then see if you can use a loop structure we already learned to help you do this.
-
-```
-myarguments=$@
-```
-
-My answer here:
-
-<details>
-  <summary>Answer</summary>
-
-```
-#!/usr/bin/env bash
- 
-# Capture arguments
-myarguments=$@
- 
-#Loop over each argument
- 
-for myfile in ${myarguments[@]}
-do
-	# Calculate the disk usage for a file
-	myspace=$( du -h $myfile )
- 
-	# Print the sentence including the file name and the disk usage:
-	echo -e "Disk usage for $myfile is: $myspace"
-done
-```
-
-</details>
 
 Continue on to [Control Flow Practice](4-4_Control_Flow_Practice.md)
