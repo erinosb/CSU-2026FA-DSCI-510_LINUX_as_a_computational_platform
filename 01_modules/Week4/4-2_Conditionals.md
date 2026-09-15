@@ -14,7 +14,7 @@
 
 ## `if`
 
-If statements allow us to modify our code to only execute commands only **IF** a particular test is true. If a particular test is true, a set of actions are performed. If it is not true then don't perform those actions.
+If statements allow us to modify our code to only execute commands only **IF** a particular test is **TRUE**. If a particular test is **TRUE**, a set of actions are performed. If it is **FALSE** then don't perform those actions. Skip them.
 
 **if usage**
 
@@ -50,22 +50,13 @@ $ bash screenPatrons.sh
 
 ### The test statement
 
-In an `if` statement, like in this one …
+>[!WARNING]> The test statement is the expression you need to satisfy as true. Its syntax needs to be very perfect. You need the spaces inside the square brackets for this to work.
 
 ```
-if [ <some test> ]
-then
-    <commands>
-fi
+if [ $age -ge 21 ] # will work
+if [$age -ge 21] # won't work
 ```
 
-… getting the test statement correct is a little tricky. The syntax needs to be very perfect.
-
-```
-if [ $age -ge 21 ]
-```
-
-Don't forget the spaces just inside of the square bracket!
 
 `-ge` in this example is a **conditional operator** that means greater than or equal to
 
