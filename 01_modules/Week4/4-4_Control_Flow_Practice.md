@@ -150,12 +150,6 @@ echo "blast off!"
 
 ### BONUS - Exercise 3: `measureDiskSpace.sh` 
 
-Add to the `measureDiskSpace.sh` script so that instead of printing content to the screen, it now redirects all its output to a file called `diskUsage_output.txt`
-
----
-
-### BONUS - Exercise 4 - `measureDiskSpace2.sh` 
-
 Create a conditional inside your loop that gives a different message if the file is empty like so ...
 
 ```
@@ -167,7 +161,27 @@ WARNING! text3.txt is empty!!!
 The file text4.txt takes up 4.0K of disk space
 ```
 
-Answer for Exercise 4:
+Here is the original `measureDiskSpace.sh` script from last time:
+
+```bash
+#!/usr/bin/env bash
+ 
+# Capture arguments
+myarguments=$@
+ 
+#Loop over each argument
+ 
+for myfile in ${myarguments[@]}
+do
+	# Calculate the disk usage for a file
+	myspace=$( du -h $myfile )
+ 
+	# Print the sentence including the file name and the disk usage:
+	echo -e "Disk usage for $myfile is: $myspace"
+done
+```
+
+Answer for Exercise 3:
 
 <details>
   <summary>Answer</summary>
@@ -211,7 +225,7 @@ done
 
 ---
 
-### SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE - Exercise 5: 
+### SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE - Exercise 4: 
 
 Remember the SARS-COV2 annotation file (.gff file)? 
 
@@ -235,7 +249,7 @@ ORF10 	113
 
 - Note: - this is super hard and you'll need to try things that we didn't cover in class as well as navigate through some weird syntax funkiness.
 
-Answer for exercise 5:
+Answer for exercise 4:
 
 <details>
   <summary>Answer</summary>
