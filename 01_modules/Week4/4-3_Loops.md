@@ -1,4 +1,8 @@
+<p align="center">
+<img width="90%" alt="icons" src="../../05_images/headers_Slide3.png">
+</p>
 
+----
 
 # Loops
 
@@ -14,11 +18,9 @@ For this lesson, we will learn:
 - `for` loops - easy
 - `while` loops - intermediate
 - `while read line` loops - intermediate
-- Tips & Tricks
-- Looping over arguments
+
 
 ----
-
 
 ## `for` loops - easy
 
@@ -31,7 +33,7 @@ The easiest loop in LINUX is a `for` loop that cycles over each element of an ar
 houses=(Gryffindor Slytherin Ravenclaw Hufflepuff)
 ```
 
-… and they are dereferenced like so …
+and they are dereferenced like so ... 
 
 ```
 echo -e ${houses[@]}
@@ -41,7 +43,7 @@ echo -e ${houses[*]}
 
 If we want to one-by-one, go through each element of an array and do something with that element, we can use a for loop. Here is the syntax:
 
-### for usage - Python style
+**for usage - Python style**
 
 ```
 for <var> in ${<array>[@]}
