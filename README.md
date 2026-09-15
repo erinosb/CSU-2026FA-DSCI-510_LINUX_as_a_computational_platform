@@ -29,8 +29,8 @@ Please see the [Computer Requirements](04_resources/Computer_Requirements.md) fo
 | September 8 | [Week3](01_modules/Week3) | Scripting <br/> Variables <br/> Array Variables | Chapter 20 (sed) <br/> Chapter 24 (scripting) <br/> Chapter 25 (variables) <br/> [Ryan's Tutorials - bash intro](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php) | [Assignment 5](02_assignments/Assignment_5.md) <br/> **due September 15** |
 | September 10 | [Week3](01_modules/Week3) | Connecting to supercomputers <br/> More Variables <br/> String Operations |  | [Assignment 6](02_assignments/Assignment_6.md) <br/> **due September 15** |
 | Bonus Content | [Week3](01_modules/Week3) | TBD |  | |
-| September 15 | [Week4](01_modules/Week4) | Scripting 3: <br/> Control flow <br/> Conditionals <br/> Loops |  |  |
-| September 17 | [Week4](01_modules/Week4) | Using ALPINE <br/> Custom Commands <br/> Next Steps ALPINE |  |     |
+| September 15 | [Week4](01_modules/Week4) | Scripting 3: <br/> Control flow <br/> Conditionals <br/> Loops | [Ryan's Tutorials IF](https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php) <br/> [Ryan's Tutorials LOOPS](https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php) <br/> Chapter 27 <br/> Chapter 29 <br/> Chapter 33 |  |
+| September 17 | [Week4](01_modules/Week4) | Using ALPINE <br/> Custom Commands <br/> Next Steps ALPINE | Chapter 9 <br/> [ALPINE Quick Start](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) |     |
 | Bonus Content | 4 | TBD | | |
 | **Final Exam** | **5** | **FAQ on Exam project, Tips & Tricks 1** | **Examples of past projects**  | [Exam Project](02_assignment/Final_Exam.md) due Sept 24 |
 
