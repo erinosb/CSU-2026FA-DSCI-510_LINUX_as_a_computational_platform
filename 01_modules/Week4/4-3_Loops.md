@@ -1,3 +1,5 @@
+
+
 # Loops
 
 Loops let us cycle over a given block of code over and over again. In other words, executing the code will be iterative. A nice feature of loops is that each pass around the loop can execute the code in a slightly different way.
@@ -15,9 +17,13 @@ For this lesson, we will learn:
 - Tips & Tricks
 - Looping over arguments
 
-### `for` loops - easy
+----
 
-**!!! Warning** - Stuck in a loop? If you are stuck in an infinite loop, press `CTRL + C` 
+
+## `for` loops - easy
+
+>[!WARNING]
+> Stuck in a loop? If you are stuck in an infinite loop, press `CTRL + C` 
 
 The easiest loop in LINUX is a `for` loop that cycles over each element of an array variable. Before we get started, let's review array variables. Remember, array variables contain ordered elements. They are assigned like so …
 
@@ -35,7 +41,7 @@ echo -e ${houses[*]}
 
 If we want to one-by-one, go through each element of an array and do something with that element, we can use a for loop. Here is the syntax:
 
-**for usage - Python style**
+### for usage - Python style
 
 ```
 for <var> in ${<array>[@]}
@@ -50,7 +56,7 @@ The first time around the loop `var` will represent the first element in the arr
 
 What commands go inside the loop? Anything you want, really. I do recommend testing how your loop works first using an echo statement within it that dereferences `$var`. This will be helpful to ensure that everything is working properly.
 
-**!!! Exercise:** Let's try this together. Let's make a Hogwarts houses array. Let's start giving some points to different houses using a script `givePoints.sh`. Start `givePoints.sh` and make it executable. Next, copy in the following code:
+:hammer_and_wrench: **Exercise:** Let's try this together. Let's make a Hogwarts houses array. Let's start giving some points to different houses using a script `givePoints.sh`. Start `givePoints.sh` and make it executable. Next, copy in the following code:
 
 ```
 #!/usr/bin/env bash
@@ -68,12 +74,14 @@ done
 
 Test it out! What happened?
 
-**!!! Independent Exercise:** Try it out yourself.
+:hammer_and_wrench: **Independent Exercise:** Try it out yourself.
 - Write a script called `cycleNames.sh`
 - Create an array variable called `labgroup` that includes all the members of your lab (or family or friend-group)
 - Use a simple `for` loop to cycle over each person in `labgroup` and repeat a simple echo statement such as `“Hello, $member”` or `“$member, it's your turn for lab meeting”`.
 
-### `while` loops
+----
+
+## `while` loops
 
 `while` loops are loops that test a conditional at each iteration of the loop. If the conditional statement is true, the code block is executed. If the condition is false, the loop stops.
 
@@ -94,7 +102,7 @@ To achieve the proper behavior, our while loop will need three major components:
 2. CONDITION - where we check if our counter variable satisfies some conditional criteria (less than #, greater than #); and
 3. INCREMENTALIZATION - where we reassign our counter by adding or subtracting 1 to/from it.
 
-**!!! Example:** here is a loop that counts from 1 to 5. Let's call it `simpleCounter.sh`
+:exclamation: **Example:** here is a loop that counts from 1 to 5. Let's call it `simpleCounter.sh`
 
 ```
 #!/usr/bin/env bash
@@ -162,7 +170,7 @@ do
 done
 ```
 
-**!!! Tip:** Incrementing numeric variables using x++
+### Incrementing numeric variables using x++
 
 if we have a numeric variable called x that is assigned the value 0, we can add one to this variable each time we go around the loop with the following x++ syntax …
 
@@ -180,10 +188,12 @@ done
 # similarly, "((x--))" will decrease the value by 1.
 ```
 
-**!!! Independent Exercise:** 
+:hammer_and_wrench: **Independent Exercise:** 
 - Comment out the `for` loop you wrote in `cycleNames.sh`, your code that cycles through group members and tells each person when to give lab meeting. Replace that `for` loop with a `while` loop that yields the same output - prints an echo statement that includes each member's name.
 
-### `while read line` loops
+----
+
+## `while read line` loops
 
 Sometimes we want to read a file and do something to each line. For this, we can use a special `while` loop syntax. For each cycle of the loop, we will read a line of the file, starting at the top and making our way to the bottom. In the first cycle of the loop, the content of the first line will be assigned to the variable, say, $line. In the second cycle of the loop, the second line will be reassigned to $line. In this way, we can loop through each line of the file and perform the same function on each line.
 
@@ -222,14 +232,18 @@ do
 done < listOfHouses.txt
 ```
 
-**!!! Independent Exercise:** 
+:hammer_and_wrench: **Independent Exercise:** 
 - Comment out the `while` loop you wrote in the previous exercise's script called `cycleNames.sh`. Replace that `while` loop with a `while read lines` loop that yields the same output - prints an echo statement that includes each member's name. Note - you'll need to create an input file that lists all your names, each on its own line.
 
-### Tips, Warnings, and Bonus Content
+----
 
-**!!! Warning** - Stuck in a loop? If you are stuck in an infinite loop, press `CTRL + C`
+## Tips, Warnings, and Bonus Content
 
-**!!! Tip** - incrementing numeric variables using x++
+>[!WARNING]
+> Stuck in a loop? If you are stuck in an infinite loop, press `CTRL + C`
+
+>[!TIP]
+> Incrementing numeric variables using x++
 - If we have a numeric variable called x that is assigned the value 0, we can add one to this variable each time we go around the loop with the following x++ syntax …
 
 ```
@@ -246,9 +260,9 @@ done
 # similarly, "((x--))" will decrease the value by 1.
 ```
 
-**!!! Conventions** - We have been using **x** as a counter variable in class. And typically counter variables are single letters. The convention however is typically to choose **i**. In many online examples, you'll see **i**, so just be aware. 
+:exclamation: **Conventions** - We have been using **x** as a counter variable in class. And typically counter variables are single letters. The convention however is typically to choose **i**. In many online examples, you'll see **i**, so just be aware. 
 
-**!!! Bonus content** 
+:exclamation: **Bonus content** 
 - `break` - If you want to stop going around the loop, you can use the command `break`. Typically, you'll need to place a conditional within a loop to use this correctly.
 - `continue` - If you want to skip to the next round of the loop, use the command `continue`. Typically, you'll need to place a conditional within a loop to use this correctly.
 - `for` loops C-style - hard
@@ -371,7 +385,9 @@ echo 'All Done!'
 
 </details>
 
-### Looping over arguments
+----
+
+## Looping over arguments
 
 A typical task is to supply your script with a list of arguments using a wildcard character like so …
 

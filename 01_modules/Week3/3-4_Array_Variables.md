@@ -4,6 +4,50 @@
 
 ----
 
+## Todays objectives: 
+
+<details>
+  <summary>Click to expand/collapse</summary>
+
+- **Vocabulary**
+  - Array variables
+  - Array elements
+  - Indexing
+  - Special variables
+  - Hard Coding
+  - String
+  - String operation
+  - Replacement/substitution
+  - Sub-setting strings
+  - Sub-strings
+  - The environment
+  - Environmental variables
+
+- **Things you should know how to do after this class**
+- Know what an array variable is and how to assign values to one
+  - Understand the basics of array indexing
+  - Know how to enter input into a script by passing argument that can be accessed with a special variable
+  - Know how to save output from a script using `>` and `>>`
+  - Know a little bit about manipulating string variables
+
+- **Commands covered**
+  - `arrayvariable=(value1 value2 value3)`
+  - `${arrayvariable[*]}`
+  - `${arrayvariable[@]}`
+  - `${arrayvariable[0]}`
+  - `${arrayvariable[1]}`
+  - `${arrayvariable[#]}`
+  - `${#arrayvariable[@]}`
+  - `read`
+  - `$0`
+  - `$1`
+  - `$2`
+  - `$#`
+  - `$@`
+  - `$*`
+
+</details>
+
 # Array Variables
 
 So far, we have assigned only a single value to each variable. We can also assign multiple, ordered values to a variable. These create **array variables**.
