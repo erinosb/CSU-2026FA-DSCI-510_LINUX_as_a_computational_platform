@@ -1,3 +1,11 @@
+<p align="center">
+<img width="90%" alt="icons" src="../../05_images/headers_split.jpg">
+</p>
+
+----
+
+
+
 # Conditionals 
 
 **Conditionals** are if/else statements that allow us to skip over blocks of code entirely based on passing or failing of a test. The simplest conditionals just involve the command `if`.

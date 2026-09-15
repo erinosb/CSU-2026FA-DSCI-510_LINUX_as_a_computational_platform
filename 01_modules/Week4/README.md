@@ -18,6 +18,9 @@ Thursday Sept 17, 2026
 
 ## Bonus Content
 
+ - 
+
 ## Resources
+
   - [Unix as a second language](https://www.networkworld.com/blogs/unix-as-a-second-language/)
   - [Ryan's Tutorials](https://ryanstutorials.net/)
