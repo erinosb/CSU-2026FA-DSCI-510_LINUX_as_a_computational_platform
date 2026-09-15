@@ -285,7 +285,7 @@ My answer here:
 <details>
   <summary>Answer</summary>
 
-```
+```bash
 #!/usr/bin/env bash
  
 # Capture arguments

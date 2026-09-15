@@ -162,4 +162,4 @@ Here are the different file storage spaces available:
 
 **Step3** Start a project
 
-Continue on to [Custom Commands](4-7_Custom_Commands)
+Continue on to [Custom Commands](4-7_Custom_Commands.md)
