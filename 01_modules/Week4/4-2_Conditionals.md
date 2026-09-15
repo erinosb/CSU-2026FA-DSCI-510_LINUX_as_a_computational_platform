@@ -204,9 +204,9 @@ fi
 
 ----
 
-## Conditional Operators: Strings
+## Conditional Operators: Character Strings
 
-We learned how to use conditional comparison statements on numbers. What about on strings (aka - words)?
+We learned how to use conditional comparison statements on numbers. What about on character strings (aka - words)?
 
 | Symbol | Comparison |
 |--------| -----------|
@@ -243,8 +243,6 @@ We learned how to use conditional comparison statements on numbers and strings. 
 |--------| -----------|
 | `-d` | Check the existence of a directory |
 | `-e` | Check the existence of a file |
-| `$# -gt 0` | Check that the number of arguments the user has provided is greater than 0 |
-| `$# -eq 2` | Check that the number of arguments the user has provided is equal to 2 |
 
 :exclamation: **Example:** Test if the file called `file.txt` exists. If it does, count its lines, words, & characters
 
@@ -256,28 +254,42 @@ then
 fi
 ```
 
-:hammer_and_wrench: **Challenge Exercise:** Recall how we can pass an argument into our script as input like so …
+---
+
+## Checking arguments
+
+Recall how we can pass an argument into our script as input like so ...
 
 ```
-$ bash countingLines.sh file1.txt
+bash countinglines.sh file1.txt
 ```
 
-And then within the script, we can capture the argument like this …
+We can use conditionals to test whether the user has supplied the required number of arguments.
+
+| Symbol | Comparison |
+|--------| -----------|
+| `$# -gt 0` | Check that the number of arguments the user has provided is greater than 0 |
+| `$# -eq 2` | Check that the number of arguments the user has provided is equal to 2 |
+
+
+:hammer_and_wrench: **Exercise:** Given the script below called `countinglines.sh`, how would you add a conditional to check that at least one argument (file) was added? 
+
+ - Add in a conditional to check that the argument was added. If it wasn't added, print an echo statement to the user that the script requires an argument. 
 
 ```
+#!/usr/bin/env bash
+
 # capture the first argument in a variable called myfirstfile
 myfirstfile=$1
- 
-# use a sub-string substitution line to create a new variable called myoutputfile in which .txt is substituted for _linecount.txt
-myoutputfile=${myfirstfile/%.txt/_linecount.txt}
- 
-# operate on the input file and save the line count to the desired output file
-wc -l $myfirstfile > $myoutputfile
+
+# Count the number of lines in $myfirstfile
+wc $myfirstfile
+
 ```
 
-**Exercise:** Your mission is to expand your script called `countingLines.sh` so that the script checks that a file was given. This script should contain a conditional statement that tests whether the user properly supplied a file as an argument. If the user has supplied a file, report what was supplied. If the user did not supply the file, tell the user they must try again and next time supply an argument.
+>[!TIP]
+> You can use the command `exit` to stop your script at any point. This is useful if you find that the argument requirement has not been satisfied.
 
-- You can use the command `exit` to stop your script at any point. This is useful if you find that the argument requirement has not been satisfied.
 - Keep in mind - This is a challenging exercise. If you're not getting it, that's ok. If the script isn't behaving how you predict, you're not crazy. I don't know why these steps aren't more intuitive.
 - [Verifying arguments](https://www.networkworld.com/article/972112/verifying-bash-script-arguments.html)
 - There are many ways to do this, here is one way ...
