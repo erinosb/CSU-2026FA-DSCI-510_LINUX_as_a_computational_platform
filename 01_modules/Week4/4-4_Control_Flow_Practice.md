@@ -280,4 +280,4 @@ done
 
 </details>
 
-Continue on to [Connecting To Remote Computers](4-5_connecting_to_remote_computers.md)
+Continue on to [Connecting To Remote Computers](4-5_Connecting_to_remote_computers.md)
