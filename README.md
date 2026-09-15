@@ -31,7 +31,7 @@ Please see the [Computer Requirements](04_resources/Computer_Requirements.md) fo
 | Bonus Content | [Week3](01_modules/Week3) | TBD |  | |
 | September 15 | [Week4](01_modules/Week4) | Scripting 3: <br/> Control flow <br/> Conditionals <br/> Loops | [Ryan's Tutorials IF](https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php) <br/> [Ryan's Tutorials LOOPS](https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php) <br/> Chapter 27 <br/> Chapter 29 <br/> Chapter 33 |  |
 | September 17 | [Week4](01_modules/Week4) | Using ALPINE <br/> Custom Commands <br/> Next Steps ALPINE | Chapter 9 <br/> [ALPINE Quick Start](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) |     |
-| Bonus Content | 4 | [Unix as a second language](https://www.networkworld.com/blogs/unix-as-a-second-language/) | | |
+| Bonus Content | 4 | [Unix as a second language](https://www.networkworld.com/blogs/unix-as-a-second-language/) <br/> [Ryan's Tutorials](https://ryanstutorials.net/)| | |
 | **Final Exam** | **5** | **FAQ on Exam project, Tips & Tricks 1** | **Examples of past projects**  | [Exam Project](02_assignment/Final_Exam.md) due Sept 24 |
 
 
