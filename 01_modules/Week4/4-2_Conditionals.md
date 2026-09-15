@@ -4,8 +4,6 @@
 
 ----
 
-
-
 # Conditionals 
 
 **Conditionals** are if/else statements that allow us to skip over blocks of code entirely based on passing or failing of a test. The simplest conditionals just involve the command `if`.
@@ -48,9 +46,10 @@ Run your code:
 $ bash screenPatrons.sh
 ```
 
-### The test statement
+## The test statement
 
->[!WARNING]> The test statement is the expression you need to satisfy as true. Its syntax needs to be very perfect. You need the spaces inside the square brackets for this to work.
+>[!WARNING]
+> The test statement is the expression you need to satisfy as true. Its syntax needs to be very perfect. You need the spaces inside the square brackets for this to work.
 
 ```
 if [ $age -ge 21 ] # will work
