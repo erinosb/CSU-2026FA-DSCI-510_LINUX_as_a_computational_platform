@@ -2,7 +2,9 @@
 
 **Conditionals** are if/else statements that allow us to skip over blocks of code entirely based on passing or failing of a test. The simplest conditionals just involve the command `if`.
 
-### `if`
+---
+
+## `if`
 
 If statements allow us to modify our code to only execute commands only **IF** a particular test is true. If a particular test is true, a set of actions are performed. If it is not true then don't perform those actions.
 
@@ -15,7 +17,7 @@ then
 fi
 ```
 
-**!!! Example:** Follow along. Imagine asking the user for their age. If they are over 21, let them in the club. Start the code `screenPatrons.sh`
+:exclamation: **Example:** Follow along. Imagine asking the user for their age. If they are over 21, let them in the club. Start the code `screenPatrons.sh`
 
 ```
 #!/usr/bin/env bash
@@ -94,9 +96,10 @@ fi
 
 For a detailed description of how these are used see: [Ryan's Tutorials: bash if statements](https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php)
 
-**!!! Exercise:** Write a brief script called `numberReader.sh` that asks the user to type in a number. If the number is greater than 100, print out “That's a big number”
+:hammer_and_wrench: **Independent Exercise:** Write a brief script called `numberReader.sh` that asks the user to type in a number. If the number is greater than 100, print out “That's a big number”
 
-**!!! Potential Pitfall:** The following does not work ...
+>[!WARNING]
+> The following does not work ...
 
 ```
 # Throws an error and doesn't work
@@ -106,15 +109,18 @@ then
 fi
 ```
 
-**!!! Potential Pitfall:** In some situations, conditional statements work better with double square brackets
+>[!WARNING]
+> In some situations, conditional statements work better with double square brackets
 
 ```
 [[ if statement here ]] 
 ```
 
-[More about single vs double square brackets](https://www.baeldung.com/linux/bash-single-vs-double-brackets#:~:text=The%20single%20bracket%20is%20a,brackets%20is%20generally%20more%20convenient.)
+[More about single vs double square brackets](https://www.baeldung.com/linux/bash-single-vs-double-brackets)
 
-### `if/else`
+----
+
+## `if/else`
 
 Try running your `screenPatrons.sh` script again but now type in a number that is less than 21. Hmmm, it's not very satisfying. **if/else** statements can help with that. If the test is true, you can execute one block of code. If the test is false, you can execute a different block:
 
@@ -148,18 +154,16 @@ else
 fi
 ```
 
-**!!! Exercise:** Save this script. Run your script again and test it using a variety of ages.
+:hammer_and_wrench: **Exercise:** Save this script. Run your script again and test it using a variety of ages.
 
-- [more about single versus double square brackets](https://www.baeldung.com/linux/bash-single-vs-double-brackets#:~:text=The%20single%20bracket%20is%20a,brackets%20is%20generally%20more%20convenient.)
-- This reference also has more details on **regular expressions**
-- This reference has details on **Boolean** searches (`AND` and `OR`).
+-----
 
-### `if/elif/else`
+## `if/elif/else`
 
 This can get more complex, and in the interest of time, we're going to skip over this section. I'll include it here for those who wish to learn on their own.
 
 <p align="center">
-<img width="410" alt="ifelifelse" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/if_elif_else.jpg">
+<img width="50%" alt="ifelifelse" src="../../05_images/if_elif_else.jpg">
 </p>
 
 Conditionals can get more complex by adding elif which can add more test criteria.
@@ -176,7 +180,7 @@ else
 fi
 ```
 
-**!!! Example:**
+:exclamation: **Example:**
 
 ```
 #!/usr/bin/env bash
@@ -208,7 +212,9 @@ else
 fi
 ```
 
-### Conditional Operators: Strings
+----
+
+## Conditional Operators: Strings
 
 We learned how to use conditional comparison statements on numbers. What about on strings (aka - words)?
 
@@ -218,13 +224,14 @@ We learned how to use conditional comparison statements on numbers. What about o
 | `!=` | Returns true if two "strings" are **not equivalent** |
 | `!` | General - Returns true if the expression is false |
 
-**Potential Pitfall** - if your variable contains spaces, use double square brackets ...
+>[!WARNING]
+> If your variable contains spaces, use double square brackets ...
 
 ```
 [[ if statement here ]] 
 ```
 
-**!!! Examples:**
+:exclamation: **Examples:**
 
 ```
 myname="Harry Potter"
@@ -234,9 +241,11 @@ then
 fi
 ```
 
-**!!! Exercise:** Add onto your `screenPatrons.sh` script to ask the user what state they live in. If they match “Colorado”, print out a message that states that they get a local's discount!
+:hammer_and_wrench: **Exercise:** Add onto your `screenPatrons.sh` script to ask the user what state they live in. If they match “Colorado”, print out a message that states that they get a local's discount!
 
-### Conditional Operators: Files & Directories
+-----
+
+## Conditional Operators: Files & Directories
 
 We learned how to use conditional comparison statements on numbers and strings. What about if we want to use a conditional statement to test whether a file or directory exists and some aspects of its properties (this may not make a ton of sense because we haven't covered permissions yet).
 
@@ -247,7 +256,7 @@ We learned how to use conditional comparison statements on numbers and strings. 
 | `$# -gt 0` | Check that the number of arguments the user has provided is greater than 0 |
 | `$# -eq 2` | Check that the number of arguments the user has provided is equal to 2 |
 
-**!!! Example:** Test if the file called `file.txt` exists. If it does, count its lines, words, & characters
+:exclamation: **Example:** Test if the file called `file.txt` exists. If it does, count its lines, words, & characters
 
 ```
 myfile="file.txt"
@@ -257,7 +266,7 @@ then
 fi
 ```
 
-**!!! Challenge Exercise:** Recall how we can pass an argument into our script as input like so …
+:hammer_and_wrench: **Challenge Exercise:** Recall how we can pass an argument into our script as input like so …
 
 ```
 $ bash countingLines.sh file1.txt
@@ -276,7 +285,7 @@ myoutputfile=${myfirstfile/%.txt/_linecount.txt}
 wc -l $myfirstfile > $myoutputfile
 ```
 
-**!!! Exercise:** Your mission is to expand your script called `countingLines.sh` so that the script checks that a file was given. This script should contain a conditional statement that tests whether the user properly supplied a file as an argument. If the user has supplied a file, report what was supplied. If the user did not supply the file, tell the user they must try again and next time supply an argument.
+**Exercise:** Your mission is to expand your script called `countingLines.sh` so that the script checks that a file was given. This script should contain a conditional statement that tests whether the user properly supplied a file as an argument. If the user has supplied a file, report what was supplied. If the user did not supply the file, tell the user they must try again and next time supply an argument.
 
 - You can use the command `exit` to stop your script at any point. This is useful if you find that the argument requirement has not been satisfied.
 - Keep in mind - This is a challenging exercise. If you're not getting it, that's ok. If the script isn't behaving how you predict, you're not crazy. I don't know why these steps aren't more intuitive.
