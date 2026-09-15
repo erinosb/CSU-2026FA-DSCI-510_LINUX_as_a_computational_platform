@@ -163,7 +163,7 @@ fi
 This can get more complex, and in the interest of time, we're going to skip over this section. I'll include it here for those who wish to learn on their own.
 
 <p align="center">
-<img width="50%" alt="ifelifelse" src="../../05_images/if_elif_else.jpg">
+<img width="70%" alt="ifelifelse" src="../../05_images/if_elif_else.jpg">
 </p>
 
 Conditionals can get more complex by adding elif which can add more test criteria.
