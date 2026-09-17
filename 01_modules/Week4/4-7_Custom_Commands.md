@@ -61,10 +61,14 @@ It depends on the project. Here are some options:
   - **file navigation**. For this, navigate to your projects directory in one tab of your internet browser like so...
 
 <p align="center">
-<img width="50%" alt="storage locations" src="../../05_images/ALPINE_ProjectsDir.png">
+<img width="40%" alt="storage locations" src="../../05_images/ALPINE_ProjectsDir.png">
 </p>
 
+  - **terminal**. Also, let's open one tab as an ALPINE terminal like so...
 
+<p align="center">
+<img width="40%" alt="storage locations" src="../../05_images/ALPINE_term.png">
+</p>
 
 ### 1. Create a `bin` directory in your `projects` directory
 
@@ -72,6 +76,8 @@ It depends on the project. Here are some options:
  - Check if you already have a dir called `bin`.
  - If not, make a new directory called `bin`
  - Make sure you know the absolute path to this directory by copying and pasting the output of the following to a textfile:
+
+Option 1: On the terminal:
 
 ```
 $ pwd
@@ -83,6 +89,13 @@ $ ls
 # IF you don't have a bind directory:
 $ mkdir bin
 ```
+
+Option 2: 
+
+<p align="center">
+<img width="50%" alt="storage locations" src="../../05_images/ALPINE_newDir.jpg">
+</p>
+
 
 ---
 
