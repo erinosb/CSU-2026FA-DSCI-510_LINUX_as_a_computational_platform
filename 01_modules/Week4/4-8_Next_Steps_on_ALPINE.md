@@ -24,6 +24,7 @@ This is all the time we have for this class. You are encouraged to learn more ab
 ## How do I keep learning more on ALPINE?
 
   - [Upcoming workshop on conda and software install on ALPINE](https://www.colorado.edu/rc/events)
+  - [All Past CURC Workshops](https://github.com/ResearchComputing/)
 
 ## What are some other helpful next steps?
 

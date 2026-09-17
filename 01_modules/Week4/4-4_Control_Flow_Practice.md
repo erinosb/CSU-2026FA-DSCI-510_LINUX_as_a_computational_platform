@@ -1,43 +1,6 @@
 # Control Flow Practice
 
-## Todays objectives: 
 
-<details>
-  <summary>Click to expand/collapse</summary>
-
----
-
-- **Vocabulary**
-  - High-Performance Computing (HPC)
-  - Supercomputer
-  - Compute Cluster
-  - Nodes
-    - Login nodes
-    - Compile nodes
-    - Compute nodes
-  - Custom Commands
-  - `$PATH` – your path
-  - `.bash_profile` file
-
-- **Things you should know how to do after this class**
-  - Know how to log onto ALPINE
-  - Understand the benefits of using a supercomputer
-  - Have a rudimentary understanding of Nodes on ALPINE
-    - Understand that you shouldn’t do large jobs on the login node
-  - Have a rudimentary understanding of the File Structure system on ALPINE
-  - Learn about the $PATH which is an environmental variable.
-    - Be aware of the concept of adding directories to your $PATH
-  - Have a cursory knowledge about how .bash_profile files can be used to customize the user experience
-  - Learn about the main steps in creating a custom command
-
-- **Commands covered**
-  - `acompile`
-  - `curc-quota`
-  - `module avail`
-
----
-
-</details>
 
 ## Exercises for practice
 

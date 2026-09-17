@@ -25,6 +25,10 @@ Thursday Sept 17, 2026
 
 ### External Resources
 
-  - [Unix as a second language](https://www.networkworld.com/blogs/unix-as-a-second-language/)
   - [Ryan's Tutorials](https://ryanstutorials.net/)
   - [More about single vs double square brackets](https://www.baeldung.com/linux/bash-single-vs-double-brackets)
+  - [Unix as a second language](https://www.networkworld.com/blogs/unix-as-a-second-language/)
+    - [Verifying Arguments](https://www.networkworld.com/article/972112/verifying-bash-script-arguments.html)
+  - [ALPINE Quick Start Guide](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html)
+  - [All Past CURC Workshops](https://github.com/ResearchComputing/)
+  - [CURC Jupyter Session Guide](https://curc.readthedocs.io/en/latest/open_ondemand/jupyter_session.html)

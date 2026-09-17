@@ -1,3 +1,8 @@
+<p align="center">
+<img width="90%" alt="icons" src="../../05_images/headers_custom.png">
+</p>
+
+---
 # User-specified Custom Commands
 
 In this section we'll learn how to convert our scripts into **custom commands**. These commands will operate like any other commands in linux, but they are things that you, the user, have written yourself. This is a way to start having the shell do exactly what you want!
