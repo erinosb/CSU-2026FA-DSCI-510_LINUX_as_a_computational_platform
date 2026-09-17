@@ -137,7 +137,7 @@ Compute nodes are **multi-core processors**. This means we can run multiple jobs
 Here is an outline of the different types of compute nodes available:
 
 <p align="center">
-<img width="50%" alt="alpine nodes" src="../../05_images/alpine_nodes.png">
+<img width="50%" alt="alpine nodes" src="../../05_images/alpinePartitions.png">
 </p>
 
 ----
