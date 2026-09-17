@@ -13,10 +13,15 @@ Thursday Sept 17, 2026
   - [4-5 Connecting to remote computers](4-5_Connecting_to_remote_computers.md)
   - [4-6 Intro to ALPINE](4-6_Intro_to_Alpine.md)
   - [4-7 Custom Commands](4-7_Custom_Commands.md)
-  - [4-8 Running Jobs on ALPINE](4-8_Running_jobs_on_Alpine.md)
-  - [4-9 Next Steps on ALPINE](4-9_Next_Steps_on_Alpine.md)
+  - [4-9 Next Steps on ALPINE](4-8_Next_Steps_on_Alpine.md)
 
 ## Bonus Content & Resources
+
+### Bonus Course Content
+
+  - [Permissions](../../04_resources/permissions.md)
+  - [Custom Profiles](../../04_resources/customProfiles.md)
+  - [Running Jobs on ALPINE](../../04_resources/Running_jobs_on_Alpine.md)
 
   - [Unix as a second language](https://www.networkworld.com/blogs/unix-as-a-second-language/)
   - [Ryan's Tutorials](https://ryanstutorials.net/)
