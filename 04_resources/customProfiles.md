@@ -3,32 +3,57 @@
 
 Cool! What else can I do in my `.bash_profile`?
 
-<details>
-  <summary>Quick PATH modifications</summary>
-
 ---
 
-**example .bash_profile modifications**
+# An example of some quick custom profile modifications
 
-```
-# Change colors so they look cooler:
+Within the `.bash_profile` file, you can do the following...
+
+
+```bash
+# Change your terminal colors so they look cooler:
 export CLICOLOR=1
 export LSCOLORS=GxFxBxDxGxegedabagacad
  
-# My prompt: 
-# Change the color of the prompt: 
+# Change your prompt:
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-# Make my prompt shorter - good for teaching:
+
+# Make your prompt shorter - good for teaching:
 PS1='\u:\W\$ '
  
-# My aliases
+# Make some custom commands out of other commands
 alias srm='rm -i'
+
+# Set a new home directory
+# replace /path/to/new/home with your new home directory
+export HOME=/path/to/new/home
+
+# Add a directory to your PATH (that is, make this file globally executable):
+#replace /path/to/dir with the absolute path to your directory 
+export PATH="/path/to/dir:$PATH"
+export PATH
 ```
 
-More references here:
+>[!WARNING]
+> Before the changes take effect, you must save your `.bash_profile` file, close it, close the terminal and re-open it. 
+
+
+>[!TIP]
+> If you don't want to do the whole closing and reopening, you can also refresh your conditions like so...
+
+```
+$ source .bash_profile
+```
+
+ - On some systems, this will save you a step of reopening the terminal.
+
+----
+
+## References to changing your .bash_profile 
+
 - [Guide to editing the prompt](https://phoenixnap.com/kb/change-bash-prompt-linux)
 - [How to change colors](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/)
-  - Note: the variable is LSCOLORS on Alpine, not LS_COLORS as in their tutorial
+- [How to change ALPINE terminal colors]()
 
 ---
 
