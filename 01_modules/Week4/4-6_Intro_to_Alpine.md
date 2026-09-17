@@ -10,7 +10,7 @@ Today, we will start to learn about **High-Performance Computing** or HPC. HPC i
 
 The supercomputer we'll be using is **ALPINE** and it lives on CU Boulder campus. [ALPINE](https://www.colorado.edu/rc/alpine) is a joint venture between Colorado State University and CU Boulder and is sponsored by those institutes and by a grant from the National Science Foundation. **ALPINE** is shared between CU Boulder, Colorado State University, CU Anschutz, and RMACC (Rocky Mountain Advanced Computing Consortium, a network of >20 other academic institutions in Colorado, Arizona, Idaho, Montana, and New Mexico).
 
-There is a list of the [Top 500 biggest supercomputers](https://www.top500.org/lists/top500/list/2023/06/) on the planet (as of June 2026). According to this list, the largest supercomputer is **	LineShine** located in Shenzhen China and run by the China National Labs. 
+There is a list of the [Top 500 biggest supercomputers](https://top500.org/lists/top500/) on the planet (as of June 2026). According to this list, the largest supercomputer is **	LineShine** located in Shenzhen China and run by the China National Labs. 
 
 How do these supercomputer systems compare to our laptops?
 
@@ -80,7 +80,7 @@ This is what it looks like to walk around in ALPINE:
 This is what ALPINE looks like mapped out:
 
 <p align="center">
-<img width="75%" alt="alpine map" src="../../05_images/alpine_map.png">
+<img width="85%" alt="alpine map" src="../../05_images/alpineMap.png">
 </p>
 
 Just like your local computer, the ALPINE supercomputer is comprised of **computing hardware** (CPUs, GPUs, etc), memory, and **file storage space**.
@@ -151,7 +151,7 @@ Whereas the nodes are analogous to CPU and memory on your home laptop, the files
 Here are the different file storage spaces available:
 
 <p align="center">
-<img width="600" alt="storage locations" src="../../05_images/storageLocations.png">
+<img width="600" alt="storage locations" src="../../05_images/alpineStorage.png">
 </p>
 
 :hammer_and_wrench: **Group Exercise:** Open a Jupyter Session
