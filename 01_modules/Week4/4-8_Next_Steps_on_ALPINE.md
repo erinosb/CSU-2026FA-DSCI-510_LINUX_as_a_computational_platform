@@ -26,6 +26,24 @@ This is all the time we have for this class. You are encouraged to learn more ab
   - [Upcoming workshop on conda and software install on ALPINE](https://www.colorado.edu/rc/events)
   - [All Past CURC Workshops](https://github.com/ResearchComputing/)
 
+## Keep coding!
+
+Make up small tasks
+   - Make a database/spreadsheet for information you use often. Then use command line tools when you want to find information
+   - collect your favorite genomes
+   - organize your music or eBook collection
+   - **data munging**. Remove awkward characters or formating from data files
+
+Try moving files on the command line
+  - Move files using the command line
+  - Write a script to automate small tasks
+
+Write a backup script
+  - `rsync` - look up how to use rsync
+
+Create a bibliography
+  - `bibtex`
+
 ## What are some other helpful next steps?
 
   - **GitHub**
@@ -37,5 +55,3 @@ This is all the time we have for this class. You are encouraged to learn more ab
   - **DSCI512 - RNA sequencing data analysis with me again** 
     - Learn how to organize large computational projects
     - Available to audit
-
-
