@@ -2,6 +2,27 @@
 
 In this section we'll learn how to convert our scripts into **custom commands**. These commands will operate like any other commands in linux, but they are things that you, the user, have written yourself. This is a way to start having the shell do exactly what you want!
 
+Currently, we can execute our shell script two ways …
+1. Within the **same directory** as the program
+
+```
+$ bash startProject.sh
+```
+
+2. From **anywhere** in our computer using an absolute path
+
+```
+$ bash /Users/name/dir1/dir2/startProject.sh
+```
+
+However, once we turn our scripts into **custom commands** we can turn our scripts into programs that more closely resemble real **commands**!
+
+```
+$ startProject
+```
+
+----
+
 ## Where should I store my scripts?
 
 It depends on the project. Here are some options:
@@ -31,24 +52,7 @@ It depends on the project. Here are some options:
 4. Take the `.sh` off the script name
 5. Add the `bin` directory to your $PATH environmental variable
 
-Currently, we can execute our shell script two ways …
-1. Within the **same directory** as the program
 
-```
-$ bash startProject.sh
-```
-
-2. From **anywhere** in our computer using an absolute path
-
-```
-$ bash /Users/name/dir1/dir2/startProject.sh
-```
-
-However, once we turn our scripts into **custom commands** we can turn our scripts into programs that more closely resemble real **commands**!
-
-```
-$ startProject
-```
 
 ## Group Exercise
 
