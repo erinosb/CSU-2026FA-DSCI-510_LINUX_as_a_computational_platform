@@ -6,10 +6,10 @@ It depends on the project. Here are some options:
 
   - **project-specific directory**
     - For many **small, specific bash scripts**, you can keep them in the same directory as the project they were designed for.
-    - This makes a lot of sense for scripts that are designed for one specific task like cleaning up a specific dataset or filtering through some input data.
+    - good for "one off" scripts
   - **bin directory** 
-    - if you want your scripts to be usable throughout your computer (or HPC) environment, consider designating a `bin` directory for them. This is a user-specified directory where you collect scripts you want to use again and again.
-    - On ALPINE, this `bin` directory will live within our `Projects`
+    - if you want your scripts to be usable throughout your computer (or HPC) environment, consider a `bin` directory. This is a user-specified directory where you collect scripts you want to use again and again.
+    - On ALPINE, this `bin` directory will live within our `projects/<userid@colostate.edu>/`
     - To make these scripts so they can run anywhere, you will **add your bin directory to your PATH**
     - The **PATH** is an environmental variable
   - **github**
