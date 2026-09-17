@@ -128,17 +128,30 @@ $ module avail
 
 ### Compute nodes
 
-**Compute notes** are the most numerous nodes on the system. There are roughly 256 regular compute nodes on the ALPINE system and 42 specialized ones. The compute nodes are where big jobs will run.
+**Compute notes** are the most numerous nodes on the system. There are roughly 420 regular compute nodes on the ALPINE system and a growing number of specialized ones. The compute nodes are where big jobs will run.
 
-To run the jobs, we will need to get in line by requesting a job through a process called **batch submission**. Depending on how many users there are and what types of jobs have already been requested to run, we will be assigned to different compute nodes when they become available. The batch submission software used by ALPINE is called **slurm** and the main command we use is `sbatch`.
+To run jobs on compute notes, we will need to get in line by requesting a job through a process called **batch submission**. Depending on how many users there are and what types of jobs have already been requested to run, we will be assigned to different compute nodes when they become available. The batch submission software used by ALPINE is called **SLURM** and the main command we use is `sbatch`.
 
-Compute nodes are **multi-core processors**. This means we can run multiple jobs on one node. In the ALPINE architecture, we will mostly be using the **AMD milan** compute nodes (called `amilan`) which have 64 cores and can run up to 64 jobs simultaneously. Users can also request multiple nodes, too.
+Compute nodes are **multi-core processors**. This means we can run multiple jobs on one node. In the ALPINE architecture, we will mostly be using the **AMD milan** compute nodes (called `acpu`) which have can run up to 128 jobs simultaneously. Users can also request multiple nodes, too.
 
 Here is an outline of the different types of compute nodes available:
 
 <p align="center">
 <img width="50%" alt="alpine nodes" src="../../05_images/alpinePartitions.png">
 </p>
+
+----
+
+## Jupyter Session
+
+Another way of using compute nodes is to open a Jupyter Notebook.
+
+Quick demonstration of a Jupyter Session
+
+ - For detailed information see the [CURC Jupyter Session Guide](https://curc.readthedocs.io/en/latest/open_ondemand/jupyter_session.html)
+
+
+:hammer_and_wrench: **Group Exercise:** Open a Jupyter Session
 
 ----
 
@@ -153,13 +166,5 @@ Here are the different file storage spaces available:
 <p align="center">
 <img width="85%" alt="storage locations" src="../../05_images/alpineStorage.png">
 </p>
-
-:hammer_and_wrench: **Group Exercise:** Open a Jupyter Session
-
-**Step1** Navigate to a Jupyter Session
-
-**Step2** Navigate to your Projects Directory
-
-**Step3** Start a project
 
 Continue on to [Custom Commands](4-7_Custom_Commands.md)
