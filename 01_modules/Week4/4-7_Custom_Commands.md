@@ -106,7 +106,7 @@ Option 2:
  - Select **Edit** like so …
 
 <p align="center">
-<img width="50%" alt="edit file" src="../../05_images/editfile.png">
+<img width="30%" alt="edit file" src="../../05_images/ALPINE_edit.png">
 </p>
 
  - copy and paste this in:
@@ -137,24 +137,11 @@ echo $(date) >> $projectname/README_${projectname}.txt
 echo "startProject>>> successfully completed"
 ```
 
-Let's test whether our script works.
-
-- Open a cluster by selecting **Clusters** menu
-- Select **>ALPINE Shell Access**
-- Navigate to `/projects/<user>/bin`
-- test code
+ - Test the script in the terminal like ...
 
 ```
 $ bash startProject.sh
 ```
-
-**Review:** These were our steps ...
-
-1. Create a `bin` directory in your `projects` directory
-2. Put a script in `bin` directory
-3. Make the script executable
-4. Take the `.sh` off the script name
-5. Add the `bin` directory to your $PATH environmental variable
 
 OK, we've written the script. Now let's make it executable.
 
