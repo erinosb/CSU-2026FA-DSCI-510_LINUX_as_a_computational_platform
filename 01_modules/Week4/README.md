@@ -32,3 +32,4 @@ Thursday Sept 17, 2026
   - [ALPINE Quick Start Guide](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html)
   - [All Past CURC Workshops](https://github.com/ResearchComputing/)
   - [CURC Jupyter Session Guide](https://curc.readthedocs.io/en/latest/open_ondemand/jupyter_session.html)
+  - [getopts](https://www.geeksforgeeks.org/linux-unix/getopts-command-in-linux-with-examples/)
