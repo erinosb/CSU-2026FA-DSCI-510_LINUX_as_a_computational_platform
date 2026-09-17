@@ -58,6 +58,14 @@ It depends on the project. Here are some options:
 
 :hammer_and_wrench: **Group Exercise** Let's try transforming the script `startProject.sh` into a custom command on ALPINE.
 
+  - **file navigation**. For this, navigate to your projects directory in one tab of your internet browser like so...
+
+<p align="center">
+<img width="50%" alt="storage locations" src="../../05_images/ALPINE_ProjectsDir.png">
+</p>
+
+
+
 ### 1. Create a `bin` directory in your `projects` directory
 
  - Navigate to your projects directory (should be `/projects/<user>`)
