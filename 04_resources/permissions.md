@@ -1,6 +1,9 @@
-### Permissions
 
-#### User types
+# Permissions
+
+---
+
+## User types
 
 Unix/Linux are designed as multi-user systems and it provides mechanisms for managing that. One aspect of that is that file ownership. Every file and directory has an owner. The **owner** of a file/directory can control who has what type of access to it. The other users can belong to another **group** or the rest of the **world**. Three user types:
 
@@ -8,7 +11,9 @@ Unix/Linux are designed as multi-user systems and it provides mechanisms for man
 - **group**
 - **world**
 
-#### Permission types
+---
+
+## Permission types
 
 We can specify what different users have permission to do to a file or directory. These privileges are:
 
@@ -16,7 +21,9 @@ We can specify what different users have permission to do to a file or directory
 - **write** - write privileges allow a user to make changes to it.
 - **execute** - execution privileges allow a user to execute a code, script, or program.
 
-#### Checking permissions with `ls -l`
+---
+
+## Checking permissions with `ls -l`
 
 Permission codes are displayed for files and directories using `ls -l`:
 
@@ -35,7 +42,9 @@ The codes `drwxrwxrwx` stand for directory, read, write, execute, read, write, e
 
 If the letter `w`, `r`, or `x` is present, it meant that user has that permission. A `-` represents a permission that is **NOT** granted.
 
-#### Changing permissions with chmod
+---
+
+## Changing permissions with chmod
 
 If I want to change the permissions of a file or directory in my file structure, I can do so with chmod.
 
@@ -125,4 +134,3 @@ $ chmod g-wx file.sh # remove permission for group to execute file.sh
 $ chmod o+rwx file.sh #allow others to read, write and execute file.sh
 $ chmod o-rwx file.sh # remove permission for others to read, write, and execute file.sh
 ```
-
