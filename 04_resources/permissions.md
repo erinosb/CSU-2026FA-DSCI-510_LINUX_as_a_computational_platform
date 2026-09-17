@@ -50,7 +50,7 @@ The three number code string is a clever way to specify the permissions for the 
 **!!! EXAMPLES:** To change a file to this permission code …
 
 <p align="center">
-<img width="75" alt="permissions777" src="../05_images/PermissionCodes_777.png">
+<img width="75%" alt="permissions777" src="../05_images/PermissionCodes_777.png">
 </p>
 
 … we would type:
@@ -62,7 +62,7 @@ $ chmod 777 file.txt
 Another example:
 
 <p align="center">
-<img width="75" alt="permissions777" src="../05_images/PermissionCodes_764.png">
+<img width="75%" alt="permissions777" src="../05_images/PermissionCodes_764.png">
 </p>
 
 ```
@@ -72,7 +72,7 @@ $ chmod 764 file.txt
 And another:
 
 <p align="center">
-<img width="75" alt="permissions777" src="../05_images/PermissionCodes_740.png">
+<img width="75%" alt="permissions777" src="../05_images/PermissionCodes_740.png">
 </p>
 
 ```
