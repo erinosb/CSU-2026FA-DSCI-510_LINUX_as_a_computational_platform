@@ -1,6 +1,14 @@
+<p align="center">
+<img width="90%" alt="icons" src="../../05_images/AlpineImage.jpg">
+</p>
+
+---
+
 # Next steps on ALPINE!
 
 This is all the time we have for this class. You are encouraged to learn more about how to use ALPINE on your own and through future workshops and classes.
+
+[BONUS CONTENT: RUNNING JOBS ON ALPINE](../../04_resources/Running_jobs_on_Alpine.md)
 
 Here are recommended next steps to consider:
 - Learn to customize your user experience by editing your `.bash_profile` on ALPINE.

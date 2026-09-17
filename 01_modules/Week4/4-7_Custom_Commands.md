@@ -270,9 +270,7 @@ HOORAY!!!
 > **NEXT TIME** you want to make a custom command, you'll only need to do steps 1 - 4. Because you modified your path within .bash_profile, that is permanent. You won't need to do that step again.
 
 >[!WARNING]
-> RUNNING JOBS ON ALPINE:** startProjects is a little script. It only takes a minuscule amount of compute power and speed. ALPINE people are ok with us running a command like this on the login, compile, or compute nodes immediately. However, anything bigger will require that you ask formally for resources and get in line (get in a queue). Please learn how to do this by attending their workshops or taking DSCI512: RNA sequencing. Or, you can continue on to the next pages. Enjoy!
-
- - For more information see: [BONUS CONTENT: RUNNING JOBS ON ALPINE]()
+> RUNNING JOBS ON ALPINE:** startProjects is a little script. It only takes a minuscule amount of compute power and speed. ALPINE people are ok with us running a command like this on the login, compile, or compute nodes immediately. However, anything bigger will require that you ask formally for resources and get in line (get in a queue). Please learn how to do this by attending their workshops or taking DSCI512: RNA sequencing. Or, you can continue on to the next pages. Enjoy! See [BONUS CONTENT: RUNNING JOBS ON ALPINE](../../04_resources/Running_jobs_on_Alpine.md) for more info.
 
 >[!TIP]
 > **BEST PRACTICE:** Put all your custom commands in the same place so you can easily find their names and modify them as need be.
@@ -281,4 +279,4 @@ HOORAY!!!
 > **BONUS CONTENT:** Learn how to add options and help pages to your custom commands using `getopt` or `getopts`:
 - [Make options and help using getopt(s)](https://www.geeksforgeeks.org/linux-unix/getopts-command-in-linux-with-examples/)
 
-Continue on to [Running jobs on Alpine](4-7_Running_jobs_on_Alpine.md)
+Continue on to [Next Steps on ALPINE](4-8_Next_Steps_on_ALPINE.md)
