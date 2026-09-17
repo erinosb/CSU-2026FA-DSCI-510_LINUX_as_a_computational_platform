@@ -129,7 +129,9 @@ $ bash startProject.sh
 
 OK, we've written the script. Now let's make it executable.
 
-#### 3. Make script executable
+----
+
+### 3. Make script executable
 
 We see the permissions when we use the `ls -alh`
 
@@ -159,29 +161,19 @@ For more information, see [BONUS CONTENT PERMISSIONS](../../04_resources/permiss
 $ startProject.sh
 ```
 
+----
 
+### 4. Take the `.sh` of the script name
 
-```
-$ cd
-$ startProject.sh
-```
-
-Remember, our steps to calling the script anywhere in our computer were:
-
-Add the `bin` directory to our `$PATH`
-Put script in a `bin` directory
-Make script executable
-Take the `.sh` off the script name
-
-#### 4. Take the `.sh` of the script name
-
-The last step is …
+The last step is ...
 
 ```
 $ mv startProject.sh startProject
 ```
 
-2. Add the `bin` directory to your $PATH environmental variable
+---
+
+### 5. Add the `bin` directory to your $PATH environmental variable
 
 Recall that one of our environmental variables was called PATH:
 
