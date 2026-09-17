@@ -53,7 +53,6 @@ $ source .bash_profile
 
 - [Guide to editing the prompt](https://phoenixnap.com/kb/change-bash-prompt-linux)
 - [How to change colors](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/)
-- [How to change ALPINE terminal colors]()
 
 ---
 
