@@ -70,7 +70,7 @@ $ mkdir bin
 
 ---
 
-## 2. Put a script in `bin` directory
+### 2. Put a script in `bin` directory
 
  - Start a new script called `startProject.sh` 
  - Edit the `startProject.sh` file by clicking on its menu of three vertical dots.
