@@ -1,10 +1,8 @@
 # Running Jobs on Alpine
 
-No we will learn how to run jobs on ALPINE.
-
 For small jobs, we can run them on the command line as we would on our own terminal. Let's try this together.
 
-**!!! Exercise together**
+**Exercise together**
 
 - Navigate to your scratch space on ALPINE and start a new project directory called DSCI510_demo
 

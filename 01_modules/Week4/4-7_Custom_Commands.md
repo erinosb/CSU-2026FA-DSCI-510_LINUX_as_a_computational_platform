@@ -247,17 +247,11 @@ $ echo $PATH
 
 Cool! What else can I do in my `.bash_profile`? See [BONUS CONTENT: CUSTOM PROFILES](../../04_resources/customProfiles.md)
 
+----
 
-Recall our steps:
+### Test it out!
 
-1. Add the `bin` directory to your `$PATH`
-2. Put script in `bin` directory
-3. Make script executable
-4. Take the `.sh` off the script name
-
-Yay! Now we don't need to use the `bash` command to execute the `startProject.sh` script. We can just execute it by either 1) going to the directory where the script lives and typing `startProject.sh`.
-
-Because this script is in our special `bin` directory that lives in our path, we can use it ANYWHERE in our file structure and execute this script. Try it from your home directory …
+Yay!
 
 And that's it!
 
@@ -267,15 +261,24 @@ You made a brand new command! You can execute it anywhere in ALPINE using:
 $ startProject
 ```
 
+
+## Next time, tips, and tricks:
+
 HOORAY!!!
 
-**!!! NEXT TIME** you want to make a custom command, you'll only need to do steps 1 - 3. Because you modified your path within .bash_profile, that is permanent. You won't need to do that step again.
+>[!TIP]
+> **NEXT TIME** you want to make a custom command, you'll only need to do steps 1 - 4. Because you modified your path within .bash_profile, that is permanent. You won't need to do that step again.
 
-**!!! BEST PRACTICE:** Put all your custom commands in the same place so you can easily find their names and modify them as need be.
+>[!WARNING]
+> RUNNING JOBS ON ALPINE:** startProjects is a little script. It only takes a minuscule amount of compute power and speed. ALPINE people are ok with us running a command like this on the login, compile, or compute nodes immediately. However, anything bigger will require that you ask formally for resources and get in line (get in a queue). Please learn how to do this by attending their workshops or taking DSCI512: RNA sequencing. Or, you can continue on to the next pages. Enjoy!
 
-**!!! BONUS CONTENT:** Learn how to add options and help pages to your custom commands using `getopt` or `getopts`:
+ - For more information see: [BONUS CONTENT: RUNNING JOBS ON ALPINE]()
+
+>[!TIP]
+> **BEST PRACTICE:** Put all your custom commands in the same place so you can easily find their names and modify them as need be.
+
+>[!TIP]
+> **BONUS CONTENT:** Learn how to add options and help pages to your custom commands using `getopt` or `getopts`:
 - [Make options and help using getopt(s)](https://www.geeksforgeeks.org/linux-unix/getopts-command-in-linux-with-examples/)
-
-**!!! RUNNING JOBS ON ALPINE:** startProjects is a little script. It only takes a minuscule amount of compute power and speed. ALPINE people are ok with us running a command like this on the login, compile, or compute nodes immediately. However, anything bigger will require that you ask formally for resources and get in line (get in a queue). Please learn how to do this by attending their workshops or taking DSCI512: RNA sequencing. Or, you can continue on to the next pages. Enjoy!
 
 Continue on to [Running jobs on Alpine](4-7_Running_jobs_on_Alpine.md)
