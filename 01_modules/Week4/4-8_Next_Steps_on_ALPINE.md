@@ -11,7 +11,6 @@ This is all the time we have for this class. You are encouraged to learn more ab
 [BONUS CONTENT: RUNNING JOBS ON ALPINE](../../04_resources/Running_jobs_on_Alpine.md)
 
 Here are recommended next steps to consider:
-- Learn to customize your user experience by editing your `.bash_profile` on ALPINE.
 - Learn to load already-installed software using **modules**
   - [About modules on ALPINE](https://curc.readthedocs.io/en/latest/compute/modules.html)
 - Learn to install software on ALPINE using CONDA
