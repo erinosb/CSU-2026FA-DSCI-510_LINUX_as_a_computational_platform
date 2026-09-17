@@ -60,7 +60,7 @@ $ source .bash_profile
 </details>
 
 <details>
-  <summary>Edit your .bash_profile</summary>
+  <summary>Step-by-step tutorial on how to edit your .bash_profile</summary>
 
 ---
 
@@ -116,7 +116,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 </details>
 
 <details>
-  <summary>Using variables in your environment</summary>
+  <summary>More details on customizing your environment</summary>
 
 ---
   
