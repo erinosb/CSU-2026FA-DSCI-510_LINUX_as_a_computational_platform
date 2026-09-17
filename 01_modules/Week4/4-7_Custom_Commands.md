@@ -1,15 +1,16 @@
 # User-specified Custom Commands
 
-In this section we'll learn how to convert our scripts into **custom commands**. These commands will operate like any other commands in linux, but they are things that you, the user, programs themselves. This is a way to start having the shell do exactly what you want!
+In this section we'll learn how to convert our scripts into **custom commands**. These commands will operate like any other commands in linux, but they are things that you, the user, have written yourself. This is a way to start having the shell do exactly what you want!
 
-## Where should I store my custom commands?
+## Where should I store my scripts?
 
 It depends on the project. Here are some options:
 
   - **project-specific directory**
-    - For many **small, specific bash scripts**, you can keep them in the same directory as the project they were designed for.
     - good for "one off" scripts
+    - For many **small, specific bash scripts**, you can keep them in the same directory as the project they were designed for.
   - **bin directory** 
+    - good for **custom commands**
     - if you want your scripts to be usable throughout your computer (or HPC) environment, consider a `bin` directory. This is a user-specified directory where you collect scripts you want to use again and again.
     - On ALPINE, this `bin` directory will live within our `projects/<userid@colostate.edu>/`
     - To make these scripts so they can run anywhere, you will **add your bin directory to your PATH**
