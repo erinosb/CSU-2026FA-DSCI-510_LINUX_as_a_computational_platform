@@ -70,6 +70,8 @@ It depends on the project. Here are some options:
 <img width="40%" alt="storage locations" src="../../05_images/ALPINE_term.png">
 </p>
 
+---
+
 ### 1. Create a `bin` directory in your `projects` directory
 
  - Navigate to your projects directory (should be `/projects/<user>`)
@@ -86,7 +88,7 @@ $ ls
 
 # If you have a bin directory, do nothing
 
-# IF you don't have a bind directory:
+# If you don't have a bin directory:
 $ mkdir bin
 ```
 
