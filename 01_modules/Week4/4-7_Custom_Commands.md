@@ -16,6 +16,7 @@ It depends on the project. Here are some options:
     - To make these scripts so they can run anywhere, you will **add your bin directory to your PATH**
     - The **PATH** is an environmental variable
   - **github**
+    - good for **custom commands**
     - For collaborative projects and work you want to publish, also consider syncing your scripts to github. 
     - This good practice for reproducibility and backup
     - For training: [coding and cookies](https://libguides.colostate.edu/coding-cookies/home)
