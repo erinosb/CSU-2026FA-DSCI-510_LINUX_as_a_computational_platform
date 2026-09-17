@@ -23,6 +23,8 @@ Thursday Sept 17, 2026
   - [Custom Profiles](../../04_resources/customProfiles.md)
   - [Running Jobs on ALPINE](../../04_resources/Running_jobs_on_Alpine.md)
 
+### External Resources
+
   - [Unix as a second language](https://www.networkworld.com/blogs/unix-as-a-second-language/)
   - [Ryan's Tutorials](https://ryanstutorials.net/)
   - [More about single vs double square brackets](https://www.baeldung.com/linux/bash-single-vs-double-brackets)
