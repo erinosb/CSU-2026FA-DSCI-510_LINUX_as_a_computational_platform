@@ -1,6 +1,8 @@
 # User-specified Custom Commands
 
-Where should I store my scripts?
+In this section we'll learn how to convert our scripts into **custom commands**. These commands will operate like any other commands in linux, but they are things that you, the user, programs themselves. This is a way to start having the shell do exactly what you want!
+
+## Where should I store my custom commands?
 
 It depends on the project. Here are some options:
 
