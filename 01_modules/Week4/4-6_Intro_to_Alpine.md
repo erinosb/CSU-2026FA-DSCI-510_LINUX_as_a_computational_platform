@@ -151,7 +151,7 @@ Whereas the nodes are analogous to CPU and memory on your home laptop, the files
 Here are the different file storage spaces available:
 
 <p align="center">
-<img width="600" alt="storage locations" src="../../05_images/alpineStorage.png">
+<img width="85%" alt="storage locations" src="../../05_images/alpineStorage.png">
 </p>
 
 :hammer_and_wrench: **Group Exercise:** Open a Jupyter Session
