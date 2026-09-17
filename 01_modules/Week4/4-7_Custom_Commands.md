@@ -2,23 +2,30 @@
 
 Where should I store my scripts?
 
-- It depends on the project.
-- For many **small, specific bash scripts**, you can keep them in the same directory as the project they were designed for.
-  - This makes a lot of sense for scripts that are designed for one specific task like cleaning up a specific dataset or filtering through some input data.
-- For **larger, analytical scripts**, like data analysis that will be published, consider using [git hub](https://github.com/) as a repository for all your scripts.
-  - This is a best practice for reproducible data
-  - For training: [coding and cookies](https://libguides.colostate.edu/coding-cookies/home)
-- What about **generally useful scripts** that you want to use over and over again?
-  - For these, we will want to build them into our own **user-specified custom commands**!
-  - On ALPINE, we will put these in our `project` directory
+It depends on the project. Here are some options:
+
+  - **project-specific directory**
+    - For many **small, specific bash scripts**, you can keep them in the same directory as the project they were designed for.
+    - This makes a lot of sense for scripts that are designed for one specific task like cleaning up a specific dataset or filtering through some input data.
+  - **bin directory** 
+    - if you want your scripts to be usable throughout your computer (or HPC) environment, consider designating a `bin` directory for them. This is a user-specified directory where you collect scripts you want to use again and again.
+    - On ALPINE, this `bin` directory will live within our `Projects`
+    - To make these scripts so they can run anywhere, you will **add your bin directory to your PATH**
+    - The **PATH** is an environmental variable
+  - **github**
+    - For collaborative projects and work you want to publish, also consider syncing your scripts to github. 
+    - This good practice for reproducibility and backup
+    - For training: [coding and cookies](https://libguides.colostate.edu/coding-cookies/home)
+
+---
 
 ## Steps for building custom commands
 
 1. Create a `bin` directory in your `projects` directory
-2. Add the `bin` directory to your $PATH environmental variable
-2. Put script in `bin` directory
+2. Put a script in `bin` directory
 3. Make the script executable
 4. Take the `.sh` off the script name
+5. Add the `bin` directory to your $PATH environmental variable
 
 Currently, we can execute our shell script two ways …
 1. Within the **same directory** as the program
@@ -39,9 +46,11 @@ However, once we turn our scripts into **custom commands** we can turn our scrip
 $ startProject
 ```
 
+## Group Exercise
+
 :hammer_and_wrench: **Group Exercise** Let's try transforming the script `startProject.sh` into a custom command on ALPINE.
 
-1. Create a `bin` directory in your `projects` directory
+### 1. Create a `bin` directory in your `projects` directory
 
  - Navigate to your projects directory (should be `/projects/<user>`)
  - Check if you already have a dir called `bin`.
@@ -50,6 +59,126 @@ $ startProject
 
 ```
 $ pwd
+/projects/<younamehere@colsotate.edu>
+$ ls
+
+# If you have a bin directory, do nothing
+
+# IF you don't have a bind directory:
+$ mkdir bin
+```
+
+---
+
+## 2. Put a script in `bin` directory
+
+ - Start a new script called `startProject.sh` 
+ - Edit the `startProject.sh` file by clicking on its menu of three vertical dots.
+ - Select **Edit** like so …
+
+<p align="center">
+<img width="50%" alt="edit file" src="../../05_images/editfile.png">
+</p>
+
+ - copy and paste this in:
+
+```
+#!/usr/bin/env bash
+ 
+# Prompt user for a project name
+echo -n "startProject>>> Enter your new project name (no spaces) and press [RETURN]: "
+read projectname
+ 
+# Report progress
+echo -e "startProject>>> Starting project named $projectname"
+ 
+# Make a project directory and three subdirectories
+mkdir $projectname
+mkdir $projectname/01_input
+mkdir $projectname/02_scripts
+mkdir $projectname/03_output
+ 
+# Start a readme file
+touch $projectname/README_${projectname}.txt
+ 
+# Add date info to readme file
+echo $(date) >> $projectname/README_${projectname}.txt
+ 
+# Report completion
+echo "startProject>>> successfully completed"
+```
+
+Let's test whether our script works.
+
+- Open a cluster by selecting **Clusters** menu
+- Select **>ALPINE Shell Access**
+- Navigate to `/projects/<user>/bin`
+- test code
+
+```
+$ bash startProject.sh
+```
+
+**Review:** These were our steps ...
+
+1. Create a `bin` directory in your `projects` directory
+2. Put a script in `bin` directory
+3. Make the script executable
+4. Take the `.sh` off the script name
+5. Add the `bin` directory to your $PATH environmental variable
+
+OK, we've written the script. Now let's make it executable.
+
+#### 3. Make script executable
+
+We see the permissions when we use the `ls -alh`
+
+```
+$ ls -alh
+----------.  1 erinnish@colostate.edu erinnishgrp@colostate.edu  61 Sep 17 05:42 startProject.sh
+```
+
+To change the permissions, type:
+
+```
+$ chmod 740 startProject.sh
+$ ls -alh
+-rwxr-----.  1 erinnish@colostate.edu erinnishgrp@colostate.edu  61 Sep 17 05:42 startProject.sh
+```
+
+Now, the script has the following permissions
+ - User: can read, write, and execute
+ - Group: can read
+ - World: cannot access
+
+For more information, see [BONUS CONTENT PERMISSIONS](../../04_resources/permissions.md)
+
+:hammer_and_wrench: **Exercise:** Test whether the file is executable by running it like so …
+
+```
+$ startProject.sh
+```
+
+
+
+```
+$ cd
+$ startProject.sh
+```
+
+Remember, our steps to calling the script anywhere in our computer were:
+
+Add the `bin` directory to our `$PATH`
+Put script in a `bin` directory
+Make script executable
+Take the `.sh` off the script name
+
+#### 4. Take the `.sh` of the script name
+
+The last step is …
+
+```
+$ mv startProject.sh startProject
 ```
 
 2. Add the `bin` directory to your $PATH environmental variable
@@ -320,262 +449,9 @@ Recall our steps:
 3. Make script executable
 4. Take the `.sh` off the script name
 
-#### 2. Put script in `bin` directory
-
-The proper place to put short user command scripts on ALPINE is in our projects directory.
-
-- Navigate to your PROJECTS directory.
-  - You can do this through the FILES menu
-  - OR, you can do this through the shell (cd, etc)
-
-<p align="center">
-<img width="410" alt="files menue" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/fileNavigation.png">
-</p>
-
-- Next, create a directory called bin if one doesn't already exist.
-Do this by clicking the **New Directory** button like so …
-
-<p align="center">
-<img width="410" alt="newdir" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/newdir.png">
-</p>
-
-- Navigate into `/projects/<yourname>/bin`
-- Start a new script called `startProject.sh` using the **New File** button
-- Edit the `startProject.sh` file by clicking on its menu of three vertical dots.
-- Select **Edit** like so …
-
-<p align="center">
-<img width="410" alt="edit file" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/editfile.png">
-</p>
-
-Let's go ahead and put this script on ALPINE.
-
-```
-#!/usr/bin/env bash
- 
-# Prompt user for a project name
-echo -n "startProject>>> Enter your new project name (no spaces) and press [RETURN]: "
-read projectname
- 
-# Report progress
-echo -e "startProject>>> Starting project named $projectname"
- 
-# Make a project directory and three subdirectories
-mkdir $projectname
-mkdir $projectname/01_input
-mkdir $projectname/02_scripts
-mkdir $projectname/03_output
- 
-# Start a readme file
-touch $projectname/README_${projectname}.txt
- 
-# Add date info to readme file
-echo $(date) >> $projectname/README_${projectname}.txt
- 
-# Report completion
-echo "startProject>>> successfully completed"
-```
-
-Let's test whether our script works.
-
-- Open a cluster by selecting **Clusters** menu
-- Select **>ALPINE Shell Access**
-- Navigate to `/projects/<user>/bin`
-- test code
-
-```
-$ bash startProject.sh
-```
-
-These were our steps ...
-
-1. Add the `bin` directory to your `$PATH`
-2. Put script in a `bin` directory
-3. Make script executable
-4. Take the `.sh` off the script name
-
-OK, we've written the script. Now let's make it executable.
-
-#### 3. Make script executable
-
-<details>
-  <summary>Bonus Content: Permissions</summary>
-
----
-
-### Permissions
-
-#### User types
-
-Unix/Linux are designed as multi-user systems and it provides mechanisms for managing that. One aspect of that is that file ownership. Every file and directory has an owner. The **owner** of a file/directory can control who has what type of access to it. The other users can belong to another **group** or the rest of the **world**. Three user types:
-
-- **owner**
-- **group**
-- **world**
-
-#### Permission types
-
-We can specify what different users have permission to do to a file or directory. These privileges are:
-
-- **read** - read privileges mean that users can open a file and read it, but cannot make changes.
-- **write** - write privileges allow a user to make changes to it.
-- **execute** - execution privileges allow a user to execute a code, script, or program.
-
-#### Checking permissions with `ls -l`
-
-Permission codes are displayed for files and directories using `ls -l`:
-
-```
-erinnish@cray2:~/lustrefs> ls -alh
-total 56K
-drwxr-----   6 erinnish onishlab 4.0K Feb 29  2016 .
-drwxr--r-- 625 root     root      36K Jul 26 15:37 ..
-drwxr--r--   2 erinnish onishlab 4.0K Feb 22  2016 1_EXECUTABLES
-drwxr--r--   3 erinnish onishlab 4.0K Feb 28  2016 2_RAWFILES
-drwxr--r--   4 erinnish onishlab 4.0K Apr 25 11:56 3_PROJECTS
-drwxr--r--   4 erinnish onishlab 4.0K Mar  4 09:53 4_SEQUENCES
-```
-
-The codes `drwxrwxrwx` stand for directory, read, write, execute, read, write, execute, read, write, execute. Disregarding the **d** for directory, the first set of permissions refer to what the **user** can do, the second to what the **group** can do, and the third to what the **others** can do.
-
-If the letter `w`, `r`, or `x` is present, it meant that user has that permission. A `-` represents a permission that is **NOT** granted.
-
-#### Changing permissions with chmod
-
-If I want to change the permissions of a file or directory in my file structure, I can do so with chmod.
-
-**chmod Usage:** 
-
-`chmod [nnn] <file.txt/dir> …`
-
-[nnn] - where nnn is a three number code specifying the desired permission string.
-
-The three number code string is a clever way to specify the permissions for the **owner, group, and world**. If I want all three user groups to have read, write, and execution privileges, the code string is 777:
-
-**!!! EXAMPLES:** To change a file to this permission code …
-
-<p align="center">
-<img width="410" alt="permissions777" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/permissions777.png">
-</p>
-
-… we would type:
-
-```
-$ chmod 777 file.txt
-```
-
-Another example:
-
-<p align="center">
-<img width="410" alt="permissions764" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/permissions764.png">
-</p>
-
-```
-$ chmod 764 file.txt
-```
-
-And another:
-
-<p align="center">
-<img width="410" alt="permissions740" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/permissions740.png">
-</p>
-
-```
-$ chmod 740 file.txt
-```
-
-**!!! Exercise:** To explore aspects of chmod, let's use a program that is executable. Make a file called `hello_user.sh`. Copy and paste the following content into this file.
-
-```
-#!/bin/bash
- 
-#Prompt for name:
-echo "What is your name?"
- 
-# get name from stdin. Call it varname
-read varname
- 
-#say hello
-echo "Why hello there, $varname!"
-```
-
-Let's see if we can execute this code:
-
-```
-$ls -alh # check the current permissions for hello_user.sh
-$bash hello_user.sh # Try to execute the code explicitly
-$./hello_user.sh # Try to execute the code with executable permissions
-```
-
-Did it work? Probably not if you don't have executable permissions. Let's change the permissions.
-
-```
-$chmod 744 hello_user.sh #change permissions to owner executable
-$./hello_user.sh
-```
-
-Did it work?
-
-**!!! Quick tip:** 
-- If it didn't work, don't fret. It is possible your system does not store its bash program in /bin/bash. To check this, type which $SHELL. Replace whatever is displayed to the screen within the code in place of `/bin/bash`. Try again.
-- There are many more ways of executing chmod. Some of these are very intuitive and may be easier to learn. Please read Chapter9 of the text book to see these alternative techniques.
-
-You can also use **alphabetic change codes**! There are many allowable syntaxes for changecodes.
-
-```
-chmod u+x file.sh #allow the user/owner to execute file.sh
-$ chmod u-x file.sh #remove permission for user/owner to execute file.sh
-$ chmod g+wx file.sh #allow the group to write and execute file.sh
-$ chmod g-wx file.sh # remove permission for group to execute file.sh
-$ chmod o+rwx file.sh #allow others to read, write and execute file.sh
-$ chmod o-rwx file.sh # remove permission for others to read, write, and execute file.sh
-```
-
----
-
-</details>
-
-Please see the reference links above for more information.
-
-For this exercise, we will make our script executable by using the command `chmod` and the options <u+x>. This will make a script executable (x) to the User (that's you, u).
-
-Give it a try …
-
-```
-$ ls -alh
-$ chmod u+x startProject.sh
-$ ls -alh
-```
-
-**!!! Exercise:** Test whether the file is executable by running it like so …
-
-```
-$ startProject.sh
-```
-
 Yay! Now we don't need to use the `bash` command to execute the `startProject.sh` script. We can just execute it by either 1) going to the directory where the script lives and typing `startProject.sh`.
 
 Because this script is in our special `bin` directory that lives in our path, we can use it ANYWHERE in our file structure and execute this script. Try it from your home directory …
-
-```
-$ cd
-$ startProject.sh
-```
-
-Remember, our steps to calling the script anywhere in our computer were:
-
-Add the `bin` directory to our `$PATH`
-Put script in a `bin` directory
-Make script executable
-Take the `.sh` off the script name
-
-#### 4. Take the `.sh` of the script name
-
-The last step is …
-
-```
-$ mv startProject.sh startProject
-```
 
 And that's it!
 
