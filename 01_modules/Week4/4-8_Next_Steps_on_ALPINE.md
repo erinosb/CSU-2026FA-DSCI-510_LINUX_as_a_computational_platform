@@ -21,7 +21,7 @@ This is all the time we have for this class. You are encouraged to learn more ab
   - You can come back to environments years later and run them with the same versions of all the software. 
   - [Getting started with CONDA](https://curc.readthedocs.io/en/latest/software/python.html#basic-conda-commands-to-get-you-started)
 
-## How do I kepe learning more?
+## How do I keep learning more on ALPINE?
 
   - [Upcoming workshop on conda and software install on ALPINE](https://www.colorado.edu/rc/events)
 
