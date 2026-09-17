@@ -4,7 +4,7 @@
 
 ---
 
-# Next steps on ALPINE!
+# Next steps on ALPINE and BEYOND!
 
 This is all the time we have for this class. You are encouraged to learn more about how to use ALPINE on your own and through future workshops and classes.
 
@@ -32,7 +32,9 @@ This is all the time we have for this class. You are encouraged to learn more ab
     - [GitHub](https://github.com/)
   - [**Coding and Cookies**](https://libguides.colostate.edu/coding-cookies)
     - Workshop on Github on Sept 30, 2026
-  - **DSCI512 - RNA sequencing data analysis** 
+  - [**Software Carpentry](https://librarycarpentry.org/lessons/)
+  - **DSCI511 - Python with Tai Montgomery**
+  - **DSCI512 - RNA sequencing data analysis with me again** 
     - Learn how to organize large computational projects
     - Available to audit
 
